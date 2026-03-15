@@ -1,0 +1,4 @@
+[20-Dec-2025 00:54:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home/planeta4/public_html/wp-content/themes/fitness-club/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/planeta4/public_html/wp-content/themes/fitness-club/index.php on line 3

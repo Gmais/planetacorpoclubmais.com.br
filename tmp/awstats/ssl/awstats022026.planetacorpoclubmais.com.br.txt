@@ -1,0 +1,535 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202602 will be lost/reset.
+# Last config file used to build this data file was /home/planeta4/tmp/awstats/ssl/awstats.planetacorpoclubmais.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2028                
+POS_TIME 2709                
+POS_VISITOR 11473               
+POS_DAY 13616               
+POS_DOMAIN 3439                
+POS_LOGIN 3857                
+POS_ROBOT 4012                
+POS_WORMS 4343                
+POS_EMAILSENDER 4474                
+POS_EMAILRECEIVER 4617                
+POS_SESSION 13859               
+POS_SIDER 14065               
+POS_FILETYPES 4752                
+POS_DOWNLOADS 5062                
+POS_OS 5110                
+POS_BROWSER 5305                
+POS_SCREENSIZE 5854                
+POS_UNKNOWNREFERER 5928                
+POS_UNKNOWNREFERERBROWSER 7912                
+POS_ORIGIN 9833                
+POS_SEREFERRALS 9972                
+POS_PAGEREFS 10135               
+POS_SEARCHWORDS 10312               
+POS_KEYWORDS 10464               
+POS_MISC 2373                
+POS_ERRORS 10523               
+POS_CLUSTER 3713                
+POS_SIDER_404 10675               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260207202634 126 35787 8127894006042
+FirstTime 20260201031203
+LastTime 20260207202634
+LastUpdate 20260207224540 126 0 126 0 0
+TotalVisits 95                  
+TotalUnique 47                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 52                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 1 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 14 287066 3 11 39921
+1 3 3 12254 1 5 27636
+2 15 15 442110 6 8 198487
+3 98 100 939053 87 91 621100
+4 20 212 2532263 5 8 114648
+5 0 0 0 0 0 0
+6 17 49 1592605 4 20 425119
+7 6 6 72643 3 18 111744
+8 7 7 197567 1 1 28229
+9 25 53 720559 5 6 16468
+10 8 8 197567 2 3 29023
+11 3 3 53951 1 1 28229
+12 9 9 219151 1 2 28204
+13 9 40 661047 1 11 270915
+14 22 50 790596 3 5 47377
+15 5 5 31843 1 2 28225
+16 33 83 1518607 0 1 0
+17 5 10 140283 0 5 317986
+18 9 14 188655 4 4 24318
+19 42 121 1976230 3 3 30278
+20 45 93 1648384 5 6 56535
+21 85 400 7298758 7 8 61
+22 13 17 297664 2 15 112508
+23 29 29 726387 10 14 107580
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+br 176 740 12943814
+ca 174 174 3001101
+us 70 118 2780504
+kr 67 67 307177
+ru 21 216 2636522
+jp 4 4 77010
+pl 2 2 51620
+se 1 1 37957
+cl 1 1 37959
+eu 1 1 19170
+ir 1 1 15921
+au 1 1 37546
+in 0 11 0
+de 0 4 598942
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+Googlebot/ 65 725388 20260207073451 8
+facebookexternalhit/ 15 637548 20260206171211 8
+bingbot/ 11 688072 20260207122856 4
+unknown 5 351 20260204141129 5
+bot[\s_+:,\.\;\/\\-] 4 38321 20260204141142 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+xml 1 314 0 0
+js 601 5030854 0 0
+svg 19 34851 0 0
+php 225 2344933 0 0
+css 130 1643080 0 0
+html 176 5484257 0 0
+woff2 51 1680496 0 0
+png 65 3117983 0 0
+woff 17 1184192 0 0
+Unknown 18 14283 0 0
+ttf 31 1769141 0 0
+jpg 2 113474 0 0
+gif 5 127385 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+androidmarshmallow 4 1
+ios_iphone 231 98
+Unknown 119 92
+macosx 1 1
+win7 1 1
+macosx15 7 7
+android10 205 53
+linux 4 4
+win10 769 262
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 26
+chrome124.0.0.0 2 2
+Unknown 93 86
+chrome105.0.0.0 1 1
+chrome131.0.0.0 1 1
+chrome132.0.0.0 103 103
+chrome142.0.0.0 3 3
+chrome114.0.0.0 45 45
+firefox103.0 1 1
+netscape5.0 1 1
+safari17.1 1 1
+chrome120.0.0.0 4 4
+safari26.2 76 23
+safari 45 45
+chrome144.0.0.0 580 133
+chrome137.0.0.0 210 18
+chrome128.0.0.0 1 1
+mozilla 26 6
+chrome136.0.0.0 28 8
+safari18.1 35 11
+safari18.3 2 2
+safari18.6 73 17
+chrome99.0.4844.51 1 1
+safari13.0.3 3 3
+chrome58.0.2652.1706 4 1
+chrome18.6.872.0 1 1
+chrome80.0.3987.162 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 60
+JJQHjtPP2kJM 20260202234435
+1XFiiwnkwN5l 20260204213958
+WhatsApp/2.23.20.0 20260204213120
+ZgEjFmYBCFJR 20260205220436
+OJCLGlYXUI19 20260205190853
+glftMXB3uISt 20260205090207
+python-httpx/0.28.1 20260206064813
+HJFDYy2q0Tma 20260207140710
+EcaGInvzKXu7 20260206060814
+AjJKwTwir5aZ 20260205175429
+PugocVeBnptr 20260206171212
+TlVCyHWbHncV 20260205145346
+b094iSilLe9R 20260206192839
+xo5Hv1RIux1k 20260201234120
+ut86TlT1HVJq 20260202234449
+iCuElbVmMB75 20260202015144
+QOXCsJj01jqs 20260205190256
+80sXZesOqIjE 20260202234449
+L5FizcadqHMs 20260202234444
+hD2tFKKYPlEO 20260201220736
+zI6XNhL021j6 20260205142014
+bp22CfGeB1V5 20260205221026
+u63CZBydxuEt 20260205204529
+WlNJlk1D4ZYQ 20260202045659
+EBU13oLQBnAy 20260204214002
+Chrome_Privacy_Preserving_Prefetch_Proxy 20260202215625
+DG2YpQekk9r8 20260202010056
+vOx5w3HWOe0A 20260201031203
+0XgsZwW4nPoV 20260207115555
+go-resty/2.15.3_(https://github.com/go-resty/resty) 20260205162627
+DHWQzxusnvrA 20260202215655
+gD5fBFh89jXp 20260206205722
+JpxL2gWYh6M8 20260207073445
+w4nMqdzBGjiJ 20260206205714
+WordPress/6.9;_https://planetacorpoclubmais.com.br 20260203185053
+9MXWkTEKxW8K 20260201130526
+aljJU83X30HQ 20260207122859
+Fk8Rm52Q5OMT 20260205090532
+m42jiSrTXIEC 20260205204543
+bCCiqWVYqZZN 20260206192836
+4JFSwiWb0Inb 20260207202634
+Nb7GkVkAXJtZ 20260202000351
+gowy4d2PVIAX 20260202003103
+FuCIq9QkfNKL 20260205104343
+680gXMBaqnE9 20260206161652
+8AwBrgEe1d54 20260201230853
+0fM5T0q3tcTL 20260206101258
+zeZiIF6g9G7u 20260207084903
+zc9VB5OXMbzf 20260205192821
+guq2jLIRMZjm 20260207023535
+WordPress/6.9.1;_https://planetacorpoclubmais.com.br 20260206192839
+2Zr9SigUHh2t 20260202164635
+zxfsxYM5W4po 20260206154927
+u0unTIfhCqwG 20260205155334
+HQkonUZcyF1i 20260206124201
+b7vfNzifUNXO 20260201130526
+ShortPixel/1.0_(_https://shortpixel.com) 20260206060945
+TfiOxVZIivWm 20260205203459
+Yd2ojc0gNY0P 20260207023639
+Mozilla/5.0_(compatible;_Dataprovider.com) 20260203135015
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 59
+OJCLGlYXUI19 20260205190853
+glftMXB3uISt 20260205090207
+python-httpx/0.28.1 20260206064813
+HJFDYy2q0Tma 20260207140710
+ZgEjFmYBCFJR 20260205220436
+WhatsApp/2.23.20.0 20260204213120
+JJQHjtPP2kJM 20260202234435
+1XFiiwnkwN5l 20260204213958
+b094iSilLe9R 20260206192839
+xo5Hv1RIux1k 20260201234120
+TlVCyHWbHncV 20260205145346
+EcaGInvzKXu7 20260206060814
+AjJKwTwir5aZ 20260205175429
+PugocVeBnptr 20260206171212
+80sXZesOqIjE 20260202234449
+QOXCsJj01jqs 20260205190256
+L5FizcadqHMs 20260202234444
+hD2tFKKYPlEO 20260201220736
+ut86TlT1HVJq 20260202234449
+iCuElbVmMB75 20260202015144
+DHWQzxusnvrA 20260202215655
+gD5fBFh89jXp 20260206205722
+vOx5w3HWOe0A 20260201031203
+DG2YpQekk9r8 20260202010056
+go-resty/2.15.3_(https://github.com/go-resty/resty) 20260205162627
+0XgsZwW4nPoV 20260207115555
+EBU13oLQBnAy 20260204214002
+Chrome_Privacy_Preserving_Prefetch_Proxy 20260202215625
+bp22CfGeB1V5 20260205221026
+zI6XNhL021j6 20260205142014
+u63CZBydxuEt 20260205204529
+WlNJlk1D4ZYQ 20260202045659
+9MXWkTEKxW8K 20260201130526
+w4nMqdzBGjiJ 20260206205714
+WordPress/6.9;_https://planetacorpoclubmais.com.br 20260203185053
+JpxL2gWYh6M8 20260207073445
+FuCIq9QkfNKL 20260205104343
+680gXMBaqnE9 20260206161652
+8AwBrgEe1d54 20260201230853
+4JFSwiWb0Inb 20260207202634
+Nb7GkVkAXJtZ 20260202000351
+gowy4d2PVIAX 20260202003103
+aljJU83X30HQ 20260207122859
+bCCiqWVYqZZN 20260206192836
+Fk8Rm52Q5OMT 20260205090532
+m42jiSrTXIEC 20260205204543
+zc9VB5OXMbzf 20260205192821
+WordPress/6.9.1;_https://planetacorpoclubmais.com.br 20260206192839
+guq2jLIRMZjm 20260207023535
+zeZiIF6g9G7u 20260207084903
+0fM5T0q3tcTL 20260206101258
+zxfsxYM5W4po 20260206154927
+HQkonUZcyF1i 20260206124201
+b7vfNzifUNXO 20260201130526
+u0unTIfhCqwG 20260205155334
+ShortPixel/1.0_(_https://shortpixel.com) 20260206060945
+TfiOxVZIivWm 20260205203459
+Yd2ojc0gNY0P 20260207023639
+2Zr9SigUHh2t 20260202164635
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 241 258
+From1 2 2
+From2 7 7
+From3 1 1
+From4 268 1073
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+206 1 500
+403 12 829
+307 6 4782
+301 4 0
+406 84 65436
+404 20 502577
+302 15 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 18
+/tag/treinamento/ 1 -
+/apple-touch-icon-precomposed.png 1 -
+/produto/men-sports-tank-top/ 1 -
+/sitemap_index.xml 1 -
+/2016/07/03/easy-excercises-on-the-bike/ 1 -
+/produto-tag/cloth/ 1 -
+/ads.txt 1 -
+/.well-known/traffic-advice 3 -
+/tag/treine/ 1 -
+/.well-known/security.txt 1 -
+/tag/com-um-tom-rosa-vibrante-para-lembrar-o-romance-parisiense/ 1 -
+/apple-touch-icon.png 1 -
+/llms.txt 1 -
+/produto-tag/sport/ 1 -
+/tag/estilo-de-vida/ 1 -
+/sitemap1.xml 1 -
+/security.txt 1 -
+/humans.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 52
+167.114.1.72 173 173 2988847 20260207202634 20260207202634 /wp-cron.php
+161.123.209.22 67 67 307177 20260203032615
+177.87.203.213 67 326 6112282 20260206063328
+166.88.149.252 28 28 41171 20260203032654
+177.87.203.214 23 74 1232838 20260206192827
+185.135.76.115 19 211 2532281 20260203042225
+177.87.202.204 15 85 1487113 20260204213416
+201.131.185.177 14 42 700212 20260205222206
+177.87.203.208 11 40 601791 20260206161647
+177.87.201.202 11 37 614158 20260205090529
+177.87.200.207 11 39 593029 20260207140659
+201.131.224.10 10 34 573755 20260205203454
+177.87.201.200 9 37 583022 20260207190044
+66.220.149.47 8 16 541734 20260206060856
+192.95.91.224 6 6 236550 20260202234457
+187.109.203.48 5 26 445614 20260204164030
+149.56.150.182 4 4 348311 20260203134406
+173.212.212.36 4 4 131072 20260207023641
+149.56.160.203 3 23 312736 20260203135015
+54.201.195.80 2 2 0 20260204202347
+193.186.4.241 2 2 51620 20260205192819
+52.224.232.207 2 2 38308 20260204090037
+151.240.180.162 1 1 15921 20260204154312
+142.111.208.242 1 1 116053 20260203024921
+72.14.201.239 1 1 15874 20260203190100
+34.177.100.148 0 1 1374 
+164.90.133.75 1 1 36097 20260207161855
+162.120.185.214 1 1 35583 20260202215625
+202.76.181.238 1 1 37546 20260201073905
+138.199.141.98 1 1 19170 20260203170749
+46.4.15.115 0 1 497788 
+161.115.235.19 1 1 15921 20260204090215
+43.153.29.62 1 1 37545 20260205162627
+93.158.91.25 1 1 37957 20260206235610
+45.175.245.45 0 11 0 
+43.157.158.178 1 1 1179 20260202000346
+66.249.88.199 1 1 0 20260202215625
+185.251.46.72 1 4 88320 20260204002852
+66.220.149.42 1 19 685236 20260206060815
+157.90.201.203 0 1 105973 
+15.228.193.206 1 1 19176 20260203074158
+104.28.155.247 1 1 15922 20260204154307
+213.239.201.141 0 3 101154 
+43.157.148.38 1 1 19143 20260204120154
+43.157.150.69 1 1 19143 20260203230150
+181.214.165.96 1 1 37959 20260207114838
+142.93.144.206 1 1 12254 20260202010158
+72.14.201.241 1 1 15916 20260203184941
+206.127.197.204 1 1 15922 20260204184446
+143.244.148.1 1 1 15992 20260203114120
+185.153.176.191 1 1 15921 20260204073720
+172.226.128.22 1 1 35583 20260205203449
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20260201 13 13 236128 5
+20260202 42 42 745284 11
+20260203 137 349 3763005 17
+20260204 109 460 8007288 21
+20260205 107 222 4649295 18
+20260206 65 153 3368071 12
+20260207 46 102 1776172 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 4
+2mn-5mn 2
+30mn-1h 6
+1h+ 3
+0s-30s 69
+15mn-30mn 2
+5mn-15mn 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 39
+/ 143 4602363 48 41
+/wp-admin/admin-ajax.php 106 138272 2 6
+/wp-cron.php 74 0 39 31
+/footer/ 30 805896 0 8
+/wp-json/wp/v2/users/me 16 13104 0 0
+/wp-admin/plugins.php 13 605616 2 0
+/wp-content/themes/fitness-club/fonts/fontawesome-webfont.woff2 13 1003080 0 0
+/wp-content/themes/fitness-club/fonts/Pe-icon-7-stroke.woff 13 761228 0 0
+/wp-content/themes/fitness-club/fonts/Montserrat-Bold.woff2 10 155600 0 2
+/wp-content/themes/fitness-club/fonts/btFitnessAndSport.ttf 9 446418 0 0
+/wp-content/themes/fitness-club/fonts/Montserrat-Regular.woff2 9 140616 0 0
+/wp-content/themes/fitness-club/fonts/Montserrat-SemiBold.woff2 9 185400 0 0
+/wp-content/themes/fitness-club/fonts/Montserrat-Light.woff2 9 142200 0 0
+/wp-admin/load-styles.php 9 954018 0 0
+/wp-content/themes/fitness-club/fonts/Business.ttf 9 475110 0 2
+/wp-content/themes/fitness-club/fonts/CraftEssential.ttf 9 765756 0 0
+/wp-admin/load-scripts.php 7 227073 0 0
+/wp-admin/themes.php 3 106568 0 0
+/wp-admin/ 3 75998 1 0
+/wp-admin/update-core.php 2 62130 0 0
+/wp-admin/users.php 2 61988 0 0
+/wp-admin/admin.php 2 61089 0 0
+/wp-admin/update.php 2 54114 0 0
+/wp-login.php 2 5963 0 0
+/wp-content/themes/fitness-club/fonts/btFitnessAndSport.woff 1 81296 0 0
+/wp-admin/upgrade.php 1 5 0 1
+/wp-content/themes/fitness-club/fonts/CraftEssential.woff 1 213632 0 0
+/wp-content/themes/fitness-club/fonts/Montserrat-SemiBold.woff 1 30012 1 0
+/wp-content/themes/fitness-club/fonts/Montserrat-Regular.ttf 1 21113 0 0
+/wp-content/themes/fitness-club/fonts/Montserrat-Light.ttf 1 21310 0 0
+/wp-content/themes/fitness-club/fonts/Pe-icon-7-stroke.ttf 1 28875 0 0
+/.well-known/traffic-advice 1 0 1 1
+/wp-admin/user-new.php 1 30719 0 1
+/wp-content/themes/fitness-club/fonts/fontawesome-webfont.woff 1 98024 0 0
+/wp-content/plugins/bold-page-builder/fonts/bold-builder.ttf 1 10559 0 0
+/wp-admin/plugin-install.php 1 37378 0 0
+/wp-sitemap.xml 1 314 0 0
+/wp-json/oembed/1.0/embed 1 1179 1 1
+/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2 1 53600 0 0
+END_SIDER

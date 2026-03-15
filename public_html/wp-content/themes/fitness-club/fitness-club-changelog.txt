@@ -1,0 +1,95 @@
+Version 1.4.7 - 18 April 25
+    - Improved WP 6.8 compatibility
+Version 1.4.6 - 14 March 25
+    - Fixed demo import
+Version 1.4.5 - 11 March 25
+    - Cost Calculator update
+Version 1.4.4 - 28 November 24
+    - Fixed translation related PHP notice
+Version 1.4.3 - 8 August 24
+    - Improved demo import
+Version 1.4.2 - 26 October 23
+    - Fixed issues related to Icon element
+Version 1.4.1 - 27 August 23
+    - Improved WooCommerce compatibility
+Version 1.4.0 - 31 March 23
+    - Fixed WP 6.2 issue
+Version 1.3.9 - 26 February 23
+    - Minor bug fixes
+Version 1.3.8 - 5 September 22
+    - Import plugin update
+Version 1.3.7 - 5 October 21
+    - Minor bug fixes
+Version 1.3.6 - 5 October 21
+    - Minor bug fixes
+Version 1.3.5 - 19 May 21
+    - Fixed color picker opacity
+Version 1.3.4 - 4 April 21
+    - Added support for Lightweight Sidebar Manager plugin
+Version 1.3.3 - 3 February 21
+    - Minor bug fixes
+Version 1.3.2 - 20 November 20
+    - Fixed Portfolio errors
+Version 1.3.1 - 25 September 20
+    - Improved WooCommerce compatibility
+Version 1.3.0 - 6 August 20
+    - Minor bug fixes
+Version 1.2.9 - 28 May 20
+    - Improved WooCommerce compatibility
+Version 1.2.8 - 10 March 20
+    - Fixed iframe CSS
+Version 1.2.7 - 13 February 20
+    - Improved WooCommerce compatibility
+    - Weather widget update
+Version 1.2.6 - 16 October 19
+    - Fixed events paging
+Version 1.2.5 - 26 September 19
+    - Fixed calendar filter
+Version 1.2.4 - 30 August 19
+    - Improved security
+Version 1.2.3 - 21 July 19
+    - Minor bug fixes
+Version 1.2.2 - 16 July 19
+    - Minor bug fixes
+Version 1.2.1 - 3 July 19
+    - Minor bug fixes
+Version 1.2.0 - 30 May 19
+    - Minor bug fixes
+Version 1.1.9 - 28 May 19
+    - Minor bug fixes
+Version 1.1.8 - 18 March 19
+    - Minor bug fixes
+Version 1.1.7 - 28 February 19
+    - Fixed prev/next week view
+Version 1.1.6 - 17 October 18
+    - Fixed demo content
+Version 1.1.5 - 12 October 18
+    - Fixed demo import
+Version 1.1.4 - 19 June 18
+    - Fixed footer page slug
+Version 1.1.3 - 19 April 18
+    - Improved WooCommerce compatibility
+Version 1.1.2 - 31 January 18
+    - Fixed author in blog archive
+Version 1.1.1 - 30 January 18
+    - Fixed author name
+Version 1.1.0 - 18 January 18
+    - Fixed Slider CSS
+Version 1.0.9 - 18 January 18
+    - Improved The Events Calendar plugin support
+Version 1.0.8 - 2 January 18
+    - Cost Calculator update
+Version 1.0.7 - 17 October 17
+    - Improved WooCommerce compatibility
+Version 1.0.6 - 15 June 17
+    - Improved The Events Calendar plugin compatibility
+Version 1.0.5 - 19 April 17
+    - WooCommerce 3.0.x support
+Version 1.0.4 - 7 April 17
+    - Bold Builder support
+Version 1.0.3 - 17 January 17
+    - Rapid Composer update
+Version 1.0.2 - 13 January 17
+    - Rapid Composer update
+Version 1.0.1 - 10 December 16
+    - Demo content updated

@@ -1,0 +1,126 @@
+.bt_rc_icon_preview:before {
+	content: attr(data-icon-code);
+}
+.bt_rc_icon_preview {
+	vertical-align: middle;
+}
+
+.bt_rc_iconpicker .bt_rc_iconpicker_icons .bt_rc_icon_preview {
+    height: 46px;
+	font-size: 36px;
+	padding: 5px 0px;
+}
+
+.bt_rc_icon_preview.bt_rc_icon_preview_fa {
+	font-family: FontAwesome;
+}
+.bt_rc_icon_preview.bt_rc_icon_preview_s7 {
+	font-family: Icon7Stroke;
+}
+
+.bt_bb_icon_preview:before {
+	content: attr(data-icon-code);
+}
+.bt_bb_icon_preview {
+	/*vertical-align: middle;*/
+}
+
+.bt_bb_iconpicker .bt_bb_iconpicker_icons .bt_bb_icon_preview {
+    height: 46px;
+	font-size: 36px;
+	padding: 5px 0px;
+}
+
+.bt_bb_icon_preview.bt_bb_icon_preview_fa {
+	font-family: FontAwesome;
+}
+.bt_bb_icon_preview.bt_bb_icon_preview_s7 {
+	font-family: Icon7Stroke;
+}
+
+/* Material icons */
+
+/*@import url("https://fonts.googleapis.com/icon?family=Material+Icons");*/
+
+@font-face {
+  font-family: 'MaterialIcons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url('https://fonts.gstatic.com/s/materialicons/v20/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2') format('woff2');
+}
+
+/* FontAwesome */
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../../themes/fitness-club/fonts/fontawesome-webfont.eot?v=4.3.0');
+    src: url('../../themes/fitness-club/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../../themes/fitness-club/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../../themes/fitness-club/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../../themes/fitness-club/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../../themes/fitness-club/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  7-stroke (http://themes-pixeden.com/font-demos/7-stroke/index.html) */
+
+@font-face {
+    font-family: 'Icon7Stroke';
+    src:url('../../themes/fitness-club/fonts/Pe-icon-7-stroke.eot?d7yf1v');
+    src:url('../../themes/fitness-club/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v') format('embedded-opentype'),
+    url('../../themes/fitness-club/fonts/Pe-icon-7-stroke.woff?d7yf1v') format('woff'),
+    url('../../themes/fitness-club/fonts/Pe-icon-7-stroke.ttf?d7yf1v') format('truetype'),
+    url('../../themes/fitness-club/fonts/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+/* Custom icons */
+
+@font-face {
+    font-family: 'CustomEssentialSet';
+    src:
+        url('../../themes/fitness-club/fonts/CraftEssential.ttf?uo8kwk') format('truetype'),
+        url('../../themes/fitness-club/fonts/CraftEssential.woff?uo8kwk') format('woff'),
+        url('../../themes/fitness-club/fonts/CraftEssential.svg?uo8kwk#CustomEssentialSet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CustomBusinessSet';
+    src:
+        url('../../themes/fitness-club/fonts/Business.ttf?uo8kwk') format('truetype'),
+        url('../../themes/fitness-club/fonts/Business.woff?uo8kwk') format('woff'),
+        url('../../themes/fitness-club/fonts/Business.svg?uo8kwk#CustomBusinessSet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'btFitness';
+    src:
+        url('../../themes/fitness-club/fonts/btFitnessAndSport.ttf?uo8kwk') format('truetype'),
+        url('../../themes/fitness-club/fonts/btFitnessAndSport.woff?uo8kwk') format('woff'),
+        url('../../themes/fitness-club/fonts/btFitnessAndSport.svg?uo8kwk#btFitness') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.bt_rc_icon_preview.bt_rc_icon_preview_es, .bt_bb_icon_preview.bt_bb_icon_preview_es {
+	font-family: CustomEssentialSet;
+}
+.bt_rc_icon_preview.bt_rc_icon_preview_bs, .bt_bb_icon_preview.bt_bb_icon_preview_bs {
+	font-family: CustomBusinessSet;
+}
+.bt_rc_icon_preview.bt_rc_icon_preview_fs, .bt_bb_icon_preview.bt_bb_icon_preview_fs {
+	font-family: btFitness;
+}
+
+
+/* Bold builder new shortcodes */
+.bt_bb_icon_bt_bb_events_week:before {
+	font-family: MaterialIcons !important;
+	content: '\e916' !important;
+}

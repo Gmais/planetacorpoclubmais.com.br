@@ -1,0 +1,307 @@
+# Translation of Plugins - Meta Box - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Meta Box - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-13 02:22:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Meta Box - Stable (latest release)\n"
+
+#: inc/fields/input-list.php:83
+msgid "Toggle All"
+msgstr "Alternar todos"
+
+#: inc/fields/file.php:48
+msgid "Error: Invalid file"
+msgstr "Erro: arquivo inválido"
+
+#: inc/fields/map.php:29 inc/fields/osm.php:16
+msgid "No results found"
+msgstr "Nenhum resultado encontrado"
+
+#: src/Dashboard/Dashboard.php:53 src/Dashboard/Dashboard.php:78
+#: src/Dashboard/Dashboard.php:79
+msgid "Dashboard"
+msgstr "Painel de controle"
+
+#: src/Dashboard/content.php:655
+msgid "And much more!"
+msgstr "E muito mais!"
+
+#: inc/fields/background.php:127
+msgid "Contain"
+msgstr "Conter"
+
+#: inc/fields/background.php:126
+msgid "Cover"
+msgstr "Cobrir"
+
+#: inc/fields/background.php:94
+msgid "Center Left"
+msgstr "Esquerdo central"
+
+#: inc/fields/background.php:93
+msgid "Top Right"
+msgstr "Superior direito"
+
+#: inc/fields/background.php:92
+msgid "Top Center"
+msgstr "Centro superior"
+
+#: inc/fields/background.php:91
+msgid "Top Left"
+msgstr "Superior esquerdo"
+
+#: inc/fields/background.php:79 inc/fields/background.php:113
+#: inc/fields/background.php:125
+msgid "Inherit"
+msgstr "Herdar"
+
+#: inc/fields/background.php:78
+msgid "Repeat Vertically"
+msgstr "Repetir verticalmente"
+
+#: inc/fields/background.php:77
+msgid "Repeat Horizontally"
+msgstr "Repetir horizontalmente"
+
+#: inc/fields/background.php:76
+msgid "Repeat All"
+msgstr "Repetir tudo"
+
+#: inc/fields/background.php:75
+msgid "No Repeat"
+msgstr "Sem repetição"
+
+#: inc/fields/background.php:61
+msgid "Background Image"
+msgstr "Imagem de fundo"
+
+#: inc/fields/background.php:112
+msgid "Scroll"
+msgstr "Rolagem"
+
+#: inc/fields/background.php:98
+msgid "Bottom Center"
+msgstr "Inferior central"
+
+#: inc/fields/background.php:97
+msgid "Bottom Left"
+msgstr "Esquerdo inferior "
+
+#: inc/fields/background.php:99
+msgid "Bottom Right"
+msgstr "Direito inferior "
+
+#: inc/fields/background.php:96
+msgid "Center Right"
+msgstr "Centro à direita"
+
+#: inc/fields/background.php:95
+msgid "Center Center"
+msgstr "Centro centro "
+
+#: inc/fields/switch.php:84
+msgid "On"
+msgstr "Lig"
+
+#: inc/fields/switch.php:85
+msgid "Off"
+msgstr "Des"
+
+#: inc/fields/background.php:111
+msgid "Fixed"
+msgstr "Fixo"
+
+#: inc/fields/sidebar.php:10
+msgid "Select a sidebar"
+msgstr "Selecione uma barra lateral"
+
+#: src/Dashboard/content.php:101
+msgid "Getting Started"
+msgstr "Iniciar"
+
+#. Author of the plugin
+#: meta-box.php
+msgid "MetaBox.io"
+msgstr "MetaBox.io"
+
+#. Description of the plugin
+#: meta-box.php
+msgid "Create custom meta boxes and custom fields in WordPress."
+msgstr "Crie caixa de meta personalizado e campos personalizado no WordPress."
+
+#: inc/fields/media.php:30
+msgctxt "media"
+msgid "or"
+msgstr "ou"
+
+#: inc/fields/select-advanced.php:44
+msgid "Select an item"
+msgstr "Selecione um Item"
+
+#: inc/fields/media.php:31
+msgctxt "media"
+msgid "Drop files here to upload"
+msgstr "Arraste e solte os arquivos aqui para enviar"
+
+#: inc/fields/media.php:29
+msgctxt "media"
+msgid "Select Files"
+msgstr "Selecionar arquivos"
+
+#: inc/fields/taxonomy.php:84
+msgid "Select a term"
+msgstr "Selecione um Termo"
+
+#: inc/fields/media.php:26
+msgctxt "media"
+msgid "No Title"
+msgstr "Nenhum título"
+
+#: inc/fields/media.php:24
+msgctxt "media"
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/fields/media.php:23
+msgctxt "media"
+msgid "Remove"
+msgstr "Remover"
+
+#: inc/fields/media.php:22
+msgctxt "media"
+msgid " files"
+msgstr "Arquivos"
+
+#: inc/fields/media.php:21
+msgctxt "media"
+msgid " file"
+msgstr "Arquivo"
+
+#: inc/fields/media.php:25
+msgctxt "media"
+msgid "View"
+msgstr "Ver"
+
+#: inc/field.php:309
+msgid "+ Add more"
+msgstr "+ Adicionar mais"
+
+#: inc/fields/media.php:20
+msgctxt "media"
+msgid "+ Add Media"
+msgstr "+ Adicionar mídia"
+
+#: inc/fields/select.php:80
+msgid "None"
+msgstr "Nenhum"
+
+#: inc/fields/checkbox.php:43
+msgid "Yes"
+msgstr "Sim"
+
+#: inc/fields/checkbox.php:43
+msgid "No"
+msgstr "Não"
+
+#: inc/fields/file-input.php:46 inc/fields/select.php:80
+msgid "Select"
+msgstr "Selecionar"
+
+#: inc/fields/file-input.php:48
+msgid "Remove"
+msgstr "Remover"
+
+#: src/Dashboard/content.php:51
+msgid "Documentation"
+msgstr "Documentação"
+
+#: inc/fields/select.php:80
+msgid "All"
+msgstr "Todos"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: meta-box.php
+msgid "https://metabox.io"
+msgstr "https://metabox.io"
+
+#. Plugin Name of the plugin
+#: meta-box.php src/Dashboard/Dashboard.php:65 src/Dashboard/Dashboard.php:66
+#: src/Integrations/Block.php:12 src/Integrations/Bricks.php:10
+#: src/Integrations/Elementor.php:13 src/Integrations/Oxygen.php:14
+msgid "Meta Box"
+msgstr "Meta Box"
+
+#: inc/validation.php:66
+msgid "Please correct the errors highlighted below and try again."
+msgstr "Corrija os erros destacados abaixo e tente novamente."
+
+#: inc/fields/post.php:69
+msgid "Select a post"
+msgstr "Selecione um post"
+
+#: inc/fields/oembed.php:18
+msgid "Embed HTML not available."
+msgstr "Incorporar HTML não disponível."
+
+#: inc/fields/key-value.php:80
+msgid "Value"
+msgstr "Valor"
+
+#: inc/fields/key-value.php:79
+msgid "Key"
+msgstr "Chave"
+
+#: inc/fields/file.php:87
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr "+ Adicionar novo arquivo"
+
+#: inc/fields/file.php:61
+msgid "Error: Cannot delete file"
+msgstr "Erro: não é possível excluir o arquivo"
+
+#. Translators: %d is the number of files in plural form.
+#: inc/fields/file.php:17
+msgid "You may only upload maximum %d files"
+msgstr "Você só pode enviar no máximo %d arquivos"
+
+#. Translators: %d is the number of files in singular form.
+#: inc/fields/file.php:15
+msgid "You may only upload maximum %d file"
+msgstr "Você só pode enviar no máximo %d arquivo"
+
+#: inc/fields/file-input.php:17
+msgid "Select File"
+msgstr "Selecione o arquivo"
+
+#: inc/fields/file.php:168
+msgctxt "file upload"
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/fields/button.php:28
+msgid "Click me"
+msgstr "Clique em mim"
+
+#. Translators: %s is the post singular label.
+#. Translators: %s is the taxonomy singular label.
+#: inc/fields/post.php:75 inc/fields/taxonomy.php:88
+msgid "Select a %s"
+msgstr "Selecione uma %s"
+
+#: inc/fields/autocomplete.php:14 inc/fields/autocomplete.php:80
+#: inc/fields/autocomplete.php:92
+msgid "Delete"
+msgstr "Excluir"
+
+#: inc/fields/file.php:167
+msgctxt "file upload"
+msgid "Delete"
+msgstr "Excluir"

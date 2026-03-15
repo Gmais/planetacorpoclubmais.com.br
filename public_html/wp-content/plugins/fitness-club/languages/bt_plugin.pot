@@ -1,0 +1,1807 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-17 18:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: fitness-club.php:20
+msgid "Header Left Widgets"
+msgstr ""
+
+#: fitness-club.php:26
+msgid "Header Right Widgets"
+msgstr ""
+
+#: fitness-club.php:32
+msgid "Footer Widgets"
+msgstr ""
+
+#: fitness-club.php:1770
+msgid "dys"
+msgstr ""
+
+#: fitness-club.php:1771
+msgid "hrs"
+msgstr ""
+
+#: fitness-club.php:1772
+msgid "min"
+msgstr ""
+
+#: fitness-club.php:1773
+msgid "sec"
+msgstr ""
+
+#: fitness-club.php:2305 fitness-club.php:2571 fitness-club.php:4503
+msgid "by"
+msgstr ""
+
+#: fitness-club.php:2460
+msgid "Category filter:"
+msgstr ""
+
+#: fitness-club.php:2461
+msgid "All"
+msgstr ""
+
+#: fitness-club.php:2470
+msgid "No more posts"
+msgstr ""
+
+#: fitness-club.php:2694
+msgid "The Events Calendar"
+msgstr ""
+
+#: fitness-club.php:2695
+#, php-format
+msgid ""
+"To begin using events week shortcode, please install and activate the latest "
+"version of <a href=\"%s\" class=\"thickbox\" title=\"%s\">The Events "
+"Calendar</a> and add events."
+msgstr ""
+
+#: fitness-club.php:2701
+msgid ""
+"To begin using events week shortcode, please install and activate the latest "
+"version of The Events Calendar plugin and add events."
+msgstr ""
+
+#: fitness-club.php:2868 fitness-club.php:2870 fitness-club.php:3235
+#: fitness-club.php:3397
+msgid "Image"
+msgstr ""
+
+#: fitness-club.php:2868
+msgid "Single image"
+msgstr ""
+
+#: fitness-club.php:2871
+msgid "Caption Supetitle"
+msgstr ""
+
+#: fitness-club.php:2872
+msgid "Caption"
+msgstr ""
+
+#: fitness-club.php:2873
+msgid "Show Captions"
+msgstr ""
+
+#: fitness-club.php:2875 fitness-club.php:2920 fitness-club.php:2930
+#: fitness-club.php:2946 fitness-club.php:2958 fitness-club.php:3052
+#: fitness-club.php:3091 fitness-club.php:3134 fitness-club.php:3197
+#: fitness-club.php:3276 fitness-club.php:3343 fitness-club.php:3377
+#: fitness-club.php:3382 fitness-club.php:3387 fitness-club.php:3407
+#: fitness-club.php:3417 fitness-club.php:3427 fitness-club.php:3464
+#: fitness-club.php:3499 fitness-club.php:3504 fitness-club.php:3509
+#: fitness-club.php:3529 fitness-club.php:3559 fitness-club.php:3569
+#: fitness-club.php:3574
+msgid "No"
+msgstr ""
+
+#: fitness-club.php:2876 fitness-club.php:2947 fitness-club.php:2959
+#: fitness-club.php:3344 fitness-club.php:3378 fitness-club.php:3383
+#: fitness-club.php:3388 fitness-club.php:3428 fitness-club.php:3498
+#: fitness-club.php:3503 fitness-club.php:3508 fitness-club.php:3530
+#: fitness-club.php:3560 fitness-club.php:3570 fitness-club.php:3575
+msgid "Yes"
+msgstr ""
+
+#: fitness-club.php:2878 fitness-club.php:3302 fitness-club.php:3323
+#: fitness-club.php:3336
+msgid "Size"
+msgstr ""
+
+#: fitness-club.php:2878 fitness-club.php:2893 fitness-club.php:2938
+#: fitness-club.php:2961 fitness-club.php:2962 fitness-club.php:2963
+#: fitness-club.php:2976 fitness-club.php:2977 fitness-club.php:3050
+#: fitness-club.php:3057 fitness-club.php:3058 fitness-club.php:3059
+#: fitness-club.php:3060 fitness-club.php:3061
+msgid "Design"
+msgstr ""
+
+#: fitness-club.php:2880 fitness-club.php:3313
+msgid "Full"
+msgstr ""
+
+#: fitness-club.php:2881
+msgid "Small (320px)"
+msgstr ""
+
+#: fitness-club.php:2882
+msgid "Small Square (320x320px)"
+msgstr ""
+
+#: fitness-club.php:2883
+msgid "Small Rectangle (320x240px)"
+msgstr ""
+
+#: fitness-club.php:2884
+msgid "Medium (640px)"
+msgstr ""
+
+#: fitness-club.php:2885
+msgid "Medium Square (640x640px)"
+msgstr ""
+
+#: fitness-club.php:2886
+msgid "Medium Rectangle (640x480px)"
+msgstr ""
+
+#: fitness-club.php:2887
+msgid "Large (1280px)"
+msgstr ""
+
+#: fitness-club.php:2888
+msgid "Large Square (1280x1280px)"
+msgstr ""
+
+#: fitness-club.php:2889
+msgid "Large Rectangle (1280x640px)"
+msgstr ""
+
+#: fitness-club.php:2890
+msgid "Large Vertical Rectangle (640x1280px)"
+msgstr ""
+
+#: fitness-club.php:2891
+msgid "Thumbnail  (160x160px)"
+msgstr ""
+
+#: fitness-club.php:2893
+msgid "Shape"
+msgstr ""
+
+#: fitness-club.php:2895
+msgid "Square"
+msgstr ""
+
+#: fitness-club.php:2896
+msgid "Square Outlined"
+msgstr ""
+
+#: fitness-club.php:2897
+msgid "Square Rounded"
+msgstr ""
+
+#: fitness-club.php:2898
+msgid "Circle"
+msgstr ""
+
+#: fitness-club.php:2900 fitness-club.php:3193 fitness-club.php:3236
+#: fitness-club.php:3273 fitness-club.php:3461
+msgid "URL"
+msgstr ""
+
+#: fitness-club.php:2901
+msgid "Target"
+msgstr ""
+
+#: fitness-club.php:2903 fitness-club.php:3277 fitness-club.php:3465
+#: fitness-club.php:3926
+msgid "Self"
+msgstr ""
+
+#: fitness-club.php:2904 fitness-club.php:3278 fitness-club.php:3466
+#: fitness-club.php:3926
+msgid "Blank"
+msgstr ""
+
+#: fitness-club.php:2906 fitness-club.php:2982 fitness-club.php:2989
+#: fitness-club.php:2996 fitness-club.php:3004 fitness-club.php:3062
+#: fitness-club.php:3112 fitness-club.php:3148 fitness-club.php:3201
+#: fitness-club.php:3218 fitness-club.php:3237 fitness-club.php:3315
+#: fitness-club.php:3328 fitness-club.php:3346 fitness-club.php:3361
+#: fitness-club.php:3390 fitness-club.php:3398 fitness-club.php:3430
+#: fitness-club.php:3470 fitness-club.php:3477 fitness-club.php:3511
+#: fitness-club.php:3577 fitness-club.php:3614 fitness-club.php:3627
+#: fitness-club.php:3647
+msgid "Extra Class Name(s)"
+msgstr ""
+
+#: fitness-club.php:2906 fitness-club.php:2907 fitness-club.php:2981
+#: fitness-club.php:2982 fitness-club.php:2983 fitness-club.php:2989
+#: fitness-club.php:2990 fitness-club.php:2996 fitness-club.php:2997
+#: fitness-club.php:3004 fitness-club.php:3005 fitness-club.php:3062
+#: fitness-club.php:3063 fitness-club.php:3112 fitness-club.php:3113
+#: fitness-club.php:3148 fitness-club.php:3149 fitness-club.php:3201
+#: fitness-club.php:3202 fitness-club.php:3218 fitness-club.php:3219
+#: fitness-club.php:3237 fitness-club.php:3238 fitness-club.php:3315
+#: fitness-club.php:3316 fitness-club.php:3328 fitness-club.php:3329
+#: fitness-club.php:3346 fitness-club.php:3347 fitness-club.php:3361
+#: fitness-club.php:3362 fitness-club.php:3390 fitness-club.php:3391
+#: fitness-club.php:3398 fitness-club.php:3399 fitness-club.php:3430
+#: fitness-club.php:3431 fitness-club.php:3470 fitness-club.php:3471
+#: fitness-club.php:3477 fitness-club.php:3478 fitness-club.php:3511
+#: fitness-club.php:3512 fitness-club.php:3577 fitness-club.php:3578
+#: fitness-club.php:3614 fitness-club.php:3615 fitness-club.php:3627
+#: fitness-club.php:3628 fitness-club.php:3647 fitness-club.php:3648
+msgid "Custom"
+msgstr ""
+
+#: fitness-club.php:2907 fitness-club.php:2983 fitness-club.php:2990
+#: fitness-club.php:2997 fitness-club.php:3005 fitness-club.php:3063
+#: fitness-club.php:3113 fitness-club.php:3149 fitness-club.php:3202
+#: fitness-club.php:3219 fitness-club.php:3238 fitness-club.php:3316
+#: fitness-club.php:3329 fitness-club.php:3347 fitness-club.php:3362
+#: fitness-club.php:3391 fitness-club.php:3399 fitness-club.php:3431
+#: fitness-club.php:3471 fitness-club.php:3478 fitness-club.php:3512
+#: fitness-club.php:3578 fitness-club.php:3615 fitness-club.php:3628
+#: fitness-club.php:3648
+msgid "Inline Style"
+msgstr ""
+
+#: fitness-club.php:2911
+msgid "Section"
+msgstr ""
+
+#: fitness-club.php:2911
+msgid "Basic root element"
+msgstr ""
+
+#: fitness-club.php:2913
+msgid "Layout"
+msgstr ""
+
+#: fitness-club.php:2915
+msgid "Boxed"
+msgstr ""
+
+#: fitness-club.php:2916
+msgid "Wide"
+msgstr ""
+
+#: fitness-club.php:2918 fitness-club.php:3405
+msgid "Top spaced"
+msgstr ""
+
+#: fitness-club.php:2921 fitness-club.php:2931 fitness-club.php:3408
+#: fitness-club.php:3418
+msgid "Extra-Small-Spaced"
+msgstr ""
+
+#: fitness-club.php:2922 fitness-club.php:2932 fitness-club.php:3409
+#: fitness-club.php:3419
+msgid "Small-Spaced"
+msgstr ""
+
+#: fitness-club.php:2923 fitness-club.php:2933 fitness-club.php:3410
+#: fitness-club.php:3420
+msgid "Semi-Spaced"
+msgstr ""
+
+#: fitness-club.php:2924 fitness-club.php:2934 fitness-club.php:3411
+#: fitness-club.php:3421
+msgid "Spaced"
+msgstr ""
+
+#: fitness-club.php:2925 fitness-club.php:2935 fitness-club.php:3412
+#: fitness-club.php:3422
+msgid "Large Spaced"
+msgstr ""
+
+#: fitness-club.php:2926
+msgid "Extra-Large Spaced"
+msgstr ""
+
+#: fitness-club.php:2928 fitness-club.php:3415
+msgid "Bottom spaced"
+msgstr ""
+
+#: fitness-club.php:2936 fitness-club.php:3413 fitness-club.php:3423
+msgid "Extra-Spaced"
+msgstr ""
+
+#: fitness-club.php:2938
+msgid "Skin"
+msgstr ""
+
+#: fitness-club.php:2940 fitness-club.php:2951 fitness-club.php:3019
+#: fitness-club.php:3084
+msgid "Inherit"
+msgstr ""
+
+#: fitness-club.php:2941
+msgid "Dark"
+msgstr ""
+
+#: fitness-club.php:2942
+msgid "Light"
+msgstr ""
+
+#: fitness-club.php:2944
+msgid "Full Screen"
+msgstr ""
+
+#: fitness-club.php:2949 fitness-club.php:3017 fitness-club.php:3082
+msgid "Vertical Align"
+msgstr ""
+
+#: fitness-club.php:2952 fitness-club.php:3020 fitness-club.php:3085
+#: fitness-club.php:3135 fitness-club.php:3280 fitness-club.php:3468
+#: fitness-club.php:3926
+msgid "Top"
+msgstr ""
+
+#: fitness-club.php:2953 fitness-club.php:3021 fitness-club.php:3086
+msgid "Middle"
+msgstr ""
+
+#: fitness-club.php:2954 fitness-club.php:3022 fitness-club.php:3087
+#: fitness-club.php:3136 fitness-club.php:3198
+msgid "Bottom"
+msgstr ""
+
+#: fitness-club.php:2956
+msgid "Divider"
+msgstr ""
+
+#: fitness-club.php:2961 fitness-club.php:3061
+msgid "Background Image"
+msgstr ""
+
+#: fitness-club.php:2962 fitness-club.php:3110
+msgid "Background color"
+msgstr ""
+
+#: fitness-club.php:2963
+msgid "Background Overlay"
+msgstr ""
+
+#: fitness-club.php:2965
+msgid "None"
+msgstr ""
+
+#: fitness-club.php:2966
+msgid "Light Stripes"
+msgstr ""
+
+#: fitness-club.php:2967
+msgid "Dark Stripes"
+msgstr ""
+
+#: fitness-club.php:2968
+msgid "Dark Solid"
+msgstr ""
+
+#: fitness-club.php:2969
+msgid "Light Solid"
+msgstr ""
+
+#: fitness-club.php:2971
+msgid "YouTube Background Video"
+msgstr ""
+
+#: fitness-club.php:2971 fitness-club.php:2972 fitness-club.php:2973
+#: fitness-club.php:2974 fitness-club.php:2975
+msgid "Video"
+msgstr ""
+
+#: fitness-club.php:2972
+msgid "Video Settings (e.g. startAt:20, mute:true, stopMovieOnBlur:false)"
+msgstr ""
+
+#: fitness-club.php:2973
+msgid "MP4 Background Video"
+msgstr ""
+
+#: fitness-club.php:2974
+msgid "Ogg Background Video"
+msgstr ""
+
+#: fitness-club.php:2975
+msgid "WebM Background Video"
+msgstr ""
+
+#: fitness-club.php:2976
+msgid "Parallax (e.g. -.7)"
+msgstr ""
+
+#: fitness-club.php:2977
+msgid "Parallax Offset in px (e.g. -100)"
+msgstr ""
+
+#: fitness-club.php:2978
+msgid "Animation (forward)"
+msgstr ""
+
+#: fitness-club.php:2978 fitness-club.php:2979 fitness-club.php:2980
+msgid "Animations"
+msgstr ""
+
+#: fitness-club.php:2979
+msgid "Animation (backward)"
+msgstr ""
+
+#: fitness-club.php:2980
+msgid "Impress Animation Settings"
+msgstr ""
+
+#: fitness-club.php:2981
+msgid "Custom Id Attribute"
+msgstr ""
+
+#: fitness-club.php:2987
+msgid "Row"
+msgstr ""
+
+#: fitness-club.php:2987
+msgid "Row element"
+msgstr ""
+
+#: fitness-club.php:2994
+msgid "Inner Row"
+msgstr ""
+
+#: fitness-club.php:2994
+msgid "Inner Row element"
+msgstr ""
+
+#: fitness-club.php:3001
+msgid "Custom Menu"
+msgstr ""
+
+#: fitness-club.php:3003
+msgid "Menu Name"
+msgstr ""
+
+#: fitness-club.php:3009
+msgid "Column"
+msgstr ""
+
+#: fitness-club.php:3009
+msgid "Column element"
+msgstr ""
+
+#: fitness-club.php:3011 fitness-club.php:3069
+msgid "Align"
+msgstr ""
+
+#: fitness-club.php:3013 fitness-club.php:3027 fitness-club.php:3071
+#: fitness-club.php:3292
+msgid "Left"
+msgstr ""
+
+#: fitness-club.php:3014 fitness-club.php:3028 fitness-club.php:3072
+#: fitness-club.php:3290
+msgid "Right"
+msgstr ""
+
+#: fitness-club.php:3015 fitness-club.php:3073
+msgid "Center"
+msgstr ""
+
+#: fitness-club.php:3024 fitness-club.php:3054 fitness-club.php:3093
+#: fitness-club.php:3425
+msgid "Border"
+msgstr ""
+
+#: fitness-club.php:3026
+msgid "No Border"
+msgstr ""
+
+#: fitness-club.php:3030 fitness-club.php:3075
+msgid "Padding"
+msgstr ""
+
+#: fitness-club.php:3032 fitness-club.php:3077 fitness-club.php:3142
+#: fitness-club.php:3173 fitness-club.php:3179 fitness-club.php:3296
+#: fitness-club.php:3441 fitness-club.php:3447 fitness-club.php:3895
+#: fitness-club.php:3910
+msgid "Default"
+msgstr ""
+
+#: fitness-club.php:3033 fitness-club.php:3078
+msgid "No padding"
+msgstr ""
+
+#: fitness-club.php:3034 fitness-club.php:3079
+msgid "Double padding"
+msgstr ""
+
+#: fitness-club.php:3035 fitness-club.php:3080
+msgid "Text indent"
+msgstr ""
+
+#: fitness-club.php:3037 fitness-club.php:3097
+msgid "Animation"
+msgstr ""
+
+#: fitness-club.php:3039 fitness-club.php:3099
+msgid "No Animation"
+msgstr ""
+
+#: fitness-club.php:3040 fitness-club.php:3100
+msgid "Fade In"
+msgstr ""
+
+#: fitness-club.php:3041 fitness-club.php:3101
+msgid "Move Up"
+msgstr ""
+
+#: fitness-club.php:3042 fitness-club.php:3102
+msgid "Move Left"
+msgstr ""
+
+#: fitness-club.php:3043 fitness-club.php:3103
+msgid "Move Right"
+msgstr ""
+
+#: fitness-club.php:3044 fitness-club.php:3104
+msgid "Move Down"
+msgstr ""
+
+#: fitness-club.php:3045 fitness-club.php:3105
+msgid "Fade In / Move Up"
+msgstr ""
+
+#: fitness-club.php:3046 fitness-club.php:3106
+msgid "Fade In / Move Left"
+msgstr ""
+
+#: fitness-club.php:3047 fitness-club.php:3107
+msgid "Fade In / Move Right"
+msgstr ""
+
+#: fitness-club.php:3048 fitness-club.php:3108
+msgid "Fade In / Move Down"
+msgstr ""
+
+#: fitness-club.php:3050 fitness-club.php:3089
+msgid "Cell Highlight"
+msgstr ""
+
+#: fitness-club.php:3053 fitness-club.php:3092
+msgid "Shadow"
+msgstr ""
+
+#: fitness-club.php:3055 fitness-club.php:3094
+msgid "Shadow + Border"
+msgstr ""
+
+#: fitness-club.php:3057 fitness-club.php:3096
+msgid "Cell Highlight Border Color"
+msgstr ""
+
+#: fitness-club.php:3058
+msgid "Background Color"
+msgstr ""
+
+#: fitness-club.php:3059
+msgid "Transparent (e.g. 0.4) (deprecated)"
+msgstr ""
+
+#: fitness-club.php:3060
+msgid "Inner Background Color"
+msgstr ""
+
+#: fitness-club.php:3067
+msgid "Inner Column"
+msgstr ""
+
+#: fitness-club.php:3067
+msgid "Inner Column element"
+msgstr ""
+
+#: fitness-club.php:3111
+msgid "Opacity (0 - 1, e.g. 0.4) (deprecated)"
+msgstr ""
+
+#: fitness-club.php:3117 fitness-club.php:3200 fitness-club.php:3271
+#: fitness-club.php:3353
+msgid "Text"
+msgstr ""
+
+#: fitness-club.php:3117
+msgid "Text element"
+msgstr ""
+
+#: fitness-club.php:3119
+msgid "Header"
+msgstr ""
+
+#: fitness-club.php:3119
+msgid "Header element"
+msgstr ""
+
+#: fitness-club.php:3121
+msgid "Superheadline"
+msgstr ""
+
+#: fitness-club.php:3122 fitness-club.php:3156 fitness-club.php:3164
+#: fitness-club.php:3194
+msgid "Headline"
+msgstr ""
+
+#: fitness-club.php:3123
+msgid "Headline Size"
+msgstr ""
+
+#: fitness-club.php:3125 fitness-club.php:3187 fitness-club.php:3304
+#: fitness-club.php:3455
+msgid "Small"
+msgstr ""
+
+#: fitness-club.php:3126
+msgid "ExtraSmall"
+msgstr ""
+
+#: fitness-club.php:3127 fitness-club.php:3189 fitness-club.php:3306
+#: fitness-club.php:3457
+msgid "Medium"
+msgstr ""
+
+#: fitness-club.php:3128 fitness-club.php:3191 fitness-club.php:3326
+#: fitness-club.php:3339 fitness-club.php:3459
+msgid "Large"
+msgstr ""
+
+#: fitness-club.php:3129
+msgid "Extra large"
+msgstr ""
+
+#: fitness-club.php:3130
+msgid "Huge"
+msgstr ""
+
+#: fitness-club.php:3132 fitness-club.php:3195
+msgid "Dash"
+msgstr ""
+
+#: fitness-club.php:3137
+msgid "Top and Bottom"
+msgstr ""
+
+#: fitness-club.php:3139
+msgid "Subheadline"
+msgstr ""
+
+#: fitness-club.php:3140 fitness-club.php:3294 fitness-club.php:3355
+msgid "Color"
+msgstr ""
+
+#: fitness-club.php:3143 fitness-club.php:3180 fitness-club.php:3297
+#: fitness-club.php:3448 fitness-club.php:3895
+msgid "Accent 1"
+msgstr ""
+
+#: fitness-club.php:3144 fitness-club.php:3181 fitness-club.php:3298
+#: fitness-club.php:3449 fitness-club.php:3895
+msgid "Accent 2"
+msgstr ""
+
+#: fitness-club.php:3145 fitness-club.php:3182 fitness-club.php:3299
+#: fitness-club.php:3450 fitness-club.php:3895
+msgid "Accent 3"
+msgstr ""
+
+#: fitness-club.php:3146 fitness-club.php:3183 fitness-club.php:3300
+#: fitness-club.php:3451 fitness-club.php:3895
+msgid "Accent 4"
+msgstr ""
+
+#: fitness-club.php:3153
+msgid "Tabs"
+msgstr ""
+
+#: fitness-club.php:3153
+msgid "Tabs container"
+msgstr ""
+
+#: fitness-club.php:3155
+msgid "Tab Item"
+msgstr ""
+
+#: fitness-club.php:3155
+msgid "Tabs items"
+msgstr ""
+
+#: fitness-club.php:3160
+msgid "Accordion"
+msgstr ""
+
+#: fitness-club.php:3160
+msgid "Accordion container"
+msgstr ""
+
+#: fitness-club.php:3162
+msgid "Accordion Item"
+msgstr ""
+
+#: fitness-club.php:3162
+msgid "Single accordion element"
+msgstr ""
+
+#: fitness-club.php:3168
+msgid "Service"
+msgstr ""
+
+#: fitness-club.php:3168
+msgid "Service element"
+msgstr ""
+
+#: fitness-club.php:3170 fitness-club.php:3212 fitness-club.php:3272
+#: fitness-club.php:3435 fitness-club.php:3437
+msgid "Icon"
+msgstr ""
+
+#: fitness-club.php:3171 fitness-club.php:3439
+msgid "Icon Type"
+msgstr ""
+
+#: fitness-club.php:3174 fitness-club.php:3285 fitness-club.php:3358
+#: fitness-club.php:3442
+msgid "Filled"
+msgstr ""
+
+#: fitness-club.php:3175 fitness-club.php:3284 fitness-club.php:3443
+msgid "Outline"
+msgstr ""
+
+#: fitness-club.php:3177 fitness-club.php:3445
+msgid "Icon Color"
+msgstr ""
+
+#: fitness-club.php:3185 fitness-club.php:3453
+msgid "Icon Size"
+msgstr ""
+
+#: fitness-club.php:3188 fitness-club.php:3305 fitness-club.php:3456
+msgid "Extra Small"
+msgstr ""
+
+#: fitness-club.php:3190 fitness-club.php:3307 fitness-club.php:3458
+msgid "Big"
+msgstr ""
+
+#: fitness-club.php:3206
+msgid "Google Maps"
+msgstr ""
+
+#: fitness-club.php:3206
+msgid "Google Maps with marker on specified coordinates"
+msgstr ""
+
+#: fitness-club.php:3208
+msgid "API key"
+msgstr ""
+
+#: fitness-club.php:3209
+msgid "Latitude"
+msgstr ""
+
+#: fitness-club.php:3210
+msgid "Longitude"
+msgstr ""
+
+#: fitness-club.php:3211
+msgid "Zoom (e.g. 14)"
+msgstr ""
+
+#: fitness-club.php:3213
+msgid "Height (e.g. 250px)"
+msgstr ""
+
+#: fitness-club.php:3214
+msgid "Map primary color"
+msgstr ""
+
+#: fitness-club.php:3215
+msgid "Map secondary color"
+msgstr ""
+
+#: fitness-club.php:3216
+msgid "Map water color"
+msgstr ""
+
+#: fitness-club.php:3217
+msgid "Custom map style array"
+msgstr ""
+
+#: fitness-club.php:3223
+msgid "Simple slider"
+msgstr ""
+
+#: fitness-club.php:3225
+msgid "Type"
+msgstr ""
+
+#: fitness-club.php:3227 fitness-club.php:3366
+msgid "Slider"
+msgstr ""
+
+#: fitness-club.php:3228 fitness-club.php:3516
+msgid "Grid"
+msgstr ""
+
+#: fitness-club.php:3233
+msgid "Simple slider item"
+msgstr ""
+
+#: fitness-club.php:3269
+msgid "Button"
+msgstr ""
+
+#: fitness-club.php:3269
+msgid "Button with custom link"
+msgstr ""
+
+#: fitness-club.php:3274 fitness-club.php:3462
+msgid "Target window"
+msgstr ""
+
+#: fitness-club.php:3279 fitness-club.php:3467 fitness-club.php:3926
+msgid "Parent"
+msgstr ""
+
+#: fitness-club.php:3282 fitness-club.php:3356
+msgid "Style"
+msgstr ""
+
+#: fitness-club.php:3286
+msgid "Borderless"
+msgstr ""
+
+#: fitness-club.php:3288
+msgid "Icon Position"
+msgstr ""
+
+#: fitness-club.php:3291
+msgid "Inline"
+msgstr ""
+
+#: fitness-club.php:3310
+msgid "Width"
+msgstr ""
+
+#: fitness-club.php:3312 fitness-club.php:3325 fitness-club.php:3338
+msgid "Normal"
+msgstr ""
+
+#: fitness-club.php:3320
+msgid "Counter"
+msgstr ""
+
+#: fitness-club.php:3320
+msgid "Animated counter"
+msgstr ""
+
+#: fitness-club.php:3322
+msgid "Number"
+msgstr ""
+
+#: fitness-club.php:3333
+msgid "Countdown"
+msgstr ""
+
+#: fitness-club.php:3333
+msgid "Animated countdown"
+msgstr ""
+
+#: fitness-club.php:3335
+msgid "Target Date and Time"
+msgstr ""
+
+#: fitness-club.php:3335
+msgid "YY-mm-dd HH:mm:ss, e.g. 2015-02-22 22:45:00"
+msgstr ""
+
+#: fitness-club.php:3341
+msgid "Hide Indication"
+msgstr ""
+
+#: fitness-club.php:3341
+msgid "Hide indication of days, hours, minutes and seconds"
+msgstr ""
+
+#: fitness-club.php:3351
+msgid "Percentage bar"
+msgstr ""
+
+#: fitness-club.php:3351
+msgid "Animated percentage bar"
+msgstr ""
+
+#: fitness-club.php:3354
+msgid "Percentage"
+msgstr ""
+
+#: fitness-club.php:3359
+msgid "Line"
+msgstr ""
+
+#: fitness-club.php:3366
+msgid "Slider container"
+msgstr ""
+
+#: fitness-club.php:3368
+msgid "Slider height"
+msgstr ""
+
+#: fitness-club.php:3370
+msgid "Auto"
+msgstr ""
+
+#: fitness-club.php:3371
+msgid "Fixed/Keep height"
+msgstr ""
+
+#: fitness-club.php:3372
+msgid "Full screen"
+msgstr ""
+
+#: fitness-club.php:3374
+msgid "Auto Play Speed (e.g. 3000)"
+msgstr ""
+
+#: fitness-club.php:3375
+msgid "Hide Arrows"
+msgstr ""
+
+#: fitness-club.php:3380
+msgid "Hide Paging"
+msgstr ""
+
+#: fitness-club.php:3385
+msgid "Simple Arrows"
+msgstr ""
+
+#: fitness-club.php:3395
+msgid "Slider Item"
+msgstr ""
+
+#: fitness-club.php:3395
+msgid "Individual slide element"
+msgstr ""
+
+#: fitness-club.php:3403
+msgid "Separator"
+msgstr ""
+
+#: fitness-club.php:3403
+msgid "Horizontal separator"
+msgstr ""
+
+#: fitness-club.php:3435
+msgid "Single icon with link"
+msgstr ""
+
+#: fitness-club.php:3438 fitness-club.php:3621
+msgid "Title"
+msgstr ""
+
+#: fitness-club.php:3475
+msgid "Icon and images holder"
+msgstr ""
+
+#: fitness-club.php:3475
+msgid "Icon container"
+msgstr ""
+
+#: fitness-club.php:3482
+msgid "Latest Posts"
+msgstr ""
+
+#: fitness-club.php:3482
+msgid "Recent posts"
+msgstr ""
+
+#: fitness-club.php:3484
+msgid "Number of Items"
+msgstr ""
+
+#: fitness-club.php:3485 fitness-club.php:3526
+msgid "Category Slug"
+msgstr ""
+
+#: fitness-club.php:3486
+msgid "Format"
+msgstr ""
+
+#: fitness-club.php:3488
+msgid "Horizontal"
+msgstr ""
+
+#: fitness-club.php:3489
+msgid "Vertical"
+msgstr ""
+
+#: fitness-club.php:3491 fitness-club.php:3562
+msgid "Post Type"
+msgstr ""
+
+#: fitness-club.php:3493 fitness-club.php:3564
+msgid "Blog"
+msgstr ""
+
+#: fitness-club.php:3494 fitness-club.php:3565 fitness-club.php:4893
+msgid "Portfolio"
+msgstr ""
+
+#: fitness-club.php:3496
+msgid "Show Excerpt"
+msgstr ""
+
+#: fitness-club.php:3501
+msgid "Show Date"
+msgstr ""
+
+#: fitness-club.php:3506
+msgid "Show Author"
+msgstr ""
+
+#: fitness-club.php:3516
+msgid "Grid with recent posts"
+msgstr ""
+
+#: fitness-club.php:3518
+msgid "Number of items"
+msgstr ""
+
+#: fitness-club.php:3519 fitness-club.php:3606
+msgid "Columns"
+msgstr ""
+
+#: fitness-club.php:3521 fitness-club.php:3542 fitness-club.php:3592
+#: fitness-club.php:3608
+msgid "3"
+msgstr ""
+
+#: fitness-club.php:3522 fitness-club.php:3543 fitness-club.php:3593
+#: fitness-club.php:3609
+msgid "4"
+msgstr ""
+
+#: fitness-club.php:3523 fitness-club.php:3544 fitness-club.php:3594
+#: fitness-club.php:3610
+msgid "5"
+msgstr ""
+
+#: fitness-club.php:3524 fitness-club.php:3545 fitness-club.php:3595
+#: fitness-club.php:3611
+msgid "6"
+msgstr ""
+
+#: fitness-club.php:3527
+msgid "Category Filter"
+msgstr ""
+
+#: fitness-club.php:3532
+msgid "Grid Type"
+msgstr ""
+
+#: fitness-club.php:3534
+msgid "Classic"
+msgstr ""
+
+#: fitness-club.php:3535
+msgid "Tiled"
+msgstr ""
+
+#: fitness-club.php:3537 fitness-club.php:3587
+msgid "Grid Gap"
+msgstr ""
+
+#: fitness-club.php:3539 fitness-club.php:3589
+msgid "0"
+msgstr ""
+
+#: fitness-club.php:3540 fitness-club.php:3590
+msgid "1"
+msgstr ""
+
+#: fitness-club.php:3541 fitness-club.php:3591
+msgid "2"
+msgstr ""
+
+#: fitness-club.php:3546 fitness-club.php:3596
+msgid "7"
+msgstr ""
+
+#: fitness-club.php:3547 fitness-club.php:3597
+msgid "8"
+msgstr ""
+
+#: fitness-club.php:3548 fitness-club.php:3598
+msgid "9"
+msgstr ""
+
+#: fitness-club.php:3549 fitness-club.php:3599
+msgid "10"
+msgstr ""
+
+#: fitness-club.php:3550 fitness-club.php:3600
+msgid "15"
+msgstr ""
+
+#: fitness-club.php:3551 fitness-club.php:3601
+msgid "20"
+msgstr ""
+
+#: fitness-club.php:3552 fitness-club.php:3602
+msgid "30"
+msgstr ""
+
+#: fitness-club.php:3553 fitness-club.php:3603
+msgid "40"
+msgstr ""
+
+#: fitness-club.php:3554 fitness-club.php:3604
+msgid "50"
+msgstr ""
+
+#: fitness-club.php:3556
+msgid "Tiled Format"
+msgstr ""
+
+#: fitness-club.php:3557
+msgid "Show Title in Tiles"
+msgstr ""
+
+#: fitness-club.php:3567
+msgid "Scroll Loading"
+msgstr ""
+
+#: fitness-club.php:3572
+msgid "Show Sticky Posts"
+msgstr ""
+
+#: fitness-club.php:3582
+msgid "Grid Gallery"
+msgstr ""
+
+#: fitness-club.php:3582
+msgid "Responsive grid gallery with lightbox."
+msgstr ""
+
+#: fitness-club.php:3584
+msgid "Images"
+msgstr ""
+
+#: fitness-club.php:3585
+msgid "Format (e.g. 21,11,12)"
+msgstr ""
+
+#: fitness-club.php:3613
+msgid "Links (in one line, separated by commas)"
+msgstr ""
+
+#: fitness-club.php:3619
+msgid "Price List"
+msgstr ""
+
+#: fitness-club.php:3619
+msgid "Price List element"
+msgstr ""
+
+#: fitness-club.php:3622
+msgid "Subtitle"
+msgstr ""
+
+#: fitness-club.php:3623
+msgid "Sticker Text"
+msgstr ""
+
+#: fitness-club.php:3624
+msgid "Currency"
+msgstr ""
+
+#: fitness-club.php:3625
+msgid "Price"
+msgstr ""
+
+#: fitness-club.php:3626
+msgid "Items"
+msgstr ""
+
+#: fitness-club.php:3632
+msgid "Events week view"
+msgstr ""
+
+#: fitness-club.php:3634
+msgid "Date of current week"
+msgstr ""
+
+#: fitness-club.php:3634
+msgid "YYYY-mm-dd, e.g. 2015-02-22"
+msgstr ""
+
+#: fitness-club.php:3635
+msgid "Number of events to show per day"
+msgstr ""
+
+#: fitness-club.php:3636
+msgid "Start day of week"
+msgstr ""
+
+#: fitness-club.php:3638
+msgid "Sunday"
+msgstr ""
+
+#: fitness-club.php:3639
+msgid "Monday"
+msgstr ""
+
+#: fitness-club.php:3640
+msgid "Tuesday"
+msgstr ""
+
+#: fitness-club.php:3641
+msgid "Wednesday"
+msgstr ""
+
+#: fitness-club.php:3642
+msgid "Thursday"
+msgstr ""
+
+#: fitness-club.php:3643
+msgid "Friday"
+msgstr ""
+
+#: fitness-club.php:3644
+msgid "Saturday"
+msgstr ""
+
+#: fitness-club.php:3646
+msgid "Week Day Format"
+msgstr ""
+
+#: fitness-club.php:3646
+msgid "D jS, e.g. Wed 15th "
+msgstr ""
+
+#: fitness-club.php:3668
+msgid "BT Gallery"
+msgstr ""
+
+#: fitness-club.php:3669
+msgid "Gallery widget."
+msgstr ""
+
+#: fitness-club.php:3688
+msgid "Gallery"
+msgstr ""
+
+#: fitness-club.php:3692 fitness-club.php:3747 fitness-club.php:3880
+#: fitness-club.php:4448 fitness-club.php:4517
+msgid "Title:"
+msgstr ""
+
+#: fitness-club.php:3696
+msgid "List of image IDs (comma-separated):"
+msgstr ""
+
+#: fitness-club.php:3721
+msgid "BT Text Image"
+msgstr ""
+
+#: fitness-club.php:3722
+msgid "Text with image."
+msgstr ""
+
+#: fitness-club.php:3751
+msgid "Image IDs:"
+msgstr ""
+
+#: fitness-club.php:3755 fitness-club.php:3884
+msgid "Text:"
+msgstr ""
+
+#: fitness-club.php:3781
+msgid "BT Icon"
+msgstr ""
+
+#: fitness-club.php:3782
+msgid "Icon with text and link."
+msgstr ""
+
+#: fitness-club.php:3865
+msgid "Icon:"
+msgstr ""
+
+#: fitness-club.php:3888
+msgid "URL or slug:"
+msgstr ""
+
+#: fitness-club.php:3892
+msgid "Color:"
+msgstr ""
+
+#: fitness-club.php:3907
+msgid "Style:"
+msgstr ""
+
+#: fitness-club.php:3910
+msgid "Circled"
+msgstr ""
+
+#: fitness-club.php:3922
+msgid "Target:"
+msgstr ""
+
+#: fitness-club.php:3964
+msgid "BT Weather"
+msgstr ""
+
+#: fitness-club.php:3965
+msgid "Weather widget."
+msgstr ""
+
+#: fitness-club.php:4125 fitness-club.php:4209
+msgid "Now"
+msgstr ""
+
+#: fitness-club.php:4136
+msgid "12 h"
+msgstr ""
+
+#: fitness-club.php:4138
+msgid "24 h"
+msgstr ""
+
+#: fitness-club.php:4183
+msgid "Latitude:"
+msgstr ""
+
+#: fitness-club.php:4187
+msgid "Longitude:"
+msgstr ""
+
+#: fitness-club.php:4191
+msgid "Temperature unit:"
+msgstr ""
+
+#: fitness-club.php:4194
+msgid "Celsius"
+msgstr ""
+
+#: fitness-club.php:4194
+msgid "Fahrenheit"
+msgstr ""
+
+#: fitness-club.php:4206
+msgid "Type:"
+msgstr ""
+
+#: fitness-club.php:4209
+msgid "Next 12 hours"
+msgstr ""
+
+#: fitness-club.php:4209
+msgid "Next 24 hours"
+msgstr ""
+
+#: fitness-club.php:4221
+msgid "Cache (minutes):"
+msgstr ""
+
+#: fitness-club.php:4225
+msgid "API key:"
+msgstr ""
+
+#: fitness-club.php:4228
+msgid "Get Openweather API key here: "
+msgstr ""
+
+#: fitness-club.php:4257
+msgid "BT Time"
+msgstr ""
+
+#: fitness-club.php:4258
+msgid "Time widget."
+msgstr ""
+
+#: fitness-club.php:4286
+msgid "Time zone:"
+msgstr ""
+
+#: fitness-club.php:4305
+msgid "Place name:"
+msgstr ""
+
+#: fitness-club.php:4309
+msgid "Time notation:"
+msgstr ""
+
+#: fitness-club.php:4315
+msgid "24 hours"
+msgstr ""
+
+#: fitness-club.php:4315
+msgid "12 hours"
+msgstr ""
+
+#: fitness-club.php:4384
+msgid "BT Recent Posts"
+msgstr ""
+
+#: fitness-club.php:4385
+msgid "Recent posts with thumbnails."
+msgstr ""
+
+#: fitness-club.php:4444
+msgid "Recent Posts"
+msgstr ""
+
+#: fitness-club.php:4452
+msgid "Number of posts:"
+msgstr ""
+
+#: fitness-club.php:4478
+msgid "BT Recent Comments"
+msgstr ""
+
+#: fitness-club.php:4479
+msgid "Recent comments with avatars."
+msgstr ""
+
+#: fitness-club.php:4513
+msgid "Recent Comments"
+msgstr ""
+
+#: fitness-club.php:4521
+msgid "Number of comments:"
+msgstr ""
+
+#: fitness-club.php:4894
+msgid "Portfolio Item"
+msgstr ""
+
+#: fitness-club.php:4903
+msgid "Portfolio Categories"
+msgstr ""
+
+#: section_anims.php:7
+msgid "Move to left | from right"
+msgstr ""
+
+#: section_anims.php:8
+msgid "Move to right | from left"
+msgstr ""
+
+#: section_anims.php:9
+msgid "Move to top | from bottom"
+msgstr ""
+
+#: section_anims.php:10
+msgid "Move to bottom | from top"
+msgstr ""
+
+#: section_anims.php:11
+msgid "Fade | from right"
+msgstr ""
+
+#: section_anims.php:12
+msgid "Fade | from left"
+msgstr ""
+
+#: section_anims.php:13
+msgid "Fade | from bottom"
+msgstr ""
+
+#: section_anims.php:14
+msgid "Fade | from top"
+msgstr ""
+
+#: section_anims.php:15
+msgid "Fade left | Fade right"
+msgstr ""
+
+#: section_anims.php:16
+msgid "Fade right | Fade left"
+msgstr ""
+
+#: section_anims.php:17
+msgid "Fade top | Fade bottom"
+msgstr ""
+
+#: section_anims.php:18
+msgid "Fade bottom | Fade top"
+msgstr ""
+
+#: section_anims.php:19
+msgid "Different easing | from right"
+msgstr ""
+
+#: section_anims.php:20
+msgid "Different easing | from left"
+msgstr ""
+
+#: section_anims.php:21
+msgid "Different easing | from bottom"
+msgstr ""
+
+#: section_anims.php:22
+msgid "Different easing | from top"
+msgstr ""
+
+#: section_anims.php:23
+msgid "Scale down | from right"
+msgstr ""
+
+#: section_anims.php:24
+msgid "Scale down | from left"
+msgstr ""
+
+#: section_anims.php:25
+msgid "Scale down | from bottom"
+msgstr ""
+
+#: section_anims.php:26
+msgid "Scale down | from top"
+msgstr ""
+
+#: section_anims.php:27
+msgid "Scale down | scale down"
+msgstr ""
+
+#: section_anims.php:28
+msgid "Scale up | scale up"
+msgstr ""
+
+#: section_anims.php:29
+msgid "Move to left | scale up"
+msgstr ""
+
+#: section_anims.php:30
+msgid "Move to right | scale up"
+msgstr ""
+
+#: section_anims.php:31
+msgid "Move to top | scale up"
+msgstr ""
+
+#: section_anims.php:32
+msgid "Move to bottom | scale up"
+msgstr ""
+
+#: section_anims.php:33
+msgid "Scale down | scale up"
+msgstr ""
+
+#: section_anims.php:34
+msgid "Glue left | from right"
+msgstr ""
+
+#: section_anims.php:35
+msgid "Glue right | from left"
+msgstr ""
+
+#: section_anims.php:36
+msgid "Glue bottom | from top"
+msgstr ""
+
+#: section_anims.php:37
+msgid "Glue top | from bottom"
+msgstr ""
+
+#: section_anims.php:38
+msgid "Flip right"
+msgstr ""
+
+#: section_anims.php:39
+msgid "Flip left"
+msgstr ""
+
+#: section_anims.php:40
+msgid "Flip top"
+msgstr ""
+
+#: section_anims.php:41
+msgid "Flip bottom"
+msgstr ""
+
+#: section_anims.php:42
+msgid "Push left | from right"
+msgstr ""
+
+#: section_anims.php:43
+msgid "Push right | from left"
+msgstr ""
+
+#: section_anims.php:44
+msgid "Push top | from bottom"
+msgstr ""
+
+#: section_anims.php:45
+msgid "Push bottom | from top"
+msgstr ""
+
+#: section_anims.php:46
+msgid "Push left | pull right"
+msgstr ""
+
+#: section_anims.php:47
+msgid "Push right | pull left"
+msgstr ""
+
+#: section_anims.php:48
+msgid "Push top | pull bottom"
+msgstr ""
+
+#: section_anims.php:49
+msgid "Push bottom | pull top"
+msgstr ""
+
+#: section_anims.php:50
+msgid "Fold left | from right"
+msgstr ""
+
+#: section_anims.php:51
+msgid "Fold right | from left"
+msgstr ""
+
+#: section_anims.php:52
+msgid "Fold top | from bottom"
+msgstr ""
+
+#: section_anims.php:53
+msgid "Fold bottom | from top"
+msgstr ""
+
+#: section_anims.php:54
+msgid "Move to right | unfold left"
+msgstr ""
+
+#: section_anims.php:55
+msgid "Move to left | unfold right"
+msgstr ""
+
+#: section_anims.php:56
+msgid "Move to bottom | unfold top"
+msgstr ""
+
+#: section_anims.php:57
+msgid "Move to top | unfold bottom"
+msgstr ""
+
+#: section_anims.php:58
+msgid "Room to left"
+msgstr ""
+
+#: section_anims.php:59
+msgid "Room to right"
+msgstr ""
+
+#: section_anims.php:60
+msgid "Room to top"
+msgstr ""
+
+#: section_anims.php:61
+msgid "Room to bottom"
+msgstr ""
+
+#: section_anims.php:62
+msgid "Cube to left"
+msgstr ""
+
+#: section_anims.php:63
+msgid "Cube to right"
+msgstr ""
+
+#: section_anims.php:64
+msgid "Cube to top"
+msgstr ""
+
+#: section_anims.php:65
+msgid "Cube to bottom"
+msgstr ""
+
+#: section_anims.php:66
+msgid "Carousel to left"
+msgstr ""
+
+#: section_anims.php:67
+msgid "Carousel to right"
+msgstr ""
+
+#: section_anims.php:68
+msgid "Carousel to top"
+msgstr ""
+
+#: section_anims.php:69
+msgid "Carousel to bottom"
+msgstr ""
+
+#: section_anims.php:70
+msgid "Sides"
+msgstr ""
+
+#: section_anims.php:71
+msgid "Slide"
+msgstr ""
+
+#: framework_plugin/framework.php:51
+msgid "Custom JS (Top)"
+msgstr ""
+
+#: framework_plugin/framework.php:73
+msgid "Custom JS (Bottom)"
+msgstr ""
+
+#: framework_plugin/framework.php:97 framework_plugin/framework.php:206
+#: framework_plugin/framework.php:315
+msgid "Share on Facebook"
+msgstr ""
+
+#: framework_plugin/framework.php:118 framework_plugin/framework.php:227
+#: framework_plugin/framework.php:336
+msgid "Share on Twitter"
+msgstr ""
+
+#: framework_plugin/framework.php:139 framework_plugin/framework.php:249
+#: framework_plugin/framework.php:358
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: framework_plugin/framework.php:160 framework_plugin/framework.php:270
+#: framework_plugin/framework.php:380
+msgid "Share on VK"
+msgstr ""
+
+#: framework_plugin/framework.php:182 framework_plugin/framework.php:291
+#: framework_plugin/framework.php:401
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: week/content.php:24
+msgid "Week Navigation"
+msgstr ""
+
+#: week/content.php:86
+#, php-format
+msgid "View %1$s %2$s"
+msgid_plural "View All %1$s %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: week/content.php:102
+msgid "No Events Today"
+msgstr ""
+
+#: week/week.php:138
+#, php-format
+msgid "%s for week of %s"
+msgstr ""
+
+#: week/week.php:159
+msgid "<span>&laquo;</span> <span class=\"bt-nav-label\">Previous</span>"
+msgstr ""
+
+#: week/week.php:180
+msgid "<span class=\"bt-nav-label\">Next</span> <span>&raquo;</span>"
+msgstr ""

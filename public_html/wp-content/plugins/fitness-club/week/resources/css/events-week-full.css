@@ -1,0 +1,206 @@
+/**
+ * Week View  CSS file 
+ *
+ */
+
+/*
+* This Week Widget CSS */
+.bt-this-week-widget-wrapper {
+	position: relative;
+	width: 100%;
+}
+.bt-this-week-widget-weekday-wrapper {
+	margin-bottom: 10px;
+	min-height: 170px;
+	overflow: hidden;
+}
+.bt-this-week-widget-day {
+	margin: 15px 0;
+}
+.bt-this-week-widget-wrapper .bt-events-page-title {
+	font-size: 26px;
+	text-align: center;
+}
+.bt-events-visuallyhidden {
+	display: none;
+}
+/*
+* This Week Widget Nav CSS */
+.entry-content ul.bt-events-sub-nav,
+.bt-events-sub-nav {
+	font-size: 14px;
+	line-height: normal;
+	list-style-type: none;
+	margin: 0 0 15px;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+}
+.bt-events-sub-nav .bt-this-week-nav-link.nav-next,
+.bt-events-sub-nav .bt-this-week-nav-link.nav-previous {
+	border: none;
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	margin: 0 .5% 0 0;
+	padding: 8px 0;
+	padding: .5rem 0;
+	text-align: left;
+}
+.bt-events-sub-nav .bt-this-week-nav-link.nav-next {
+	float: right;
+	margin: 0 0 0 .5%;
+	text-align: right;
+}
+/*
+* This Week Widget Common CSS */
+.bt-this-week-widget-header-date {
+	background-color: #f5f5f5;
+	border: none;
+	color: #333;
+	font-weight: 700;
+	margin-bottom: 8px;
+	padding: 5px 0;
+	text-align: center;
+}
+.bt-this-week-widget-day-wrap {
+	padding: 0 6px 6px 0;
+}
+.bt-this-week-event {
+	border-left: 4px #f5f5f5 solid;
+	margin-bottom: 8px;
+	padding: 0 0 0 6px;
+}
+.bt-this-week-widget-wrapper .entry-title,
+.bt-this-week-widget-wrapper .entry-title a {
+	color: #333;
+	font-size: 16px;
+	margin: 0;
+	text-decoration: none;
+}
+.bt-this-week-widget-wrapper .bt-this-week-widget-day .bt-venue a {
+	text-decoration: underline;
+}
+.bt-this-week-widget-wrapper .bt-this-week-widget-day .bt-venue,
+.bt-this-week-widget-wrapper .bt-this-week-widget-day .duration {
+	font-size: 13px;
+	line-height: 1;
+}
+.bt-this-week-widget-day {
+	font-size: 16px;
+	margin: 0;
+}
+/*
+* This Week Widget Vertical CSS */
+.bt-this-week-widget-vertical .bt-this-week-widget-day {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 16px;
+	vertical-align: top;
+}
+.bt-this-week-widget-vertical .bt-this-week-widget-header-date {
+	padding-left: 15px;
+	text-align: left;
+}
+/*
+* This Week Widget Horizontal CSS */
+.bt-this-week-widget-horizontal .bt-this-week-widget-day {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	font-size: 14px;
+	vertical-align: top;
+	width: 14.28%;
+}
+.bt-this-week-widget-horizontal .bt-this-week-widget-hide-weekends .bt-this-week-widget-day {
+	width: 20%;
+}
+.bt-this-week-widget-horizontal .entry-title,
+.bt-this-week-widget-horizontal .entry-title a {
+	font-size: 14px;
+}
+/*
+* AJAX */
+.bt-events-ajax-loading {
+	background: #666;
+	border-radius: 5px;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	display: none;
+	left: 50%;
+	margin-left: -27px;
+	padding: 15px;
+	position: absolute;
+	top: 150px;
+	z-index: 10;
+}
+.bt-events-spinner-medium {
+	height: 24px;
+	width: 24px;
+}
+.bt-events-ajax-loading.bt-events-active-spinner,
+.bt-events-ajax-loading.bt-events-active-spinner img,
+.bt-events-loading .bt-events-ajax-loading {
+	display: block;
+}
+/*
+* Twenty Fourteen CSS */
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .this-week-past .type-bt_events,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .this-week-past .type-bt_events {
+	filter: Alpha(opactiy=7);
+	opacity: .7;
+}
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .entry-title,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .entry-title {
+	line-height: 1.1;
+	margin-bottom: .25em;
+}
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .entry-title a,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .entry-title a {
+	color: #fff;
+}
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .entry-title a:hover,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .entry-title a:hover {
+	color: #ccc;
+}
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .bt-events-viewmore,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .bt-events-viewmore {
+	border-color: #555;
+	font-size: 12.8px;
+	font-size: .8rem;
+}
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .bt-events-viewmore a,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .bt-events-viewmore a,
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .bt-venue a,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .bt-venue a {
+	color: #ccc;
+	line-height: 1.25;
+}
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .bt-events-viewmore a:hover,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .bt-events-viewmore a:hover,
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .bt-venue a:hover,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .bt-venue a:hover {
+	color: #aaa;
+}
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .duration,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .duration {
+	color: #90BBD0;
+	margin-bottom: .25em;
+}
+.bt-theme-twentyfourteen .primary-sidebar .bt-this-week-widget-wrapper .bt-this-week-widget-day,
+.bt-theme-twentyfourteen .footer-sidebar .bt-this-week-widget-wrapper .bt-this-week-widget-day {
+	color: #90BBD0;
+}
+@media only screen and (max-width: 767px) {
+	.bt-this-week-widget-wrapper {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+	.bt-this-week-widget-horizontal .bt-this-week-widget-hide-weekends .bt-this-week-widget-day,
+	.bt-this-week-widget-horizontal .bt-this-week-widget-day {
+		width: 100%;
+	}
+}

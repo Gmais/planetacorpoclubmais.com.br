@@ -1,0 +1,166 @@
+--- 
+files: 
+  certificate: 
+    _wildcard__planetacorpoclubmais_com_br_c3728_8779d_1779135951_f10e9c88edef39e785b2c14c8d7e91bf: 
+      created: '1773585617'
+      domains: 
+        - "*.planetacorpoclubmais.com.br"
+        - planetacorpoclubmais.com.br
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “planetacorpoclubmais.com.br” 1773585617.0
+      id: _wildcard__planetacorpoclubmais_com_br_c3728_8779d_1779135951_f10e9c88edef39e785b2c14c8d7e91bf
+      is_self_signed: 0
+      issuer.commonName: R12
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: c3728f2fb6baaf1332117807da01550fc0df1d3f61e761a01ff2c655545ffc5b781a96d6845609177273f0e3c66664dccc0f51b156b3dd472c451fc402c1992a0c56b4ba8933de6c71d9b33dc0a969867df81805fc422b6f7499c2342280dbfa7879e686469026eca6f98ca4d79af438f45aaa7af46c1b2128f62380e0651512f7e40f6170ff1197e11a2ff28b4149a6b94654259d79dc47c404013d12b5b091c761ff4a4e4585e1fca5f0f24ec5ef35253af5ee2a9da3c1dd66f86e91675ab86bf1457b06a0cfdf5a7f4f022fb28ed9172a6a0e493691ba315b54328f6b2f8fc2f5753a5a440d8a6e60ca0caa88d84293d0020414661b79db5fcb6d9368779d
+      modulus_length: 2048
+      not_after: '1779135951'
+      not_before: '1771359952'
+      serial: 05fe37dfb2a1030a34065ec199128d877227
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: "*.planetacorpoclubmais.com.br"
+      validation_type: dv
+    _wildcard__planetacorpoclubmais_com_br_c653c_93de7_1773858655_5ec161b1f373233a36685c0ea142814a: 
+      created: '1766086169'
+      domains: 
+        - "*.planetacorpoclubmais.com.br"
+        - planetacorpoclubmais.com.br
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “planetacorpoclubmais.com.br” 1766086169.0
+      id: _wildcard__planetacorpoclubmais_com_br_c653c_93de7_1773858655_5ec161b1f373233a36685c0ea142814a
+      is_self_signed: 0
+      issuer.commonName: R13
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: c653cad2080184d558f26bafb4694d18528d91f1668046689c26ce9e34de1acf21b7e89f0a173e14436c2f0f7243841da08c77527f1b2ec2445ccea168a8db984681cfe740c65e2667a82bc27eee15daac4711233b104ef49560c5f8e33e91b6b2a2124f35c3aec84d791d9d2a2b8a10ac5bfccc549584d328c666a68b00abf719842f40e052e98552e35514ae65c5039272934191a5397b33d7835354473e46fa8b8d7e870b74af2e842560e9d125c3eed89c6672cc4cf1465a90c1b98fc95ba643995c79a4647ccfab9f77f7cd846b9c354106a6aacf4b6dd942fbcea43fffdc3bafd37a6fb771803ce0e3ca54689a6660fad13dbddac71c6cf9cc21093de7
+      modulus_length: 2048
+      not_after: '1773858655'
+      not_before: '1766082656'
+      serial: 0584a0cc95efb21fd60d3355c973f61e36aa
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: "*.planetacorpoclubmais.com.br"
+      validation_type: dv
+    planetacorpoclubmais_com_br_9bfaf_b8121_1781358107_74c9ce8e0bf6ca5404476ec954271c0b: 
+      created: '1773585620'
+      domains: 
+        - "*.planetacorpoclubmais.com.br"
+        - planetacorpoclubmais.com.br
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “planetacorpoclubmais.com.br” 1773585620.0
+      id: planetacorpoclubmais_com_br_9bfaf_b8121_1781358107_74c9ce8e0bf6ca5404476ec954271c0b
+      is_self_signed: 0
+      issuer.commonName: R12
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: 9bfaf378b76f7ee902651304b652431ad9c61d63541a3b8b3ef5fd18371d5b453515ec09ea486e77cc731a6c061bb67ce59ad1dbf7f530f113fd36fdb8521c90982d60ca6a8fe77720866b560df2500544cd8622c5777ff3c2de7b7bcc7c9e9a4579dee64674436befd17f47a3b1ad2bcc8ec0612a76a4b0111b74d4db796fa7a4db4893b8f8c33295190cd2fa42abaa4dcd806154db9e20f37763a02081bb53089dc9541238990a85e86241361f7fc7af97dac5f9223b221119210ee87c46a77db9f4a7d80b9517376b36bd76e828a0013aaedc35890a9901a519ac9944b664b3344e7ea45c85d725707723a6c572bd1d867c1ad96e51c091ef6ca92c9b8121
+      modulus_length: 2048
+      not_after: '1781358107'
+      not_before: '1773582108'
+      serial: 05fc531ebc741ee5b3d811782edb18c72be5
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: planetacorpoclubmais.com.br
+      validation_type: dv
+    planetacorpoclubmais_com_br_fdceb_4402b_1797622095_afa3e17fb28b54fdb6635aa249785387: 
+      created: '1766086095'
+      domains: 
+        - planetacorpoclubmais.com.br
+        - mail.planetacorpoclubmais.com.br
+        - www.planetacorpoclubmais.com.br
+        - cpanel.planetacorpoclubmais.com.br
+        - webmail.planetacorpoclubmais.com.br
+        - webdisk.planetacorpoclubmais.com.br
+        - cpcontacts.planetacorpoclubmais.com.br
+        - cpcalendars.planetacorpoclubmais.com.br
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “planetacorpoclubmais.com.br”
+      id: planetacorpoclubmais_com_br_fdceb_4402b_1797622095_afa3e17fb28b54fdb6635aa249785387
+      is_self_signed: 1
+      issuer.commonName: planetacorpoclubmais.com.br
+      issuer.organizationName: ~
+      key_algorithm: rsaEncryption
+      modulus: fdceba7e9334ebb6abc23680194477f2b506d5a21d190c4253db5fc493e8baec8c2977b13019c65fd3cc067be6aa39526e8b0787a307fa4276a3bfef9b6066489e5cdb011c10176375415e13b7751352a71c493f5dd2f76c8962f1731b7ffb7d842521d56d2257f439c6c6ba14dfd42b2e65b741c2a0e1aec9206621068c6e131707faafe9cbb2ec6605867b6b60487e8152d7b8ca67c033a4a0f215ba6ff5fe7372b43b291ea30f578df4417f66e229d2f422c8432453606f86c65198dc9b6304e052e4977791be05c5c37129b8f649e7a274650c294472ea83036070d847bf2d4ed31f7d6c0889085f473f89407a0eac969f9d5273340f5ab09a7cc074402b
+      modulus_length: 2048
+      not_after: '1797622095'
+      not_before: '1766086095'
+      serial: 3955e2fb
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: planetacorpoclubmais.com.br
+      validation_type: ~
+  key: 
+    9bfaf_b8121_b31c12924249eb932d6182922a0394ff: 
+      created: '1773585620'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “planetacorpoclubmais.com.br” 1773585620.0
+      id: 9bfaf_b8121_b31c12924249eb932d6182922a0394ff
+      key_algorithm: rsaEncryption
+      modulus: 9bfaf378b76f7ee902651304b652431ad9c61d63541a3b8b3ef5fd18371d5b453515ec09ea486e77cc731a6c061bb67ce59ad1dbf7f530f113fd36fdb8521c90982d60ca6a8fe77720866b560df2500544cd8622c5777ff3c2de7b7bcc7c9e9a4579dee64674436befd17f47a3b1ad2bcc8ec0612a76a4b0111b74d4db796fa7a4db4893b8f8c33295190cd2fa42abaa4dcd806154db9e20f37763a02081bb53089dc9541238990a85e86241361f7fc7af97dac5f9223b221119210ee87c46a77db9f4a7d80b9517376b36bd76e828a0013aaedc35890a9901a519ac9944b664b3344e7ea45c85d725707723a6c572bd1d867c1ad96e51c091ef6ca92c9b8121
+      modulus_length: 2048
+    c3728_8779d_693e538221baae627a8ee1d558f000f5: 
+      created: '1773585617'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “planetacorpoclubmais.com.br” 1773585617.0
+      id: c3728_8779d_693e538221baae627a8ee1d558f000f5
+      key_algorithm: rsaEncryption
+      modulus: c3728f2fb6baaf1332117807da01550fc0df1d3f61e761a01ff2c655545ffc5b781a96d6845609177273f0e3c66664dccc0f51b156b3dd472c451fc402c1992a0c56b4ba8933de6c71d9b33dc0a969867df81805fc422b6f7499c2342280dbfa7879e686469026eca6f98ca4d79af438f45aaa7af46c1b2128f62380e0651512f7e40f6170ff1197e11a2ff28b4149a6b94654259d79dc47c404013d12b5b091c761ff4a4e4585e1fca5f0f24ec5ef35253af5ee2a9da3c1dd66f86e91675ab86bf1457b06a0cfdf5a7f4f022fb28ed9172a6a0e493691ba315b54328f6b2f8fc2f5753a5a440d8a6e60ca0caa88d84293d0020414661b79db5fcb6d9368779d
+      modulus_length: 2048
+    c653c_93de7_12de76921a0d72bf86944151b4a702f7: 
+      created: '1766086169'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “planetacorpoclubmais.com.br” 1766086169.0
+      id: c653c_93de7_12de76921a0d72bf86944151b4a702f7
+      key_algorithm: rsaEncryption
+      modulus: c653cad2080184d558f26bafb4694d18528d91f1668046689c26ce9e34de1acf21b7e89f0a173e14436c2f0f7243841da08c77527f1b2ec2445ccea168a8db984681cfe740c65e2667a82bc27eee15daac4711233b104ef49560c5f8e33e91b6b2a2124f35c3aec84d791d9d2a2b8a10ac5bfccc549584d328c666a68b00abf719842f40e052e98552e35514ae65c5039272934191a5397b33d7835354473e46fa8b8d7e870b74af2e842560e9d125c3eed89c6672cc4cf1465a90c1b98fc95ba643995c79a4647ccfab9f77f7cd846b9c354106a6aacf4b6dd942fbcea43fffdc3bafd37a6fb771803ce0e3ca54689a6660fad13dbddac71c6cf9cc21093de7
+      modulus_length: 2048
+    fdceb_4402b_a75ec85b38efae6a03ff3a41077efb3b: 
+      created: '1766086095'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “planetacorpoclubmais.com.br”
+      id: fdceb_4402b_a75ec85b38efae6a03ff3a41077efb3b
+      key_algorithm: rsaEncryption
+      modulus: fdceba7e9334ebb6abc23680194477f2b506d5a21d190c4253db5fc493e8baec8c2977b13019c65fd3cc067be6aa39526e8b0787a307fa4276a3bfef9b6066489e5cdb011c10176375415e13b7751352a71c493f5dd2f76c8962f1731b7ffb7d842521d56d2257f439c6c6ba14dfd42b2e65b741c2a0e1aec9206621068c6e131707faafe9cbb2ec6605867b6b60487e8152d7b8ca67c033a4a0f215ba6ff5fe7372b43b291ea30f578df4417f66e229d2f422c8432453606f86c65198dc9b6304e052e4977791be05c5c37129b8f649e7a274650c294472ea83036070d847bf2d4ed31f7d6c0889085f473f89407a0eac969f9d5273340f5ab09a7cc074402b
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      9bfaf378b76f7ee902651304b652431ad9c61d63541a3b8b3ef5fd18371d5b453515ec09ea486e77cc731a6c061bb67ce59ad1dbf7f530f113fd36fdb8521c90982d60ca6a8fe77720866b560df2500544cd8622c5777ff3c2de7b7bcc7c9e9a4579dee64674436befd17f47a3b1ad2bcc8ec0612a76a4b0111b74d4db796fa7a4db4893b8f8c33295190cd2fa42abaa4dcd806154db9e20f37763a02081bb53089dc9541238990a85e86241361f7fc7af97dac5f9223b221119210ee87c46a77db9f4a7d80b9517376b36bd76e828a0013aaedc35890a9901a519ac9944b664b3344e7ea45c85d725707723a6c572bd1d867c1ad96e51c091ef6ca92c9b8121: 
+        planetacorpoclubmais_com_br_9bfaf_b8121_1781358107_74c9ce8e0bf6ca5404476ec954271c0b: ~
+      c3728f2fb6baaf1332117807da01550fc0df1d3f61e761a01ff2c655545ffc5b781a96d6845609177273f0e3c66664dccc0f51b156b3dd472c451fc402c1992a0c56b4ba8933de6c71d9b33dc0a969867df81805fc422b6f7499c2342280dbfa7879e686469026eca6f98ca4d79af438f45aaa7af46c1b2128f62380e0651512f7e40f6170ff1197e11a2ff28b4149a6b94654259d79dc47c404013d12b5b091c761ff4a4e4585e1fca5f0f24ec5ef35253af5ee2a9da3c1dd66f86e91675ab86bf1457b06a0cfdf5a7f4f022fb28ed9172a6a0e493691ba315b54328f6b2f8fc2f5753a5a440d8a6e60ca0caa88d84293d0020414661b79db5fcb6d9368779d: 
+        _wildcard__planetacorpoclubmais_com_br_c3728_8779d_1779135951_f10e9c88edef39e785b2c14c8d7e91bf: ~
+      c653cad2080184d558f26bafb4694d18528d91f1668046689c26ce9e34de1acf21b7e89f0a173e14436c2f0f7243841da08c77527f1b2ec2445ccea168a8db984681cfe740c65e2667a82bc27eee15daac4711233b104ef49560c5f8e33e91b6b2a2124f35c3aec84d791d9d2a2b8a10ac5bfccc549584d328c666a68b00abf719842f40e052e98552e35514ae65c5039272934191a5397b33d7835354473e46fa8b8d7e870b74af2e842560e9d125c3eed89c6672cc4cf1465a90c1b98fc95ba643995c79a4647ccfab9f77f7cd846b9c354106a6aacf4b6dd942fbcea43fffdc3bafd37a6fb771803ce0e3ca54689a6660fad13dbddac71c6cf9cc21093de7: 
+        _wildcard__planetacorpoclubmais_com_br_c653c_93de7_1773858655_5ec161b1f373233a36685c0ea142814a: ~
+      fdceba7e9334ebb6abc23680194477f2b506d5a21d190c4253db5fc493e8baec8c2977b13019c65fd3cc067be6aa39526e8b0787a307fa4276a3bfef9b6066489e5cdb011c10176375415e13b7751352a71c493f5dd2f76c8962f1731b7ffb7d842521d56d2257f439c6c6ba14dfd42b2e65b741c2a0e1aec9206621068c6e131707faafe9cbb2ec6605867b6b60487e8152d7b8ca67c033a4a0f215ba6ff5fe7372b43b291ea30f578df4417f66e229d2f422c8432453606f86c65198dc9b6304e052e4977791be05c5c37129b8f649e7a274650c294472ea83036070d847bf2d4ed31f7d6c0889085f473f89407a0eac969f9d5273340f5ab09a7cc074402b: 
+        planetacorpoclubmais_com_br_fdceb_4402b_1797622095_afa3e17fb28b54fdb6635aa249785387: ~
+    subject.commonName: 
+      "*.planetacorpoclubmais.com.br": 
+        _wildcard__planetacorpoclubmais_com_br_c3728_8779d_1779135951_f10e9c88edef39e785b2c14c8d7e91bf: ~
+        _wildcard__planetacorpoclubmais_com_br_c653c_93de7_1773858655_5ec161b1f373233a36685c0ea142814a: ~
+      planetacorpoclubmais.com.br: 
+        planetacorpoclubmais_com_br_9bfaf_b8121_1781358107_74c9ce8e0bf6ca5404476ec954271c0b: ~
+        planetacorpoclubmais_com_br_fdceb_4402b_1797622095_afa3e17fb28b54fdb6635aa249785387: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “planetacorpoclubmais.com.br”: planetacorpoclubmais_com_br_fdceb_4402b_1797622095_afa3e17fb28b54fdb6635aa249785387
+      Cert for “planetacorpoclubmais.com.br” 1766086169.0: _wildcard__planetacorpoclubmais_com_br_c653c_93de7_1773858655_5ec161b1f373233a36685c0ea142814a
+      Cert for “planetacorpoclubmais.com.br” 1773585617.0: _wildcard__planetacorpoclubmais_com_br_c3728_8779d_1779135951_f10e9c88edef39e785b2c14c8d7e91bf
+      Cert for “planetacorpoclubmais.com.br” 1773585620.0: planetacorpoclubmais_com_br_9bfaf_b8121_1781358107_74c9ce8e0bf6ca5404476ec954271c0b
+  key: 
+    friendly_name: 
+      Key for “planetacorpoclubmais.com.br”: fdceb_4402b_a75ec85b38efae6a03ff3a41077efb3b
+      Key for “planetacorpoclubmais.com.br” 1766086169.0: c653c_93de7_12de76921a0d72bf86944151b4a702f7
+      Key for “planetacorpoclubmais.com.br” 1773585617.0: c3728_8779d_693e538221baae627a8ee1d558f000f5
+      Key for “planetacorpoclubmais.com.br” 1773585620.0: 9bfaf_b8121_b31c12924249eb932d6182922a0394ff
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      9bfaf378b76f7ee902651304b652431ad9c61d63541a3b8b3ef5fd18371d5b453515ec09ea486e77cc731a6c061bb67ce59ad1dbf7f530f113fd36fdb8521c90982d60ca6a8fe77720866b560df2500544cd8622c5777ff3c2de7b7bcc7c9e9a4579dee64674436befd17f47a3b1ad2bcc8ec0612a76a4b0111b74d4db796fa7a4db4893b8f8c33295190cd2fa42abaa4dcd806154db9e20f37763a02081bb53089dc9541238990a85e86241361f7fc7af97dac5f9223b221119210ee87c46a77db9f4a7d80b9517376b36bd76e828a0013aaedc35890a9901a519ac9944b664b3344e7ea45c85d725707723a6c572bd1d867c1ad96e51c091ef6ca92c9b8121: 9bfaf_b8121_b31c12924249eb932d6182922a0394ff
+      c3728f2fb6baaf1332117807da01550fc0df1d3f61e761a01ff2c655545ffc5b781a96d6845609177273f0e3c66664dccc0f51b156b3dd472c451fc402c1992a0c56b4ba8933de6c71d9b33dc0a969867df81805fc422b6f7499c2342280dbfa7879e686469026eca6f98ca4d79af438f45aaa7af46c1b2128f62380e0651512f7e40f6170ff1197e11a2ff28b4149a6b94654259d79dc47c404013d12b5b091c761ff4a4e4585e1fca5f0f24ec5ef35253af5ee2a9da3c1dd66f86e91675ab86bf1457b06a0cfdf5a7f4f022fb28ed9172a6a0e493691ba315b54328f6b2f8fc2f5753a5a440d8a6e60ca0caa88d84293d0020414661b79db5fcb6d9368779d: c3728_8779d_693e538221baae627a8ee1d558f000f5
+      c653cad2080184d558f26bafb4694d18528d91f1668046689c26ce9e34de1acf21b7e89f0a173e14436c2f0f7243841da08c77527f1b2ec2445ccea168a8db984681cfe740c65e2667a82bc27eee15daac4711233b104ef49560c5f8e33e91b6b2a2124f35c3aec84d791d9d2a2b8a10ac5bfccc549584d328c666a68b00abf719842f40e052e98552e35514ae65c5039272934191a5397b33d7835354473e46fa8b8d7e870b74af2e842560e9d125c3eed89c6672cc4cf1465a90c1b98fc95ba643995c79a4647ccfab9f77f7cd846b9c354106a6aacf4b6dd942fbcea43fffdc3bafd37a6fb771803ce0e3ca54689a6660fad13dbddac71c6cf9cc21093de7: c653c_93de7_12de76921a0d72bf86944151b4a702f7
+      fdceba7e9334ebb6abc23680194477f2b506d5a21d190c4253db5fc493e8baec8c2977b13019c65fd3cc067be6aa39526e8b0787a307fa4276a3bfef9b6066489e5cdb011c10176375415e13b7751352a71c493f5dd2f76c8962f1731b7ffb7d842521d56d2257f439c6c6ba14dfd42b2e65b741c2a0e1aec9206621068c6e131707faafe9cbb2ec6605867b6b60487e8152d7b8ca67c033a4a0f215ba6ff5fe7372b43b291ea30f578df4417f66e229d2f422c8432453606f86c65198dc9b6304e052e4977791be05c5c37129b8f649e7a274650c294472ea83036070d847bf2d4ed31f7d6c0889085f473f89407a0eac969f9d5273340f5ab09a7cc074402b: fdceb_4402b_a75ec85b38efae6a03ff3a41077efb3b

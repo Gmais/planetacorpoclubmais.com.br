@@ -1,0 +1,1255 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202512 will be lost/reset.
+# Last config file used to build this data file was /home/planeta4/tmp/awstats/ssl/awstats.planetacorpoclubmais.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2028                
+POS_TIME 2709                
+POS_VISITOR 27234               
+POS_DAY 30952               
+POS_DOMAIN 3617                
+POS_LOGIN 4065                
+POS_ROBOT 4248                
+POS_WORMS 4792                
+POS_EMAILSENDER 4923                
+POS_EMAILRECEIVER 5066                
+POS_SESSION 31416               
+POS_SIDER 31626               
+POS_FILETYPES 5201                
+POS_DOWNLOADS 5568                
+POS_OS 5680                
+POS_BROWSER 5931                
+POS_SCREENSIZE 6901                
+POS_UNKNOWNREFERER 6975                
+POS_UNKNOWNREFERERBROWSER 13848               
+POS_ORIGIN 20620               
+POS_SEREFERRALS 20765               
+POS_PAGEREFS 20943               
+POS_SEARCHWORDS 21338               
+POS_KEYWORDS 21529               
+POS_MISC 2373                
+POS_ERRORS 21629               
+POS_CLUSTER 3921                
+POS_SIDER_404 21834               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260101004548 230 63654 9775158823406
+FirstTime 20251218163051
+LastTime 20251231224938
+LastUpdate 20260101043919 230 0 227 2 0
+TotalVisits 218                 
+TotalUnique 82                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 95                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 82 132 2885136 21 73 880662
+1 26 26 315780 10 17 234222
+2 77 336 4035661 28 78 1029898
+3 52 312 3691006 14 21 244385
+4 45 189 2818570 5 6 43959
+5 106 338 115899411 10 22 7674820
+6 1325 2867 438275928 159 173 2250243
+7 654 846 31456850 21 31 374438
+8 1673 2587 214979987 72 86 189539
+9 1422 1890 72365262 81 94 109533
+10 537 624 12286670 23 29 232321
+11 387 401 10822222 15 20 89032
+12 437 848 74950169 34 80 599845
+13 582 612 60435358 19 30 188842
+14 206 231 2866111 11 17 353186
+15 61 136 19842262 9 33 1158978
+16 94 118 2930435 3 15 162168
+17 442 727 10827438 39 49 313386
+18 919 1244 58832842 29 47 499383
+19 570 824 75667937 25 75 281709
+20 808 919 25795510 33 39 283956
+21 893 1998 446973572 82 220 1957405
+22 136 397 120663623 61 82 1807685
+23 100 100 2477192 20 28 351619
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+br 8064 13972 1439343625
+ca 3275 3275 59702427
+us 212 607 296809319
+sc 44 559 6005388
+se 12 52 614036
+ir 10 125 1809359
+ro 6 6 79414
+in 4 97 1474611
+jp 1 1 0
+es 1 1 704
+de 1 3 6006848
+pl 1 1 35501
+my 1 1 36578
+gr 1 1 49421
+ru 1 1 35497
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+user 1 1 256 20251223062024
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+Googlebot/ 423 3398773 20251231182544 96
+Googlebot\-Image/ 47 2590909 20251231085059 0
+bingbot/ 20 109584 20251231062528 13
+unknown 20 1580 20251227060327 20
+no_user_agent 4 0 20251221093926 0
+checker 3 94919 20251221011047 0
+bot[\s_+:,\.\;\/\\-] 2 0 20251226095205 1
+(firefox/)([0-9]\.|[0-1][0]\.) 1 35497 20251231225735 0
+facebookexternalhit/ 1 126 20251221144602 1
+Go\-http\-client/ 1 36169 20251220035006 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+jpg 1129 66439611 0 0
+css 940 6519333 0 0
+gif 59 629334 0 0
+woff2 126 4871020 0 0
+xml 1 667 0 0
+html 2476 106769066 0 0
+png 1034 1420241519 0 0
+js 3727 39724478 0 0
+map 5 8232 0 0
+ttf 133 7178569 0 0
+php 8186 156183033 0 0
+svg 179 489553 0 0
+woff 45 2208056 0 0
+json 3 20790 0 0
+Unknown 659 627263 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/wp-content/plugins/wp-file-manager/lib/sounds/rm.wav 0 1 92204
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+ios_iphone 682 493
+win7 291 31
+Unknown 2461 2372
+aix 1 1
+linux 183 28
+macosx15 905 146
+win8 1 1
+win10 12942 8118
+androidmarshmallow 181 119
+android10 266 61
+unix 568 246
+android 222 18
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 45
+chrome141.0.7390.122 180 118
+chrome108.0.0.0 2 2
+firefox123 1 1
+safari18.6 34 11
+opera9.71. 1 1
+chrome115.0.0.0 1 1
+chrome114.0.0.0 456 456
+chrome139.0.0.0 1 1
+chrome133.0.0.0 17 17
+safari13.0.3 37 4
+chrome135.0.0.0 2 2
+safari 525 467
+firefox137.0 62 1
+chrome129.0.0.0 34 10
+Unknown 2456 2367
+safari26.2 35 10
+chrome78.0.3904.108 2 2
+chrome143.0.0.0 13128 7769
+chrome125.0.0.0 1 1
+chrome124.0.0.0 1 1
+chrome60.0.3112.113 4 4
+firefox117.0 1 1
+chrome128.0.0.0 125 10
+chrome142.0.0.0 105 11
+chrome122.0.0.0 2 2
+chrome91.0.4472.124 1 1
+chrome130.0.0.0 36 11
+chrome47.0.1696.1704 1 1
+chrome137.0.0.0 2 2
+safari26.1 84 9
+chrome79.0.3945.88 1 1
+safari17.1 1 1
+chrome117.0.0.0 47 7
+chrome120.0.0.0 2 0
+chrome138.0.0.0 568 246
+mozilla 1 1
+chrome109.0.0.0 560 44
+chrome131.0.0.0 10 5
+netscape5.0 7 7
+chrome32.0.1667.0 1 1
+chrome136.0.0.0 162 21
+chrome89.0.4389.114 1 1
+chrome55.0.2883.87 1 1
+firefox122.0 3 3
+chrome105.0.0.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 236
+z4eOD0419L4i 20251225005106
+Uq5IuB2RSHqG 20251224033531
+8Ytxo8qAKoot 20251224093321
+i9TJOqVpBdgk 20251224083607
+vzmsX1Scgf0N 20251227125351
+kH2uoIxRnjY8 20251223063857
+DV75sp2Ed5ss 20251224090702
+6Ftcf4uuAsql 20251223062232
+ShortPixel/1.0_(_https://shortpixel.com) 20251225182140
+zm1yubc9K7MU 20251224092858
+pxI8iMDzCGi6 20251224083758
+arwNYXiecMIg 20251230080626
+HjvxiTqNtNNc 20251223062430
+d2e2QDS5o6MI 20251227090735
+ng3448LGEwax 20251224093926
+GMTd0ZaChVuP 20251225120259
+jIve4OIJKGaG 20251224085039
+SZNIe3sU1m3E 20251224223233
+xJJyf3sU8bND 20251225160558
+eRi7hRKWnu1b 20251224090256
+TWPlbjC4Df1P 20251223060816
+l9acTrE3ZXj9 20251228214354
+ZhcACy86LYuw 20251224084317
+Nb6l5Wf8JQ4l 20251224093224
+A7uDEuhi8NRz 20251223061351
+HgY836szWyOw 20251224090347
+pDCOCmBed5kA 20251228143346
+QBS6RUB9gmEe 20251224084809
+8yIo75YCae90 20251224093316
+QhvNFpM26vhX 20251229225644
+6oJNK45pzIXw 20251223063558
+xOZjZmiagbVQ 20251227050927
+0mCqKOs8RkW9 20251224091503
+rODE8I3bL22W 20251228191407
+Softaculous 20251218173011
+3qLLMP6boXIR 20251223063521
+KusDWnyjLjHQ 20251223062110
+python-httpx/0.26.0 20251227064729
+TerraCotta_https://github.com/CeramicTeam/CeramicTerracotta 20251224191150
+RtQXr0VGm49M 20251227164247
+krqyWY0sWJD2 20251224113123
+HmmULLPgsmTN 20251223061458
+djcZp050wt6e 20251224090900
+CX39wOMLrZDL 20251224093305
+rrqmSoegCIfl 20251226221754
+b0UrcqnV49va 20251224090457
+mfBMCw4UONEs 20251224083803
+L7BWYb2kzXDJ 20251223062719
+a7LryGK5gTnY 20251225104630
+74x1Hx7O9r6z 20251224094037
+RU53CFjxvxZV 20251223061408
+tAZOShiwCKX5 20251231062544
+\ 20251227151946
+zXJGsH1qhY6V 20251225151558
+TBDehMaKJnbS 20251224082358
+1IkjC7u7wsOn 20251224094108
+54ANLExA8M8H 20251226221951
+vbCDgrKOP29b 20251228004630
+PabwTLqvFRB2 20251223062905
+cPuKmw7KIIhC 20251228130057
+NlJrQotCXRwW 20251226065206
+4V79rALY3aNH 20251223113426
+36JZG7agWokk 20251229170348
+1n4GJkLFS3jM 20251224083743
+cj3ugdD3UdlM 20251224082209
+Ogy0iO6KFk55 20251223064034
+jmod0yu8nm7G 20251224085119
+BmvosxoBUxb5 20251223060516
+7asNbWrPvLmw 20251224191152
+5EY3fGbdi4hf 20251224084059
+uuomZSbuJ9zQ 20251224084317
+cax8A2uGJeoz 20251223061605
+7ycrAkUSolpP 20251226095259
+JH94SLalPFVN 20251224082651
+7L9bGIHZ3G2y 20251224092315
+gVHlDKrMxIMG 20251223064201
+Sh1ztYC671Kw 20251224090055
+0qS0rs2Fhvr9 20251226071805
+oUYOn5AlUyB3 20251226181734
+64KdtA6Frfn5 20251223063203
+RIQ9sto4V8Im 20251226095258
+dMq9T9QRkv0x 20251224092959
+hMuxwOLQ63lO 20251223064106
+CQh3LJCFEzeQ 20251223063700
+5IUHt7iIUXvN 20251224083607
+VTQSfuAtaMhG 20251224084719
+wI5gMklnDJHH 20251226222206
+BBl7ndc6EAKS 20251223063059
+5VuJ4JbqI3p7 20251223063311
+PiKTT85HLacB 20251231182548
+7AxaNv3dUYfW 20251224085441
+2lGK0CuAf9Ou 20251228173730
+gylsWesk5K96 20251231042735
+JbI02Ory5bjQ 20251224083159
+GH7Y6oT6PWM0 20251223061023
+sOcIMV0xZv2S 20251224093928
+wFaNTYBVZYwS 20251224085653
+zLhVOQNbaW8K 20251223064007
+g5LiIBiFxYjP 20251226181742
+0i9VXTV8RSuN 20251231100958
+asNH0hB8OC4a 20251224085744
+EHVLnJSWZtEy 20251228231318
+D4kM2SCTufFa 20251223062023
+fhogWCmZLPHm 20251225002623
+cU1YiHBiivcx 20251230082551
+cz7xLLNTjucO 20251224085946
+edwn66dZFBhC 20251229055535
+LVmzcre5qJnW 20251229001439
+NsGshTT81WpQ 20251228203536
+rQVWvGb1G5Rq 20251224083006
+YdPY37mBEn0o 20251224083406
+3VGjRwmBCiRj 20251224085240
+FVXLDhwc6U8J 20251224082505
+0clckE9MVbNd 20251224082303
+Jd5ETvV5WIPP 20251229232825
+a6AdLoDXwFNw 20251224092858
+RLsdE6kixFJe 20251224082700
+e1vPcrjTBhsU 20251223184833
+N9hcZxK5hEt6 20251224082959
+WEMe3UZhSfoH 20251227164258
+cZyXMNDnTSas 20251223063316
+4QPpwwamru5B 20251226095258
+1ZqE2OTIUNN0 20251224091100
+ukkMi5vlQvlY 20251229194627
+REJhQ5A0pmNa 20251228081111
+GkZn4t5CRAK6 20251226220107
+HvxTiWT53xZG 20251229162654
+fiDCgTELugRr 20251224093722
+VO7MoAJ8TUA9 20251223062000
+WrUabn8nJVBD 20251227020527
+XbD0eoqpmtBf 20251226183924
+EX3AcqhW9Ovq 20251231141037
+7l9lnmeUFlKu 20251223063358
+ePvWnofxX1HS 20251226203455
+TjvzLNH0aGUi 20251223063204
+Gx04SY3k01Ax 20251225012413
+CPUANDxky5xX 20251224084004
+c6cub1q1uV3A 20251230174145
+YwlHslUfqNB5 20251224211228
+ClwHzzo5RAYc 20251224082803
+hDcLatevQRbg 20251224083406
+B0FswLYpSPUJ 20251224083107
+LMCTmU8teD6O 20251223062805
+2bzQfzieNBi7 20251225101236
+RTCew3qhxJQA 20251230230241
+9XtCI3NxBolX 20251230033515
+rzur7xoNjRX7 20251226221755
+Yhvj5ap3O8qw 20251224091704
+aU2LsvFQ3ROI 20251223064351
+Mozilla/5.0 20251221215556
+qEFxQLQPXZbp 20251223063909
+Dp9E4drbuum9 20251223061100
+Sr5j7pHMm31C 20251229133046
+Bjg5j0vor4bg 20251223062458
+zwYfXrVcMpEJ 20251224083658
+dlMzZNETaRtd 20251223061859
+DnnNW9JmFPdo 20251224092710
+cjLM7kxzRY3E 20251224090151
+L8f1BjXzGxjD 20251224085321
+sObrA52KTbvi 20251223064300
+oeDqVzaH6ZwD 20251227042036
+bUa3uTdOkZzW 20251223061702
+AAKpwBriAuHB 20251224092509
+FHPAdmVwBNnj 20251223060914
+E8vNVzXQdsTp 20251224082013
+MVkaMGrguCRe 20251224081808
+9x6b4DSMCNaz 20251224082453
+UnkCXW6amEZa 20251223063346
+Rq6kYNNvDv4X 20251226095258
+ugqPK3qfEOax 20251223062605
+G4CfRRhAZR7q 20251229153901
+TTs7yBsGlSW2 20251225024410
+VH7aTyuPEBdY 20251225021100
+0jksoxe6Ct5o 20251225024417
+iOkreln4Yov7 20251228204514
+gjVXN4Ymu5BH 20251223063758
+vlgrsbOvOPpV 20251224081453
+0KPZxBxjDN3c 20251230233642
+tSJL57OmxphC 20251227060329
+m3f4wXP8Ilgv 20251225182131
+OqlT3cxcG0RH 20251223061758
+vZJm1S3oZHiM 20251223075350
+eK8Hs9yCesx7 20251224082900
+BpXg7wqPQgrH 20251223060515
+fQqQRPE1zuwD 20251226070210
+8yykzZu1FF2e 20251228081046
+dDSaJJ2dODD0 20251225070958
+nh4D57r8M71f 20251224093059
+PjM8qHg474CU 20251224084919
+IZCKv6MXsMix 20251228091828
+UGPjRkqUw5nn 20251229055521
+bBAezqejEcni 20251224082059
+5LL38RWvg8NE 20251224093521
+EfgT1E2bnWBW 20251223061526
+U7vJIuX2mfM2 20251228203414
+AtAAzXYtoPT7 20251225205619
+MZj2joljPU8H 20251223062605
+eExOBWOysyOP 20251224082334
+YRn4nXcbNYXV 20251226222433
+z8ICado2sAj7 20251224080131
+NfNZzV1QY4XV 20251225171141
+pelA036gY6yL 20251231085059
+nL0SkfYE9tRD 20251223092345
+sRXvc4TwfnYE 20251224093321
+1ErWaOlvYxcA 20251224093306
+f7ooXH4tzL78 20251224093521
+FQjapiZqx5TR 20251223063002
+tFTEVSFh22jF 20251224085854
+okJToJdv7byJ 20251223061211
+DUmoV18bFcuR 20251225012418
+zndM9ID3403n 20251228143347
+W4SAgH7plT9A 20251223112302
+WordPress/6.9;_https://planetacorpoclubmais.com.br 20251226181742
+uk4oUC2vWszR 20251224091905
+Mozilla/5.0_(compatible;_UGAResearchAgent/1.0;_Please_visit:_NISLabUGA.github.io) 20251218164402
+7QslCsWi9zG1 20251227231728
+77zkbJLfGs7c 20251223064822
+m3flh28IuA7C 20251224093722
+Tudv8sSDIuDV 20251224085544
+r6Cxo1F03hDx 20251224014212
+4fZ2We5rhJAX 20251224082213
+T6TqGXPOgT5n 20251224092845
+wyAGxamW5gTD 20251224093224
+8ySgDRDNg8DM 20251226182900
+jTqEP7diwEXJ 20251226221753
+VYQ8guLyvJ4L 20251231043719
+XNSqubVgP5pe 20251224033525
+s3z9fKMJELMJ 20251223062305
+qyLDCog94pl6 20251224092106
+DisVOgVqjIQx 20251224110525
+CkJCpuxm5iJq 20251224091306
+MGkx4eIR7yOB 20251224092805
+TrQxcVypRbbK 20251223063319
+60hSlsvjVMUD 20251229233541
+x8qJ4fS1kqFM 20251224001237
+OJHrTu9m2jjc 20251223064401
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 235
+7asNbWrPvLmw 20251224191152
+BmvosxoBUxb5 20251223060516
+jmod0yu8nm7G 20251224085119
+JH94SLalPFVN 20251224082651
+7ycrAkUSolpP 20251226095259
+uuomZSbuJ9zQ 20251224084317
+cax8A2uGJeoz 20251223061605
+5EY3fGbdi4hf 20251224084059
+36JZG7agWokk 20251229170348
+4V79rALY3aNH 20251223113426
+cPuKmw7KIIhC 20251228130057
+NlJrQotCXRwW 20251226065206
+Ogy0iO6KFk55 20251223064034
+1n4GJkLFS3jM 20251224083743
+cj3ugdD3UdlM 20251224082209
+hMuxwOLQ63lO 20251223064106
+VTQSfuAtaMhG 20251224084719
+CQh3LJCFEzeQ 20251223063700
+5IUHt7iIUXvN 20251224083607
+gVHlDKrMxIMG 20251223064201
+0qS0rs2Fhvr9 20251226071805
+Sh1ztYC671Kw 20251224090055
+7L9bGIHZ3G2y 20251224092315
+dMq9T9QRkv0x 20251224092959
+RIQ9sto4V8Im 20251226095258
+oUYOn5AlUyB3 20251226181734
+64KdtA6Frfn5 20251223063203
+dILl202PjAiX 20251224084719
+7AxaNv3dUYfW 20251224085441
+PiKTT85HLacB 20251231182548
+5VuJ4JbqI3p7 20251223063311
+sOcIMV0xZv2S 20251224093928
+GH7Y6oT6PWM0 20251223061023
+wFaNTYBVZYwS 20251224085653
+JbI02Ory5bjQ 20251224083159
+gylsWesk5K96 20251231042735
+2lGK0CuAf9Ou 20251228173730
+wI5gMklnDJHH 20251226222206
+BBl7ndc6EAKS 20251223063059
+fhogWCmZLPHm 20251225002623
+D4kM2SCTufFa 20251223062023
+edwn66dZFBhC 20251229055535
+cU1YiHBiivcx 20251230082551
+cz7xLLNTjucO 20251224085946
+zLhVOQNbaW8K 20251223064007
+g5LiIBiFxYjP 20251226181742
+0i9VXTV8RSuN 20251231100958
+asNH0hB8OC4a 20251224085744
+EHVLnJSWZtEy 20251228231318
+pxI8iMDzCGi6 20251224083758
+arwNYXiecMIg 20251230080626
+HjvxiTqNtNNc 20251223062430
+GMTd0ZaChVuP 20251225120259
+ng3448LGEwax 20251224093926
+d2e2QDS5o6MI 20251227090735
+i9TJOqVpBdgk 20251224083607
+8Ytxo8qAKoot 20251224093321
+Uq5IuB2RSHqG 20251224033531
+z4eOD0419L4i 20251225005106
+ShortPixel/1.0_(_https://shortpixel.com) 20251225182140
+zm1yubc9K7MU 20251224092858
+kH2uoIxRnjY8 20251223063857
+6Ftcf4uuAsql 20251223062232
+DV75sp2Ed5ss 20251224090702
+vzmsX1Scgf0N 20251227125351
+pDCOCmBed5kA 20251228143346
+HgY836szWyOw 20251224090347
+A7uDEuhi8NRz 20251223061351
+6oJNK45pzIXw 20251223063558
+xOZjZmiagbVQ 20251227050927
+QhvNFpM26vhX 20251229225644
+QBS6RUB9gmEe 20251224084809
+8yIo75YCae90 20251224093316
+TWPlbjC4Df1P 20251223060816
+eRi7hRKWnu1b 20251224090256
+SZNIe3sU1m3E 20251224223233
+xJJyf3sU8bND 20251225160558
+jIve4OIJKGaG 20251224085039
+ZhcACy86LYuw 20251224084317
+Nb6l5Wf8JQ4l 20251224093224
+l9acTrE3ZXj9 20251228214354
+krqyWY0sWJD2 20251224113123
+HmmULLPgsmTN 20251223061458
+djcZp050wt6e 20251224090900
+RtQXr0VGm49M 20251227164247
+TerraCotta_https://github.com/CeramicTeam/CeramicTerracotta 20251224191150
+KusDWnyjLjHQ 20251223062110
+python-httpx/0.26.0 20251227064729
+mfBMCw4UONEs 20251224083803
+b0UrcqnV49va 20251224090457
+CX39wOMLrZDL 20251224093305
+rrqmSoegCIfl 20251226221754
+0mCqKOs8RkW9 20251224091503
+3qLLMP6boXIR 20251223063521
+Softaculous 20251218173011
+rODE8I3bL22W 20251228191407
+TBDehMaKJnbS 20251224082358
+zXJGsH1qhY6V 20251225151558
+\ 20251227151946
+PabwTLqvFRB2 20251223062905
+54ANLExA8M8H 20251226221951
+vbCDgrKOP29b 20251228004630
+1IkjC7u7wsOn 20251224094108
+RU53CFjxvxZV 20251223061408
+tAZOShiwCKX5 20251231062544
+74x1Hx7O9r6z 20251224094037
+L7BWYb2kzXDJ 20251223062719
+a7LryGK5gTnY 20251225104630
+tSJL57OmxphC 20251227060329
+0KPZxBxjDN3c 20251230233642
+iOkreln4Yov7 20251228204514
+vlgrsbOvOPpV 20251224081453
+gjVXN4Ymu5BH 20251223063758
+fQqQRPE1zuwD 20251226070210
+8yykzZu1FF2e 20251228081046
+vZJm1S3oZHiM 20251223075350
+OqlT3cxcG0RH 20251223061758
+eK8Hs9yCesx7 20251224082900
+BpXg7wqPQgrH 20251223060515
+m3f4wXP8Ilgv 20251225182131
+G4CfRRhAZR7q 20251229153901
+ugqPK3qfEOax 20251223062605
+Rq6kYNNvDv4X 20251226095258
+UnkCXW6amEZa 20251223063346
+E8vNVzXQdsTp 20251224082013
+9x6b4DSMCNaz 20251224082453
+MVkaMGrguCRe 20251224081808
+0jksoxe6Ct5o 20251225024417
+VH7aTyuPEBdY 20251225021100
+TTs7yBsGlSW2 20251225024410
+NfNZzV1QY4XV 20251225171141
+eExOBWOysyOP 20251224082334
+YRn4nXcbNYXV 20251226222433
+z8ICado2sAj7 20251224080131
+MZj2joljPU8H 20251223062605
+U7vJIuX2mfM2 20251228203414
+AtAAzXYtoPT7 20251225205619
+nL0SkfYE9tRD 20251223092345
+sRXvc4TwfnYE 20251224093321
+pelA036gY6yL 20251231085059
+nh4D57r8M71f 20251224093059
+PjM8qHg474CU 20251224084919
+IZCKv6MXsMix 20251228091828
+dDSaJJ2dODD0 20251225070958
+EfgT1E2bnWBW 20251223061526
+bBAezqejEcni 20251224082059
+5LL38RWvg8NE 20251224093521
+UGPjRkqUw5nn 20251229055521
+WordPress/6.9;_https://planetacorpoclubmais.com.br 20251226181742
+W4SAgH7plT9A 20251223112302
+Tudv8sSDIuDV 20251224085544
+r6Cxo1F03hDx 20251224014212
+uk4oUC2vWszR 20251224091905
+7QslCsWi9zG1 20251227231728
+m3flh28IuA7C 20251224093722
+77zkbJLfGs7c 20251223064822
+f7ooXH4tzL78 20251224093521
+FQjapiZqx5TR 20251223063002
+1ErWaOlvYxcA 20251224093306
+zndM9ID3403n 20251228143347
+okJToJdv7byJ 20251223061211
+DUmoV18bFcuR 20251225012418
+tFTEVSFh22jF 20251224085854
+DisVOgVqjIQx 20251224110525
+CkJCpuxm5iJq 20251224091306
+OJHrTu9m2jjc 20251223064401
+x8qJ4fS1kqFM 20251224001237
+60hSlsvjVMUD 20251229233541
+TrQxcVypRbbK 20251223063319
+MGkx4eIR7yOB 20251224092805
+wyAGxamW5gTD 20251224093224
+T6TqGXPOgT5n 20251224092845
+4fZ2We5rhJAX 20251224082213
+qyLDCog94pl6 20251224092106
+s3z9fKMJELMJ 20251223062305
+XNSqubVgP5pe 20251224033525
+8ySgDRDNg8DM 20251226182900
+VYQ8guLyvJ4L 20251231043719
+jTqEP7diwEXJ 20251226221753
+RLsdE6kixFJe 20251224082700
+Jd5ETvV5WIPP 20251229232825
+a6AdLoDXwFNw 20251224092858
+rQVWvGb1G5Rq 20251224083006
+NsGshTT81WpQ 20251228203536
+LVmzcre5qJnW 20251229001439
+FVXLDhwc6U8J 20251224082505
+0clckE9MVbNd 20251224082303
+3VGjRwmBCiRj 20251224085240
+YdPY37mBEn0o 20251224083406
+XbD0eoqpmtBf 20251226183924
+VO7MoAJ8TUA9 20251223062000
+WrUabn8nJVBD 20251227020527
+fiDCgTELugRr 20251224093722
+GkZn4t5CRAK6 20251226220107
+REJhQ5A0pmNa 20251228081111
+HvxTiWT53xZG 20251229162654
+7l9lnmeUFlKu 20251223063358
+ePvWnofxX1HS 20251226203455
+EX3AcqhW9Ovq 20251231141037
+WEMe3UZhSfoH 20251227164258
+N9hcZxK5hEt6 20251224082959
+e1vPcrjTBhsU 20251223184833
+ukkMi5vlQvlY 20251229194627
+1ZqE2OTIUNN0 20251224091100
+cZyXMNDnTSas 20251223063316
+4QPpwwamru5B 20251226095258
+rzur7xoNjRX7 20251226221755
+Yhvj5ap3O8qw 20251224091704
+2bzQfzieNBi7 20251225101236
+9XtCI3NxBolX 20251230033515
+RTCew3qhxJQA 20251230230241
+Dp9E4drbuum9 20251223061100
+qEFxQLQPXZbp 20251223063909
+aU2LsvFQ3ROI 20251223064351
+c6cub1q1uV3A 20251230174145
+TjvzLNH0aGUi 20251223063204
+CPUANDxky5xX 20251224084004
+Gx04SY3k01Ax 20251225012413
+hDcLatevQRbg 20251224083406
+B0FswLYpSPUJ 20251224083107
+LMCTmU8teD6O 20251223062805
+ClwHzzo5RAYc 20251224082803
+YwlHslUfqNB5 20251224211228
+oeDqVzaH6ZwD 20251227042036
+sObrA52KTbvi 20251223064300
+L8f1BjXzGxjD 20251224085321
+FHPAdmVwBNnj 20251223060914
+AAKpwBriAuHB 20251224092509
+bUa3uTdOkZzW 20251223061702
+zwYfXrVcMpEJ 20251224083658
+Sr5j7pHMm31C 20251229133046
+Bjg5j0vor4bg 20251223062458
+cjLM7kxzRY3E 20251224090151
+DnnNW9JmFPdo 20251224092710
+dlMzZNETaRtd 20251223061859
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3697 3713
+From1 0 0
+From2 10 10
+From3 1 3
+From4 7926 14977
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google_com 1 1
+www_google_com 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://host4069.hospedameusite.net:2083 1 1
+https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_192,h_192/https://planetacorpoclubmais.com.br/wp-content/uploads/2025/12/cropped-Copia-de-high_resolucao_sem_fundo-scaled-1-192x192.png 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+https+//planetacorpoclubmais.com.br/ 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+https 1
+//planetacorpoclubmais.com.br/ 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+410 79 1886301
+301 43 795
+302 361 135405
+404 210 5400049
+500 7 6105
+206 44 7588837
+406 9 7011
+400 6 30
+307 20 15940
+403 24 2397
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 135
+/2016/06/apcturvo@gmail.com 1 -
+/health-club/apcturvo@gmail.com 1 -
+/tag/fitness/42%2099922%202857 1 -
+/.well-known/traffic-advice 2 -
+/2025/12/apcturvo@gmail.com 1 -
+/2016/04/apcturvo@gmail.com 1 -
+/sapp-plugin-activate.php 14 -
+/author/admin/apcturvo@gmail.com 1 -
+/allsitemap.xml 1 -
+/our-classes/cost-calculator/42%2099922%202857 1 -
+/tag/essa-e-a-grande-polemica-nas-vesperas-dos-jogos-olimpicos-de-paris-2024/ 1 -
+/sitemap.txt 1 -
+/tag/gallery/42%2099922%202857 1 -
+/tag/quote/apcturvo@gmail.com 1 -
+/tag/meditation/42%2099922%202857 1 -
+/our-classes/cost-calculator/apcturvo@gmail.com 2 -
+/2016/04/01/training-with-great-music/42%2099922%202857 1 -
+/sxallsitemap.xml 1 -
+/_next/data 2 -
+/tag/gallery/apcturvo@gmail.com 1 -
+/2016/05/18/stretching-is-important/42%2099922%202857 1 -
+/fwktpczs 3 -
+/tag/training/42%2099922%202857 1 -
+/2025/12/18/navigation/ 1 -
+/our-classes/classes-alternate-view/42%2099922%202857 1 -
+/2016/07/03/easy-excercises-on-the-bike/42%2099922%202857 1 -
+/news/42%2099922%202857 1 -
+/tag/stretching/42%2099922%202857 1 -
+/news-grid/apcturvo@gmail.com 1 -
+/2016/04/01/training-with-great-music/apcturvo@gmail.com 1 -
+/our-classes/single-class/apcturvo@gmail.com 1 -
+/tag/audio/42%2099922%202857 1 -
+/2016/07/03/easy-excercises-on-the-bike/apcturvo@gmail.com 1 -
+/tag/outdoors/apcturvo@gmail.com 1 -
+/about-us/ 5 -
+/2016/07/apcturvo@gmail.com 1 -
+/wp-content/plugins/bt_cost_calculator/purify.min.js.map 12 -
+/tag/link/42%2099922%202857 1 -
+/2016/06/08/just-regular-training/42%2099922%202857 1 -
+/tag/stretching/apcturvo@gmail.com 1 -
+/tag/audio/apcturvo@gmail.com 1 -
+/tag/yoga/42%2099922%202857 1 -
+/2016/04/01/inspirational-fitness-quotes/42%2099922%202857 1 -
+/2016/07/22/carousel-gallery-post/42%2099922%202857 1 -
+/2016/07/22/carousel-gallery-post/apcturvo@gmail.com 1 -
+/tag/assedio/ 1 -
+/our-classes/42%2099922%202857 1 -
+/tag/aqua-fitness/apcturvo@gmail.com 1 -
+/tag/grid/apcturvo@gmail.com 1 -
+/main-demo/events/list/ 1 -
+/main-demo/events/today/ 1 -
+/tag/image/apcturvo@gmail.com 1 -
+/tag/video/apcturvo@gmail.com 1 -
+/2016/04/06/ball-fitness/apcturvo@gmail.com 1 -
+/produto/waist-athletic-shorts/ 1 -
+/wp-content/* 2 -
+/tag/dancing/apcturvo@gmail.com 1 -
+/api/actions 2 -
+/tag/corpo/ 1 -
+/b402a9540265badb74412430515d.mka 1 -
+/tag/meditation/apcturvo@gmail.com 1 -
+/wp-admin/admin-ajax.php 15 https://planetacorpoclubmais.com.br/wp-admin/customize.php
+/2016/06/25/4-week-training-program/42%2099922%202857 2 -
+/2016/06/25/4-week-training-program/apcturvo@gmail.com 2 -
+/produto/men-detail-sweatshirt/ 1 -
+/our-approach/42%2099922%202857 1 -
+/our-classes/faq/apcturvo@gmail.com 1 -
+/our-classes/single-class/42%2099922%202857 1 -
+/category/yoga/42%2099922%202857 1 -
+/wp-*.php 2 -
+/wp-content/uploads/2021/09/1627723434b4fff12395514944fadc2486d22e0624_thumbnail_900x.webp 1 -
+/tag/mesa-tera-superficie-preta/ 1 -
+/location/ 2 -
+/tag/training/apcturvo@gmail.com 1 -
+/wp-content/themes/fitness-club/* 1 -
+/2016/05/42%2099922%202857 1 -
+/category/olimpiadas/ 1 -
+/author/ 1 -
+/2016/05/11/cardio-workouts/42%2099922%202857 1 -
+/our-classes/faq/42%2099922%202857 1 -
+/tag/bike/42%2099922%202857 1 -
+/2016/07/42%2099922%202857 1 -
+/2016/04/06/ball-fitness/42%2099922%202857 1 -
+/author/infobold-themes-com/apcturvo@gmail.com 1 -
+/ 2 -
+/2016/05/18/stretching-is-important/apcturvo@gmail.com 1 -
+/2016/04/42%2099922%202857 1 -
+/news-tiles-with-titles/apcturvo@gmail.com 1 -
+/2016/06/08/outdoors-by-your-own/apcturvo@gmail.com 1 -
+/news/apcturvo@gmail.com 1 -
+/2016/06/42%2099922%202857 1 -
+/news/page/2/42%2099922%202857 1 -
+/2016/05/apcturvo@gmail.com 1 -
+/main-demo/news/ 10 -
+/our-classes/classes-alternate-view/apcturvo@gmail.com 2 -
+/tag/inspiration/apcturvo@gmail.com 1 -
+/tag/yoga/apcturvo@gmail.com 1 -
+/news/page/2/apcturvo@gmail.com 1 -
+/tag/academia/ 1 -
+/tag/bike/apcturvo@gmail.com 1 -
+/apps 2 -
+/category/yoga/apcturvo@gmail.com 1 -
+/2016/05/11/cardio-workouts/apcturvo@gmail.com 1 -
+/* 1 -
+/category/fitness/apcturvo@gmail.com 1 -
+/tag/link/apcturvo@gmail.com 1 -
+/news-tiles-with-titles/42%2099922%202857 1 -
+/history/ 2 -
+/main-demo/events/month/ 1 -
+/news/ 2 -
+/tag/fitness/apcturvo@gmail.com 1 -
+/our-classes/apcturvo@gmail.com 1 -
+/3317c688a32dec9b253be01140d9b5c5b545bce4.webm 1 -
+/our-classes/faq/ 2 -
+/api/action 2 -
+/tag/music/42%2099922%202857 1 -
+/category/fitness/42%2099922%202857 1 -
+/2016/04/01/inspirational-fitness-quotes/apcturvo@gmail.com 1 -
+/tag/music/apcturvo@gmail.com 1 -
+/tag/exercicio/ 1 -
+/apcturvo@gmail.com 4 -
+/42%2099922%202857 4 https://planetacorpoclubmais.com.br/
+/produto/breathable-running-shoes/ 1 -
+/2016/06/08/just-regular-training/apcturvo@gmail.com 1 -
+/category/aqua-fitness/apcturvo@gmail.com 1 -
+/coaches/joanna-black/42%2099922%202857 1 -
+/category/dancing/apcturvo@gmail.com 1 -
+/our-classes/class-pricing/42%2099922%202857 1 -
+/our-approach/apcturvo@gmail.com 1 -
+/tag/planeta/ 1 -
+/tag/deixe-de-lado-a-preguica-e-mantenha-se-ativo/ 1 -
+/news-tiles/apcturvo@gmail.com 1 -
+/our-classes/class-pricing/apcturvo@gmail.com 1 -
+/about-us/apcturvo@gmail.com 1 -
+/tag/inspiration/42%2099922%202857 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 95
+177.87.203.195 4852 6412 360625051 20251220092719
+167.114.1.72 3275 3275 59702427 20251231182548
+177.87.200.212 1702 5167 811055774 20251229062615
+177.87.201.200 1137 1280 74915866 20251222110022
+177.87.202.210 257 656 70562937 20251221090317
+66.249.73.14 61 97 2057214 20251221233241
+45.195.57.28 44 560 6005388 20251222031829
+66.249.73.15 35 54 967976 20251221231929
+177.87.203.204 30 103 1730489 20251231074520
+177.87.203.215 30 173 116347515 20251228130054
+66.249.73.1 22 29 761409 20251220181746
+177.86.122.131 21 70 1658466 20251226222418
+173.231.254.204 17 17 603330 20251231224939
+177.87.200.205 13 17 795607 20251222061438
+187.109.203.48 11 34 567106 20251223184829
+151.243.22.19 10 125 1809359 20251231043727
+177.87.201.214 10 35 578743 20251224001223
+37.152.56.151 7 47 426130 20251219192913
+4.155.232.126 7 77 57674655 20251222211454
+66.249.90.206 5 15 274108 20251227164407
+107.166.12.65 5 10 226941 20251219084501
+193.36.225.162 4 4 41303 20251221215556
+23.81.60.166 4 8 181593 20251220035011
+66.249.90.205 4 14 249874 20251227164407
+66.102.7.15 4 37 15218728 20251222210839
+13.211.126.213 1 1 43143 20251222192242
+34.48.71.29 1 1 219400 20251219130722
+45.164.244.128 0 1 70057 
+167.99.215.100 1 1 37406 20251229071611
+104.238.43.38 1 1 704 20251218172228
+131.103.44.158 1 1 38767 20251222194512
+128.192.12.103 1 1 704 20251218164402
+60.53.33.182 1 1 36578 20251230082550
+34.228.215.159 1 1 37405 20251229232825
+192.53.69.233 1 7 129476 20251222194442
+104.236.230.187 1 1 38805 20251219073953
+64.233.172.38 2 2 86272 20251222210833
+73.48.139.245 1 1 45569 20251220194907
+66.249.84.229 2 36 9394231 20251222210838
+193.186.4.239 1 1 35501 20251226222358
+199.244.88.225 0 1 7515 
+192.36.109.129 1 1 37342 20251231063013
+143.198.117.105 1 1 45553 20251220194957
+78.46.81.51 0 1 5649587 
+45.166.27.63 0 1 570 
+209.242.212.47 0 1 1817 
+192.36.109.120 1 1 37335 20251224025057
+35.233.51.162 1 1 196471 20251219102709
+18.232.115.88 1 1 41861 20251222233307
+18.217.130.140 2 2 100410 20251220000932
+150.241.197.22 1 1 704 20251218172228
+66.102.7.14 1 23 31015211 20251222210839
+54.193.6.55 1 1 667 20251224191150
+46.4.97.76 0 1 318499 
+72.14.201.240 1 1 35459 20251226221752
+35.90.136.16 1 1 0 20251222103520
+8.160.40.89 1 1 37753 20251224021407
+185.201.130.168 1 1 35497 20251231150602
+66.102.7.13 2 17 12005684 20251222210849
+23.106.19.123 1 1 37409 20251226040457
+18.132.194.95 2 2 77330 20251229194628
+192.71.10.105 1 1 37407 20251227194047
+178.128.226.82 1 1 49421 20251219153536
+188.214.125.37 1 1 704 20251218163051
+65.108.43.182 2 2 77255 20251221185856
+201.57.89.197 1 24 503625 20251218174556
+66.249.90.192 1 5 47568 20251227164406
+34.255.198.254 1 1 37753 20251223153312
+172.245.102.11 1 1 17723 20251221153024
+90.231.56.134 1 1 38480 20251219001306
+177.54.245.7 0 1 2446 
+199.244.88.220 0 1 7515 
+109.166.40.183 1 1 37407 20251227151946
+199.244.88.221 1 1 45548 20251220201623
+155.94.200.100 1 1 38764 20251222194453
+166.0.51.55 1 1 704 20251218172228
+45.175.217.81 1 1 38841 20251222194444
+34.173.239.49 2 2 37407 20251226095302
+43.229.9.54 1 62 383617 20251221153744
+49.12.146.160 0 3 783237 
+80.89.73.110 1 1 38762 20251222194454
+168.119.110.23 0 76 109991214 
+35.240.128.17 1 1 43271 20251218233642
+43.129.186.231 1 1 0 20251222114355
+4.155.4.251 1 1 43169 20251222211425
+42.105.233.64 1 28 158159 20251222194445
+103.81.231.161 1 1 40130 20251219094327
+159.69.59.235 0 1 740 
+185.12.249.39 1 1 37342 20251231070443
+23.82.106.160 1 1 50279 20251220035000
+66.249.84.228 2 18 7949941 20251222210838
+159.69.59.146 0 2 6190399 
+138.68.243.166 1 1 0 20251223181053
+34.87.42.98 0 1 1374 
+66.249.84.227 3 24 40337845 20251222210849
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20251218 2051 2711 73414197 10
+20251219 3155 4142 240705426 24
+20251220 1113 1226 73434525 30
+20251221 345 739 70550459 20
+20251222 2736 5081 781342172 29
+20251223 639 2297 490324504 17
+20251224 723 1341 53294090 14
+20251225 145 174 4930731 9
+20251226 195 244 6479235 11
+20251227 123 148 3835123 12
+20251228 134 134 3573634 11
+20251229 134 184 4399802 12
+20251230 69 69 1985497 7
+20251231 72 212 3825537 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 18
+0s-30s 144
+5mn-15mn 4
+1h+ 36
+30s-2mn 2
+2mn-5mn 4
+15mn-30mn 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 200
+/wp-admin/admin-ajax.php 5214 2886569 3 18
+/wp-cron.php 1535 0 76 60
+/ 1389 71227416 91 67
+/wp-admin/post.php 794 107737243 1 0
+/wp-json/wp/v2/users/me 630 567068 0 0
+/footer/ 196 5709122 1 1
+/2016/06/08/just-regular-training/ 78 2385093 0 2
+/2016/06/25/4-week-training-program/ 78 2366731 0 1
+/2025/12/18/hello-world/ 77 2294494 2 1
+/2016/06/08/outdoors-by-your-own/ 77 2403971 0 3
+/2016/07/22/carousel-gallery-post/ 77 2342064 0 1
+/2016/07/03/easy-excercises-on-the-bike/ 77 2373529 0 0
+/2016/05/18/stretching-is-important/ 75 2321843 0 17
+/wp-admin/load-styles.php 74 8478857 0 0
+/wp-admin/edit.php 73 3279383 0 0
+/wp-admin/load-scripts.php 69 2595918 0 0
+/wp-admin/admin.php 61 2605716 0 0
+/wp-admin/themes.php 50 1658118 0 0
+/wp-admin/plugins.php 45 2257286 0 0
+/wp-login.php 42 217577 13 5
+/wp-content/themes/fitness-club/fonts/fontawesome-webfont.woff2 40 3086400 0 1
+/wp-content/themes/fitness-club/fonts/btFitnessAndSport.ttf 40 1984080 1 2
+/wp-content/themes/fitness-club/fonts/Business.ttf 37 1953230 1 7
+/wp-content/themes/fitness-club/fonts/Pe-icon-7-stroke.woff 36 2108016 2 1
+/wp-admin/nav-menus.php 36 2570864 0 0
+/category/fitness/ 1 36932 0 0
+/location/ 23 857578 0 0
+/wp-json/wp/v2/types/post 1 987 0 0
+/wp-content/cache/autoptimize/autoptimize_single_11ffc83e941080bdf8f4d711ee15b5fd.php 2 1168 0 0
+/category/dancing/ 1 35776 0 0
+/contact/ 3 107336 1 1
+/wp-content/cache/autoptimize/autoptimize_single_5f2d1c63f3cf4038d6acd93d75cf99e3.php 1 32547 0 0
+/wp-content/cache/autoptimize/autoptimize_single_2382860ce0c0fe5b29f5e1810c7aa3c2.php 2 8704 0 0
+/wp-json/wp-site-health/v1/tests/https-status 1 513 0 0
+/wp-json/wp-site-health/v1/tests/background-updates 1 236 0 0
+/wp-content/cache/autoptimize/autoptimize_single_58b062ca9c4b1aec8f50b122d74761c7.php 1 1691 0 0
+/coaches/ 1 81643 0 0
+/wp-admin/tools.php 4 157718 0 0
+/tag/bike/feed/ 1 1729 0 1
+/clients-testimonials/ 2 68960 0 0
+/author/infobold-themes-com/ 1 37046 1 1
+/wp-content/themes/fitness-club/fonts/Montserrat-Black.woff2 1 14696 0 0
+/tag/image/feed/ 1 4399 0 0
+/tag/quote/ 1 35594 0 0
+/wp-content/cache/autoptimize/autoptimize_single_09b69d6cf20849965604cb7c116bdde5.php 2 3650 0 0
+/wp-content/cache/autoptimize/autoptimize_single_6daae35671acea4ec66f12a5c3bdc11d.php 1 4932 0 0
+/wp-content/cache/autoptimize/autoptimize_single_8370636bee85cf6a5f1ccc1e5a0524a8.php 1 2985 0 0
+/category/yoga/feed/ 1 2916 0 0
+/tag/fitness/ 1 36650 0 0
+/history/ 7 437251 0 0
+/tag/link/feed/ 1 2117 0 1
+/wp-content/cache/autoptimize/autoptimize_single_697e4945d165afd52c972dd0735987f7.php 2 4818 0 0
+/news-grid/ 1 33396 0 0
+/wp-json/wp-site-health/v1/tests/page-cache 1 736 0 0
+/tag/gallery/ 1 34803 0 0
+/tag/music/feed/ 1 1655 0 0
+/2016/04/ 2 70942 0 0
+/news/page/2/ 4 138209 1 1
+/tag/aqua-fitness/feed/ 1 1413 1 0
+/wp-content/cache/autoptimize/autoptimize_single_2e6f8916ce7006edfb27d2edcb9ad961.php 2 3160 0 0
+/tag/inspiration/feed/ 1 1416 0 0
+/wp-content/cache/autoptimize/autoptimize_single_a58c8b707028d070df255c9f126c40e7.php 2 1094 0 0
+/2016/06/ 2 70718 1 0
+/tag/yoga/feed/ 1 1798 0 0
+/category/yoga/ 1 35862 0 1
+/wp-admin/options-writing.php 1 39278 0 0
+/wp-json/wp/v2/block-patterns/patterns 2 40553 0 0
+/wp-admin/profile.php 9 385892 0 0
+/tag/fitness/feed/ 1 4135 0 0
+/our-classes/single-class/ 9 419379 0 1
+/health-club/ 7 458062 1 0
+/tag/training/feed/ 1 3532 0 0
+/wp-admin/post-new.php 1 89391 0 0
+/wp-json/wp-site-health/v1/tests/dotorg-communication 1 258 0 0
+/wp-admin/widgets.php 8 2605200 0 0
+/wp-admin/ 29 1494502 1 0
+/tag/gallery/feed/ 1 1874 0 0
+/wp-json/wp/v2/wp_pattern_category 2 12 0 0
+/wp-admin/update-core.php 2 56448 0 0
+/wp-admin/index.php 10 439770 0 0
+/news-tiles/ 1 33412 0 0
+/wp-content/plugins/bold-page-builder/fonts/bold-builder.ttf 17 179503 0 0
+/coaches/emma-smart/ 1 35050 0 0
+/coaches/patrick-tambay/ 1 35719 0 0
+/wp-content/cache/autoptimize/autoptimize_single_d207f8d73a0062c80637989ef524f72b.php 2 1046 0 0
+/wp-content/plugins/pagelayer/fonts/fa-solid-900.woff2 5 391340 0 0
+/tag/audio/feed/ 1 1655 0 0
+/wp-json/wp/v2/blocks 4 4776 0 0
+/wp-content/cache/autoptimize/autoptimize_single_cdbcd27d4a5bb54aaba592a86b853f07.php 2 17716 0 0
+/wp-content/cache/autoptimize/autoptimize_single_0ba3d71ad0980967a4d3c7dc2ad819ef.php 1 346 0 0
+/tag/training/ 2 71975 0 0
+/our-classes/cost-calculator/ 3 153110 1 0
+/wp-content/themes/fitness-club/fonts/Montserrat-Regular.woff2 18 281232 1 1
+/wp-content/themes/fitness-club/fonts/CraftEssential.ttf 35 2977940 1 1
+/sitemaps.xml 1 667 1 1
+/wp-json/wp/v2/taxonomies 2 836 0 0
+/feed/ 1 4367 0 0
+/wp-admin/options-general.php 18 871992 0 0
+/wp-admin/site-editor.php 2 525596 0 0
+/yoga/ 1 45574 0 0
+/tag/grid/feed/ 1 1491 0 1
+/tag/video/feed/ 1 1431 0 1
+/wp-admin/theme-install.php 1 36459 0 0
+/wp-content/cache/autoptimize/autoptimize_single_4fbf131846806a15c431c3c26feca851.php 2 2906 0 0
+/2016/05/11/cardio-workouts/ 27 793794 1 0
+/wp-json/wp/v2/template-parts 2 2550 0 0
+/2016/04/01/training-with-great-music/ 27 829573 0 4
+/shop/cart/ 1 36258 0 1
+/coaches/julianna-white/ 1 34963 0 0
+/coaches/joanna-black/ 1 35880 1 1
+/author/admin/feed/ 1 803 0 0
+/tag/stretching/feed/ 1 2225 0 0
+/tag/dancing/ 1 34673 1 0
+/tag/music/ 1 34819 1 1
+/wp-content/cache/autoptimize/autoptimize_single_04f3d5547f7e7cec24b3040ac501ad77.php 2 1676 0 0
+/our-classes/classes-alternate-view/ 2 69466 0 0
+/author/admin/ 2 69572 0 0
+/footer-gym/ 6 201574 0 0
+/wp-content/cache/autoptimize/autoptimize_single_073d564bb3bbe474ffc18fd378fe64bc.php 1 1954 0 0
+/comments/feed/ 1 1537 0 0
+/wp-content/plugins/wp-file-manager/lib/fonts/raleway/Raleway-Bold.woff2 1 64352 0 0
+/wp-json/wp/v2/settings 2 2790 0 0
+/wp-content/cache/autoptimize/autoptimize_single_f81e301244662914069179968f9d8061.php 2 4084 0 0
+/tag/stretching/ 1 35324 0 0
+/wp-admin/async-upload.php 32 27769 0 0
+/category/aqua-fitness/ 1 36166 0 0
+/2016/04/01/inspirational-fitness-quotes/ 27 821567 0 0
+/update_pass.php 1 90 0 0
+/personal-trainer/ 2 133909 1 0
+/tag/grid/ 1 34680 0 0
+/wp-admin/customize.php 27 14229270 0 0
+/wp-admin/plugin-install.php 9 428873 0 0
+/2016/05/ 2 70670 0 0
+/wp-content/cache/autoptimize/autoptimize_single_c9fef5c55ae3cd4bbe2f162f31ea2c48.php 1 2069 0 0
+/wp-json/tribe/events/v1 1 2799 0 0
+/our-classes/class-pricing/ 8 419567 0 0
+/2025/12/ 2 69434 1 1
+/category/aqua-fitness/feed/ 1 3093 0 0
+/wp-json/tribe/views/v2 1 269 0 0
+/wp-admin/import.php 1 33227 0 0
+/wp-json/wp/v2/ 2 25299 0 0
+/our-classes/faq/ 2 68898 0 1
+/tag/meditation/ 1 34784 1 0
+/news/ 10 514100 3 1
+/wp-content/cache/autoptimize/autoptimize_single_6f0d0fcee8c9124a4881012fc68ac949.php 1 178 0 0
+/wp-content/cache/autoptimize/autoptimize_single_ba3a85377f583d8010dd7d5cfd2cb296.php 1 5911 0 0
+/wp-admin/site-health.php 1 58819 0 0
+/tag/meditation/feed/ 1 1431 0 1
+/wp-content/cache/autoptimize/autoptimize_single_4cc86d1003c45134d6838f13e3885db1.php 1 584 0 0
+/bsf-sidebar/header-right-widgets-gym/ 3 147007 0 0
+/wp-json/wp-site-health/v1/tests/authorization-header 1 256 0 0
+/wp-admin/update.php 1 6925 0 0
+/check_charset.php 1 77 0 0
+/tag/image/ 1 37259 0 1
+/our-approach/ 14 700383 1 0
+/tag/quote/feed/ 1 2789 0 0
+/wp-admin/revision.php 1 55309 0 0
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 5 94120 0 0
+/wp-content/cache/autoptimize/autoptimize_single_8c887295c3eb7d470a0d468a0ccc8467.php 1 804 0 0
+/wp-admin/upload.php 1 42673 0 0
+/sample-page/ 1 33729 0 1
+/2016/04/06/ball-fitness/ 27 833591 0 0
+/wp-admin/options-reading.php 1 39618 0 0
+/tag/link/ 2 70105 0 1
+/wp-content/plugins/pagelayer/fonts/pagelayer.ttf 4 83816 0 0
+/wp-content/plugins/bold-page-builder/css/front_end/style.crush.css.map 5 8232 0 0
+/wp-json/wp-site-health/v1/tests/loopback-requests 1 236 0 0
+/wp-json/contact-form-7/v1/contact-forms/6593/refill 2 12 0 0
+/ballet/ 2 135253 0 0
+/2016/06/25/4-week-training-program/feed/ 1 525 0 0
+/wp-content/cache/autoptimize/autoptimize_single_1a3bac7d65c7c5851a0b9d9add25cb33.php 2 131440 0 0
+/gym/ 5 322892 0 0
+/wp-content/cache/autoptimize/autoptimize_single_112ff84cb9de5f630790f622925995f0.php 2 998 0 0
+/category/fitness/feed/ 1 4222 0 0
+/tag/yoga/ 1 34670 0 0
+/about-us/ 16 717186 1 1
+/tag/video/ 1 34826 0 1
+/wp-content/themes/fitness-club/fonts/Montserrat-Bold.woff2 18 280080 0 2
+/category/dancing/feed/ 1 2924 1 0
+/news-tiles-with-titles/ 1 33191 0 0
+/wp-content/plugins/pagelayer/fonts/fa-regular-400.woff2 5 66120 0 0
+/wp-content/themes/fitness-club/fonts/Montserrat-SemiBold.woff2 18 370800 1 0
+/wp-json/wp/v2/types/wp_block 2 2014 0 0
+/wp-content/cache/autoptimize/autoptimize_single_472325482e9b83424d492a2e7cc1790b.php 2 6706 0 0
+/tag/inspiration/ 1 34727 1 0
+/tag/outdoors/feed/ 1 1405 0 0
+/tag/dancing/feed/ 1 1796 0 0
+/our-classes/ 11 672147 0 1
+/wp-json/contact-form-7/v1/contact-forms/6593/feedback/schema 2 362 0 0
+/wp-content/plugins/pagelayer/fonts/font-awesome5.json 3 20790 0 0
+/wp-content/plugins/w3-total-cache/pub/fonts/w3tc.woff 4 5920 0 0
+/2016/07/ 2 69940 0 0
+/wp-admin/theme-editor.php 15 1378034 0 0
+/tag/aqua-fitness/ 1 34674 0 0
+/wp-content/cache/autoptimize/autoptimize_single_29bb63b88dd24a8aec5cab1208b06299.php 2 3204 0 0
+/wp-content/themes/fitness-club/fonts/Montserrat-Light.woff2 20 316000 0 0
+/tag/bike/ 1 34611 0 0
+/tag/outdoors/ 1 34691 0 0
+/tag/audio/ 1 34794 1 0
+/wp-admin/about.php 5 140703 0 0
+END_SIDER

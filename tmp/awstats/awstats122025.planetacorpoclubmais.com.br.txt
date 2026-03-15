@@ -1,0 +1,452 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202512 will be lost/reset.
+# Last config file used to build this data file was /home/planeta4/tmp/awstats/awstats.planetacorpoclubmais.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2024                
+POS_TIME 2698                
+POS_VISITOR 10289               
+POS_DAY 11690               
+POS_DOMAIN 3289                
+POS_LOGIN 3595                
+POS_ROBOT 3750                
+POS_WORMS 4065                
+POS_EMAILSENDER 4196                
+POS_EMAILRECEIVER 4339                
+POS_SESSION 12029               
+POS_SIDER 12224               
+POS_FILETYPES 4474                
+POS_DOWNLOADS 4634                
+POS_OS 4682                
+POS_BROWSER 4847                
+POS_SCREENSIZE 5389                
+POS_UNKNOWNREFERER 5463                
+POS_UNKNOWNREFERERBROWSER 6598                
+POS_ORIGIN 7625                
+POS_SEREFERRALS 7757                
+POS_PAGEREFS 7918                
+POS_SEARCHWORDS 8066                
+POS_KEYWORDS 8218                
+POS_MISC 2362                
+POS_ERRORS 8277                
+POS_CLUSTER 3451                
+POS_SIDER_404 8429                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260101013407 6 944 10971454394084
+FirstTime 20251218162913
+LastTime 20251231070442
+LastUpdate 20260101043918 6 0 5 0 0
+TotalVisits 69                  
+TotalUnique 31                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 37                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 0 5 9 71118
+1 2 2 37406 2 2 797
+2 1 1 37335 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 1 1 797
+6 4 4 74749 2 3 35527
+7 2 2 74748 0 0 0
+8 2 2 75147 0 0 0
+9 2 2 0 1 3 0
+10 1 1 0 2 2 0
+11 1 1 0 2 2 37406
+12 10 10 294995 52 60 3288448
+13 4 4 0 6 11 3340
+14 0 0 0 1 1 35955
+15 8 8 37408 4 14 37828
+16 19 23 6715 2 7 122
+17 13 21 275498 3 8 4198
+18 5 5 146695 5 7 34412
+19 5 5 37407 4 9 36469
+20 1 1 0 1 1 0
+21 2 2 0 3 4 36349
+22 2 2 0 1 3 37820
+23 3 3 0 3 8 36324
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+ca 56 56 113095
+us 22 34 649300
+ua 4 4 2106
+se 4 4 149426
+zz 1 1 87
+bg 1 1 146695
+gb 1 1 37394
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+Googlebot/ 23 216457 20251229155232 17
+unknown 10 561 20251229232049 10
+bingbot/ 4 122 20251230160137 4
+bot[\s_+:,\.\;\/\\-] 3 37479 20251226095141 1
+checker 1 37406 20251224111529 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+Unknown 13 947 0 0
+php 47 0 0 0
+svg 3 1233 0 0
+html 29 1084064 0 0
+css 3 3861 0 0
+js 6 7998 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+ios_iphone 2 2
+Unknown 60 60
+linux 16 8
+macosx 3 1
+macosx9 1 1
+android 3 3
+macosx15 2 2
+win10 14 12
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 25
+chrome105.0.0.0 5 5
+chrome78.0.3904.108 2 2
+chrome122.0.0.0 1 1
+safari16.5 1 0
+chrome58.0.3029.110 2 2
+safari 1 1
+chrome86.0.4240.75 2 2
+chrome143.0.0.0 1 1
+safari14.0 1 1
+chrome118.0.2088.11 1 0
+chrome125.0.6422.142 5 1
+mozilla 5 5
+chrome91.0.4472.114 1 1
+chrome117.0.2045.31 1 0
+Unknown 55 55
+firefox126.0 2 1
+chrome116.0.0.0 1 1
+chrome121.0.0.0 1 1
+chrome118.0.0.0 1 1
+chrome135.0.0.0 3 3
+chrome125.0.0.0 5 1
+chrome33.0.1750.152 1 1
+chrome139.0.0.0 1 1
+chrome115.0.0.0 1 1
+firefox123 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 33
+rftp1xLcxwf3 20251224190027
+hzu8DDVQyO7n 20251225163211
+atoKAYw3hND6 20251224191529
+lmbuAKIcyKOi 20251228154151
+ED2tVJg5ZyOx 20251226095258
+Z6xo6qJZmVlC 20251226193940
+SDj3WuvVCSXA 20251227134937
+ABjdPMF2P6yc 20251224131049
+5zTQBMQzVWqu 20251223183559
+1bUzZX5lO6NE 20251229232050
+P0yAHi11Y8qR 20251226120513
+BbLLqicRnjQB 20251226095258
+bBlAZ26FU3sV 20251228122957
+Mk48hgg9b6CT 20251225001401
+WordPress/6.9;_https://planetacorpoclubmais.com.br 20251222211424
+SS6Ir8sZ63im 20251230153419
+KAoRkvyFXfNo 20251229155232
+pfzxiKuIZM1b 20251228062356
+lXz5t3qtZvs4 20251228191403
+QoJjKd9n6iAr 20251226120147
+To1qtRYrdUOw 20251228164552
+RkDwsdy6PHj2 20251225151557
+QBqBbn9Y5EkN 20251227235442
+dfGjXw3oDBRt 20251230160137
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20251218162918
+Cpanel-HTTP-Client/1.0 20251218162913
+jWMAy6orkco9 20251223181052
+BGOrZgW8GtZV 20251226213351
+mEwqqwWPKIUE 20251226120159
+z0lv5Pvz5L7t 20251228220613
+xOQm8jULRxFE 20251223174921
+ovNSUnBrzuBa 20251223224634
+JBPByhlqpDVQ 20251231062523
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 32
+rftp1xLcxwf3 20251224190027
+hzu8DDVQyO7n 20251225163211
+lmbuAKIcyKOi 20251228154151
+Z6xo6qJZmVlC 20251226193940
+ED2tVJg5ZyOx 20251226095258
+atoKAYw3hND6 20251224191529
+BbLLqicRnjQB 20251226095258
+SDj3WuvVCSXA 20251227134937
+ABjdPMF2P6yc 20251224131049
+1bUzZX5lO6NE 20251229232050
+5zTQBMQzVWqu 20251223183559
+P0yAHi11Y8qR 20251226120513
+bBlAZ26FU3sV 20251228122957
+Mk48hgg9b6CT 20251225001401
+SS6Ir8sZ63im 20251230153419
+pfzxiKuIZM1b 20251228062356
+KAoRkvyFXfNo 20251229155232
+QoJjKd9n6iAr 20251226120147
+To1qtRYrdUOw 20251228164552
+lXz5t3qtZvs4 20251228191403
+WordPress/6.9;_https://planetacorpoclubmais.com.br 20251222211424
+dfGjXw3oDBRt 20251230160137
+RkDwsdy6PHj2 20251225151557
+QBqBbn9Y5EkN 20251227235442
+BGOrZgW8GtZV 20251226213351
+mEwqqwWPKIUE 20251226120159
+Cpanel-HTTP-Client/1.0 20251218162913
+jWMAy6orkco9 20251223181052
+JBPByhlqpDVQ 20251231062523
+ovNSUnBrzuBa 20251223224634
+z0lv5Pvz5L7t 20251228220613
+xOQm8jULRxFE 20251223174921
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 88 92
+From1 0 0
+From2 1 1
+From3 0 0
+From4 0 8
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_bing_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+404 46 3396012
+500 2 1810
+302 2 0
+301 51 0
+307 2 1594
+406 5 3895
+403 2 1574
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 42
+/info.php 1 https://www.google.fr/
+/bolt.php 1 https://www.google.co.uk/
+/public/files/ 1 https://www.google.com/
+/wordpress/ 3 -
+/themes.php 1 https://www.google.fr/
+/manager.php 1 https://www.google.de/
+/images/ 1 https://www.google.co.uk/
+/elp.php 1 https://www.google.com/
+/av.php 1 https://www.yahoo.com/
+/abcd.php 1 https://duckduckgo.com/
+/modules/mod_simplefileuploadv1.3/elements/ 1 https://www.google.com/
+/mah.php 1 https://www.google.co.uk/
+/akcc.php 1 https://www.google.com/
+/public/wp-content/ 1 https://www.google.fr/
+/cgi-bin/file.php 1 https://www.google.co.uk/
+/gg.php 1 https://www.google.de/
+/uploads/ 1 https://www.bing.com/
+/alfa.php 1 https://www.google.co.uk/
+/chosen.php 1 https://www.yahoo.com/
+/goods.php 1 https://www.google.com/
+/bless.php 1 https://duckduckgo.com/
+/edit.php 1 https://www.google.de/
+/k.php 1 https://www.bing.com/
+/assets/images/ 1 https://www.google.de/
+/file.php 1 https://www.bing.com/
+/aa.php 1 https://www.google.co.uk/
+/ahax.php 1 https://www.google.fr/
+/classwithtostring.php 1 https://duckduckgo.com/
+/mah/function.php 1 https://www.yahoo.com/
+/radio.php 1 https://www.bing.com/
+/adminfuns.php 1 https://www.google.fr/
+/bzrqhmet 3 -
+/cgi-bin/index.php 1 https://duckduckgo.com/
+/files/ 1 https://www.yahoo.com/
+/admin.php 1 https://www.yahoo.com/
+/404.php 1 https://www.google.com/
+/mini 1 https://www.google.fr/
+/new.php 1 https://duckduckgo.com/
+/buy.php 1 https://www.google.com/
+/xmlrpc.php 1 -
+/autoload_classmap/function.php 1 https://www.google.com/
+/ioxi-o.php 1 https://www.yahoo.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 37
+167.114.1.72 55 55 512 20251231062523
+34.7.9.76 2 2 702 20251218172231
+195.123.244.84 2 2 702 20251218163041
+199.244.88.220 2 2 75160 20251226170908
+34.90.237.120 2 2 293390 20251224120306
+199.244.88.228 1 1 37753 20251223171519
+34.87.42.98 1 1 37407 20251227064728
+157.173.122.176 1 1 37394 20251224082108
+23.178.112.103 1 1 87 20251218162918
+46.202.38.109 1 1 702 20251218172228
+52.14.221.187 1 1 87 20251218162918
+192.36.109.129 1 1 37342 20251231063012
+192.36.109.102 1 1 37335 20251224025056
+56.228.80.106 1 1 87 20251218162919
+199.244.88.231 1 1 37406 20251224171108
+34.90.226.144 1 5 5066 20251218172230
+92.112.4.143 1 1 702 20251218172228
+167.99.215.100 1 1 37406 20251229071610
+34.213.183.87 1 1 87 20251218162918
+192.71.44.44 1 1 37407 20251227194046
+108.165.182.200 1 1 702 20251218172227
+198.145.51.1 1 1 702 20251218172227
+199.244.88.219 1 1 37409 20251225171113
+13.214.163.212 1 1 87 20251218162919
+87.121.218.35 1 1 146695 20251226185134
+18.130.219.83 0 1 411 
+54.146.248.188 0 1 1287 
+15.237.49.162 0 1 2300 
+34.122.147.229 0 1 2300 
+104.197.69.115 0 1 366 
+34.72.176.129 1 3 2400 20251218163243
+54.90.100.71 1 1 37406 20251225014956
+64.15.129.110 1 1 112583 20251218175200
+185.12.150.110 1 1 37342 20251231070442
+20.205.104.22 1 1 1605 20251226120148
+98.94.46.236 1 1 37408 20251230151741
+13.41.73.247 0 1 366 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20251218 25 37 132238 16
+20251219 5 5 0 3
+20251220 3 3 0 3
+20251221 3 3 0 3
+20251222 5 5 0 4
+20251223 5 5 37753 3
+20251224 9 9 443278 7
+20251225 5 5 74815 5
+20251226 10 10 185707 7
+20251227 4 4 74814 4
+20251228 6 6 0 6
+20251229 3 3 37406 3
+20251230 3 3 37408 2
+20251231 3 3 74684 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+2mn-5mn 1
+1h+ 1
+15mn-30mn 2
+30mn-1h 2
+30s-2mn 1
+0s-30s 62
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/wp-cron.php 47 0 37 37
+/ 28 1082459 25 25
+/.well-known/acme-challenge/gDQPU0nB2Cuhphs5T5Skpr_J0Kb7GY_21cSonYJyN5g 5 435 5 5
+/.well-known/acme-challenge/FKEWH55CTTGEG43FNOHM-0W7GL-F2E04 1 64 0 0
+/.well-known/acme-challenge/81IOGF6WQS1TGPUCI1FO011YF_QDKKJR 1 64 0 0
+/.well-known/acme-challenge/0ZQCRTMDYGLVCGXKA5E-K6XJD62KWQ74 1 64 0 1
+/.well-known/acme-challenge/3W7Y5AB7FY1H4ULLG2B2N520CC10O70W 1 64 0 0
+/.well-known/acme-challenge/EQ_P7BLRDPM9_BFLCUQBD64TXIBC6-MG 1 64 1 0
+/.well-known/acme-challenge/IX4SQVSEQCN4HWTB8YWXABWNGNRI3B03 1 64 0 0
+/.well-known/acme-challenge/JDZBO1SJ5_YG16RTPI31YA_B3WU1VQ4Q 1 64 0 0
+/.well-known/acme-challenge/9HYIN7X28A36LIRIH_B3BZBN-FPYE_QW 1 64 0 0
+/.well-known/ 1 1605 1 1
+END_SIDER

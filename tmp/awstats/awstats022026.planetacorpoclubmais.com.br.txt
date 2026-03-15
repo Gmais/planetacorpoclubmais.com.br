@@ -1,0 +1,312 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202602 will be lost/reset.
+# Last config file used to build this data file was /home/planeta4/tmp/awstats/awstats.planetacorpoclubmais.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2024                
+POS_TIME 2698                
+POS_VISITOR 7417                
+POS_DAY 7925                
+POS_DOMAIN 3237                
+POS_LOGIN 3530                
+POS_ROBOT 3685                
+POS_WORMS 3927                
+POS_EMAILSENDER 4058                
+POS_EMAILRECEIVER 4201                
+POS_SESSION 8120                
+POS_SIDER 8300                
+POS_FILETYPES 4336                
+POS_DOWNLOADS 4432                
+POS_OS 4480                
+POS_BROWSER 4617                
+POS_SCREENSIZE 4845                
+POS_UNKNOWNREFERER 4919                
+POS_UNKNOWNREFERERBROWSER 5589                
+POS_ORIGIN 6254                
+POS_SEREFERRALS 6386                
+POS_PAGEREFS 6530                
+POS_SEARCHWORDS 6678                
+POS_KEYWORDS 6830                
+POS_MISC 2362                
+POS_ERRORS 6889                
+POS_CLUSTER 3386                
+POS_SIDER_404 7021                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260207220533 6 819 12896623861471
+FirstTime 20260201080124
+LastTime 20260207220533
+LastUpdate 20260207224540 6 0 6 0 0
+TotalVisits 30                  
+TotalUnique 11                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 11                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 0 1 4 61
+1 0 0 0 0 0 0
+2 1 1 37545 1 1 0
+3 1 1 37959 28 28 11958
+4 1 1 37547 0 0 0
+5 1 1 0 0 2 67
+6 4 4 37957 1 3 61
+7 2 2 0 8 11 15778
+8 4 4 0 2 7 37673
+9 2 2 0 0 2 122
+10 1 1 0 1 5 1027
+11 7 7 0 0 6 30667
+12 1 1 0 1 1 0
+13 1 1 0 2 2 0
+14 0 0 0 0 0 0
+15 0 0 0 1 1 37545
+16 1 1 0 1 1 0
+17 2 2 0 2 2 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 2 2 37485 1 3 61
+22 1 1 37900 0 0 0
+23 2 2 37488 2 2 797
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+ca 26 26 0
+jp 3 3 112873
+se 2 2 75504
+us 2 2 37957
+in 1 1 0
+ru 1 1 0
+de 1 1 37547
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+Googlebot/ 10 733 20260206062833 10
+facebookexternalhit/ 8 457 20260207054457 7
+curl 2 75090 20260205155320 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 26 0 0 0
+html 10 263881 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linux 1 1
+win8.1 1 1
+Unknown 26 26
+macosx7 1 1
+win10 4 4
+ios_iphone 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+firefox115 1 1
+chrome58.0.3029.110 1 1
+chrome122.0.0.0 1 1
+chrome91.0.4472.114 1 1
+Unknown 26 26
+chrome131.0.0.0 1 1
+chrome17.0.963.65 1 1
+safari13.0.3 3 3
+chrome19.0.1084.9 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 18
+2AN6edmqQvPm 20260201112945
+DfAXNjB4zhjk 20260202003103
+bR3SKuToBtAR 20260207054457
+bpiBuNLRgubO 20260202091738
+WordPress/6.9.1;_https://planetacorpoclubmais.com.br 20260204120153
+Zx0iKISvXChP 20260206111756
+BsN7w9eedZtQ 20260205081310
+ZTbKhNimmpB2 20260205082730
+WordPress/6.9;_https://planetacorpoclubmais.com.br 20260203170359
+WGtzoBo3oxoI 20260206062833
+tsd4EHIqF5J6 20260202082053
+d1Y36w0ukASn 20260205162627
+ozGe2Ks5O4hQ 20260206070001
+bCiyBqiXK5AG 20260205213950
+TLdgETDT2iUG 20260206002232
+s70ItLCvAq1L 20260202113853
+DIGYgLYRpj7y 20260201080124
+vJk2IxDAKTpy 20260205095247
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 18
+DfAXNjB4zhjk 20260202003103
+bR3SKuToBtAR 20260207054457
+bpiBuNLRgubO 20260202091738
+2AN6edmqQvPm 20260201112945
+Zx0iKISvXChP 20260206111756
+BsN7w9eedZtQ 20260205081310
+ZTbKhNimmpB2 20260205082730
+WordPress/6.9.1;_https://planetacorpoclubmais.com.br 20260204120153
+WGtzoBo3oxoI 20260206062833
+WordPress/6.9;_https://planetacorpoclubmais.com.br 20260203170359
+tsd4EHIqF5J6 20260202082053
+d1Y36w0ukASn 20260205162627
+ozGe2Ks5O4hQ 20260206070001
+s70ItLCvAq1L 20260202113853
+TLdgETDT2iUG 20260206002232
+bCiyBqiXK5AG 20260205213950
+DIGYgLYRpj7y 20260201080124
+vJk2IxDAKTpy 20260205095247
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 36 36
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+400 18 298
+406 15 11685
+301 22 0
+307 2 1594
+404 3 45960
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 3
+/media/system/js/core.js 1 -
+/wp_admin/admin-ajax.php 1 -
+/Wp-Admin/Admin-Ajax.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 11
+167.114.1.72 26 26 0 20260207054457
+109.172.93.98 1 1 0 20260204063708
+34.177.100.148 1 1 37957 20260206064812
+35.162.188.190 1 1 0 20260202113824
+43.157.188.74 1 1 37488 20260201235116
+49.12.151.216 1 1 0 20260203170340
+43.157.153.236 1 1 37485 20260202212159
+43.164.197.177 1 1 37900 20260207220533 20260207220533 /
+46.228.199.158 1 1 37547 20260202045702
+192.71.12.112 1 1 37545 20260205020958
+93.158.92.11 1 1 37959 20260207031532
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20260201 3 3 37488 3
+20260202 7 7 75032 6
+20260203 6 6 0 5
+20260204 6 6 0 4
+20260205 6 6 37545 5
+20260206 5 5 37957 4
+20260207 3 3 75859 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30mn-1h 3
+0s-30s 23
+5mn-15mn 1
+15mn-30mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/wp-cron.php 26 0 20 20
+/ 10 263881 10 9
+END_SIDER
