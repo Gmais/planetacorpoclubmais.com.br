@@ -91,15 +91,15 @@ get_header(); ?>
 .btIconsContainer {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
+    gap: 30px;
+    flex-wrap: nowrap; /* Prevent wrapping on desktop */
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .btAlunoIconItem {
-    flex: 1;
-    max-width: 380px;
-    min-width: 300px;
-    padding: 60px 40px;
+    flex: 0 1 380px; /* Don't grow, just shrink if needed */
+    padding: 50px 30px;
     background: rgba(255, 255, 255, 0.95);
     border-radius: 20px;
     text-decoration: none !important;
