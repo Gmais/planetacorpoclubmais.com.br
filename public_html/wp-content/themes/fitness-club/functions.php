@@ -435,86 +435,44 @@ require_once( get_template_directory() . '/framework/framework.php' );
 require_once( get_template_directory() . '/php/after_framework.php' );
 
 /**
- * Custom "Espaço do Aluno" Logic
+ * Custom "Espaço do Aluno" Logic - FINAL AGGRESSIVE ATTEMPT
  */
 
-// 1. Injetar no menu de navegação de forma mais robusta (via objetos de menu)
-add_filter( 'wp_get_nav_menu_items', 'bt_inject_student_menu_object', 10, 3 );
-function bt_inject_student_menu_object( $items, $menu, $args ) {
-    // Evitar rodar no admin ou se já existir
-    if ( is_admin() ) return $items;
-    
-    foreach ( $items as $item ) {
-        if ( isset( $item->url ) && strpos( $item->url, 'espaco-aluno' ) !== false ) return $items;
+// 1. Injetar no menu (Direct string injection for better compatibility)
+add_filter( 'wp_nav_menu_items', 'bt_student_space_menu_item_final', 99, 2 );
+function bt_student_space_menu_item_final( $items, $args ) {
+    if ( strpos( $items, 'espaco-aluno' ) === false ) {
+        $items .= '<li class="menu-item bt_student_menu_item"><a href="' . home_url( '/espaco-aluno/' ) . '">ESPAÇO DO ALUNO</a></li>';
     }
-
-    // Criar um item de menu dinâmico
-    $new_item = new stdClass();
-    $new_item->ID = 999999;
-    $new_item->db_id = 999999;
-    $new_item->title = esc_html__( 'ESPAÇO DO ALUNO', 'fitness-club' );
-    $new_item->url = home_url( '/espaco-aluno/' );
-    $new_item->menu_order = count( $items ) + 1;
-    $new_item->menu_item_parent = 0;
-    $new_item->type = 'custom';
-    $new_item->object = 'custom';
-    $new_item->object_id = 0;
-    $new_item->classes = array( 'menu-item', 'bt_student_menu_item' );
-    $new_item->target = '';
-    $new_item->attr_title = '';
-    $new_item->description = '';
-    $new_item->xfn = '';
-    $new_item->status = 'publish';
-
-    $items[] = $new_item;
     return $items;
 }
 
-// 2. Garantir que a página existe, tem o template e não dá 404
-add_action( 'init', 'bt_create_student_space_page' );
-function bt_create_student_space_page() {
-    $page_slug = 'espaco-aluno';
-    $page_title = 'Espaço do Aluno';
-    
-    $page_check = get_page_by_path( $page_slug );
-
-    if ( ! isset( $page_check->ID ) ) {
-        $new_page_id = wp_insert_post( array(
-            'post_type'    => 'page',
-            'post_title'   => $page_title,
-            'post_content' => '',
-            'post_status'  => 'publish',
-            'post_author'  => 1,
-            'post_name'    => $page_slug
-        ));
-        if ( ! is_wp_error( $new_page_id ) ) {
-             flush_rewrite_rules();
-        }
-    } else {
-        $new_page_id = $page_check->ID;
-        if ( get_post_status( $new_page_id ) == 'trash' ) {
-            wp_untrash_post( $new_page_id );
-            flush_rewrite_rules();
+// 2. Forçar template (Crucial for 404 bypass)
+add_filter( 'template_include', 'bt_force_student_space_template_final', 99 );
+function bt_force_student_space_template_final( $template ) {
+    if ( strpos( $_SERVER['REQUEST_URI'], '/espaco-aluno' ) !== false ) {
+        $custom_template = get_template_directory() . '/page-espaco-aluno.php';
+        if ( file_exists( $custom_template ) ) {
+            // Force 200 OK status to bypass 404 logic
+            status_header( 200 );
+            return $custom_template;
         }
     }
-
-    if ( $new_page_id ) {
-        update_post_meta( $new_page_id, '_wp_page_template', 'page-espaco-aluno.php' );
-    }
+    return $template;
 }
 
-// 3. Forçar o carregamento do template se der 404 no slug específico
-add_action( 'template_redirect', 'bt_force_student_space_template' );
-function bt_force_student_space_template() {
-    if ( is_404() ) {
-        $request_uri = $_SERVER['REQUEST_URI'];
-        if ( strpos( $request_uri, '/espaco-aluno' ) !== false ) {
-            $template = get_template_directory() . '/page-espaco-aluno.php';
-            if ( file_exists( $template ) ) {
-                status_header( 200 );
-                include( $template );
-                exit();
-            }
-        }
+// 3. Page Auto-creation (Init hook)
+add_action( 'init', 'bt_create_student_space_page_final' );
+function bt_create_student_space_page_final() {
+    $slug = 'espaco-aluno';
+    if ( ! get_page_by_path( $slug ) ) {
+        wp_insert_post( array(
+            'post_type'    => 'page',
+            'post_title'   => 'Espaço do Aluno',
+            'post_status'  => 'publish',
+            'post_name'    => $slug,
+            'meta_input'   => array( '_wp_page_template' => 'page-espaco-aluno.php' )
+        ));
+        flush_rewrite_rules();
     }
 }
