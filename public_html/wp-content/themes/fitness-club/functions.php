@@ -1,9 +1,5 @@
 <?php
 
-if ( isset( $_GET['teste'] ) ) {
-    die( 'ARQUIVO FUNCTIONS.PHP ESTA SENDO LIDO - VERSAO 2' );
-}
-
 add_action( 'after_setup_theme', 'fitness_club_register_menus' );
 add_action( 'wp_enqueue_scripts', 'fitness_club_enqueue_scripts_styles' );
 add_action( 'tgmpa_register', 'fitness_club_register_plugins' );
