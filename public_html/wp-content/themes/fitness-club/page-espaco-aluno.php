@@ -60,63 +60,69 @@ get_header(); ?>
     transform: scale(1.1);
 }
 
+/* Cache Bust: v5.2 - Force Centering */
 .btEspacoAluno {
     position: relative;
     z-index: 1;
     padding: 80px 20px;
-    text-align: center;
-    width: 100%;
+    text-align: center !important;
+    width: 100% !important;
+    margin: 0 auto !important;
 }
 
 .btPageTitleArea {
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 60px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
 }
 
 .btPageTitle {
-    font-size: 48px;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    display: block;
+    font-size: 48px !important;
+    color: #ffffff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 15px !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5) !important;
+    display: block !important;
+    width: 100% !important;
 }
 
 .btTitleSeparator {
-    width: 80px;
-    height: 4px;
-    background: #FF6F00; /* Laranja vibrante */
-    border-radius: 2px;
+    width: 80px !important;
+    height: 4px !important;
+    background: #FF6F00 !important; /* Laranja vibrante */
+    border-radius: 2px !important;
+    margin: 0 auto !important; /* Force center */
 }
 
 .btIconsContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Precisely 50/50 */
-    gap: 40px;
-    max-width: 700px; /* Reduced further to make cards narrower */
-    margin: 40px auto 0;
-    width: 100%;
-    justify-content: center;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important; /* Precisely 50/50 */
+    gap: 40px !important;
+    max-width: 750px !important; /* Slightly adjusted */
+    margin: 40px auto 0 !important;
+    width: 100% !important;
+    justify-content: center !important;
 }
 
 .btAlunoIconItem {
-    padding: 50px 30px;
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 20px;
+    padding: 50px 30px !important;
+    background: rgba(255, 255, 255, 0.95) !important;
+    border-radius: 20px !important;
     text-decoration: none !important;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
     color: #222 !important;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-    backdrop-filter: blur(10px);
-    text-align: center;
-    box-sizing: border-box;
-    width: 100%;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2) !important;
+    backdrop-filter: blur(10px) !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
 }
 
 .btAlunoIconItem:hover:not(.btNoLink) {
