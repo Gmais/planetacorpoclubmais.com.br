@@ -9,22 +9,22 @@ get_header(); ?>
     <div class="port">
         <div class="btContent">
             <div class="btEspacoAluno">
-                <h1 class="btPageTitle">Espaço do Aluno</h1>
+                <h1 class="btPageTitle"><?php echo esc_html__( 'Espaço do Aluno', 'fitness-club' ); ?></h1>
                 
                 <div class="btIconsContainer">
                     <a href="https://agendaplanetacorpo.lovable.app/login" target="_blank" class="btAlunoIconItem">
                         <div class="btIconWrap">
                             <i class="fa fa-calendar-check-o"></i>
                         </div>
-                        <h3>Agendamento da Avaliação Física</h3>
+                        <h3><?php echo esc_html__( 'Agendamento da Avaliação Física', 'fitness-club' ); ?></h3>
                     </a>
 
                     <a href="#" class="btAlunoIconItem btNoLink">
                         <div class="btIconWrap">
                             <i class="fa fa-history"></i>
                         </div>
-                        <h3>Meu Histórico Treino Monitorado</h3>
-                        <span class="btSoon">(Em breve)</span>
+                        <h3><?php echo esc_html__( 'Meu Histórico Treino Monitorado', 'fitness-club' ); ?></h3>
+                        <span class="btSoon"><?php echo esc_html__( '(Em breve)', 'fitness-club' ); ?></span>
                     </a>
                 </div>
             </div>

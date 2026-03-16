@@ -441,10 +441,14 @@ require_once( get_template_directory() . '/php/after_framework.php' );
 // 1. Injetar no menu de navegação
 add_filter( 'wp_nav_menu_items', 'bt_add_student_space_menu_item', 10, 2 );
 function bt_add_student_space_menu_item( $items, $args ) {
-    if ( $args->theme_location == 'primary' ) {
-        $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page bt_student_menu_item">';
-        $items .= '<a href="' . home_url( '/espaco-aluno/' ) . '">ESPAÇO DO ALUNO</a>';
-        $items .= '</li>';
+    // Injetar se for o menu primário ou se não houver location definida (comum em menus por nome)
+    if ( $args->theme_location == 'primary' || empty( $args->theme_location ) ) {
+        // Evitar duplicidade caso o filtro rode mais de uma vez
+        if ( strpos( $items, 'espaco-aluno' ) === false ) {
+            $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page bt_student_menu_item">';
+            $items .= '<a href="' . home_url( '/espaco-aluno/' ) . '">' . esc_html__( 'ESPAÇO DO ALUNO', 'fitness-club' ) . '</a>';
+            $items .= '</li>';
+        }
     }
     return $items;
 }
@@ -452,22 +456,32 @@ function bt_add_student_space_menu_item( $items, $args ) {
 // 2. Garantir que a página existe e usa o template correto
 add_action( 'init', 'bt_create_student_space_page' );
 function bt_create_student_space_page() {
+    $page_slug = 'espaco-aluno';
     $page_title = 'Espaço do Aluno';
-    $page_content = '';
-    $page_check = get_page_by_title( $page_title );
-    $new_page_id = null;
+    
+    // Verificar por slug em vez de título
+    $page_check = get_page_by_path( $page_slug );
 
     if ( ! isset( $page_check->ID ) ) {
         $new_page_id = wp_insert_post( array(
             'post_type'    => 'page',
             'post_title'   => $page_title,
-            'post_content' => $page_content,
+            'post_content' => '',
             'post_status'  => 'publish',
             'post_author'  => 1,
-            'post_name'    => 'espaco-aluno'
+            'post_name'    => $page_slug
         ));
+        
+        // Garantir que os links permanantes funcionem
+        if ( ! is_wp_error( $new_page_id ) ) {
+            flush_rewrite_rules();
+        }
     } else {
         $new_page_id = $page_check->ID;
+        // Se a página estiver no lixo, restaura
+        if ( get_post_status( $new_page_id ) == 'trash' ) {
+            wp_untrash_post( $new_page_id );
+        }
     }
 
     if ( $new_page_id ) {
