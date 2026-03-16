@@ -439,16 +439,13 @@ require_once( get_template_directory() . '/php/after_framework.php' );
  */
 
 // 1. Injetar no menu de navegação
-add_filter( 'wp_nav_menu_items', 'bt_add_student_space_menu_item', 10, 2 );
+add_filter( 'wp_nav_menu_items', 'bt_add_student_space_menu_item', 20, 2 );
 function bt_add_student_space_menu_item( $items, $args ) {
-    // Injetar se for o menu primário ou se não houver location definida (comum em menus por nome)
-    if ( $args->theme_location == 'primary' || empty( $args->theme_location ) ) {
-        // Evitar duplicidade caso o filtro rode mais de uma vez
-        if ( strpos( $items, 'espaco-aluno' ) === false ) {
-            $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page bt_student_menu_item">';
-            $items .= '<a href="' . home_url( '/espaco-aluno/' ) . '">' . esc_html__( 'ESPAÇO DO ALUNO', 'fitness-club' ) . '</a>';
-            $items .= '</li>';
-        }
+    // Injetar em todos os menus para garantir visibilidade durante o teste
+    if ( strpos( $items, 'espaco-aluno' ) === false ) {
+        $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page bt_student_menu_item">';
+        $items .= '<a href="' . home_url( '/espaco-aluno/' ) . '">' . esc_html__( 'ESPAÇO DO ALUNO', 'fitness-club' ) . '</a>';
+        $items .= '</li>';
     }
     return $items;
 }
@@ -459,7 +456,7 @@ function bt_create_student_space_page() {
     $page_slug = 'espaco-aluno';
     $page_title = 'Espaço do Aluno';
     
-    // Verificar por slug em vez de título
+    // Verificar por slug
     $page_check = get_page_by_path( $page_slug );
 
     if ( ! isset( $page_check->ID ) ) {
@@ -471,14 +468,8 @@ function bt_create_student_space_page() {
             'post_author'  => 1,
             'post_name'    => $page_slug
         ));
-        
-        // Garantir que os links permanantes funcionem
-        if ( ! is_wp_error( $new_page_id ) ) {
-            flush_rewrite_rules();
-        }
     } else {
         $new_page_id = $page_check->ID;
-        // Se a página estiver no lixo, restaura
         if ( get_post_status( $new_page_id ) == 'trash' ) {
             wp_untrash_post( $new_page_id );
         }
@@ -486,5 +477,10 @@ function bt_create_student_space_page() {
 
     if ( $new_page_id ) {
         update_post_meta( $new_page_id, '_wp_page_template', 'page-espaco-aluno.php' );
+        // Forçar flush apenas se a página foi encontrada/criada para resolver o 404
+        if ( ! get_option( 'bt_espaco_aluno_flushed' ) ) {
+            flush_rewrite_rules();
+            update_option( 'bt_espaco_aluno_flushed', true );
+        }
     }
 }
