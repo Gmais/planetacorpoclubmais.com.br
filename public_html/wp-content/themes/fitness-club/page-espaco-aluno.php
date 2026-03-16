@@ -89,18 +89,16 @@ get_header(); ?>
 }
 
 .btIconsContainer {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Precisely 50/50 */
     gap: 30px;
-    flex-wrap: nowrap;
-    max-width: 900px; /* Reduced to make them narrower as requested */
-    margin: 0 auto;
+    max-width: 800px; /* Narrower container as requested */
+    margin: 40px auto 0;
     width: 100%;
 }
 
 .btAlunoIconItem {
-    flex: 0 0 calc(50% - 15px); /* Exactly half minus half the gap */
-    padding: 60px 30px;
+    padding: 50px 20px;
     background: rgba(255, 255, 255, 0.95);
     border-radius: 20px;
     text-decoration: none !important;
