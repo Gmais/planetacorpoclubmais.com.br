@@ -433,3 +433,44 @@ if ( ! isset( $content_width ) ) {
 require_once( get_template_directory() . '/php/before_framework.php' );
 require_once( get_template_directory() . '/framework/framework.php' );
 require_once( get_template_directory() . '/php/after_framework.php' );
+
+/**
+ * Custom "Espaço do Aluno" Logic
+ */
+
+// 1. Injetar no menu de navegação
+add_filter( 'wp_nav_menu_items', 'bt_add_student_space_menu_item', 10, 2 );
+function bt_add_student_space_menu_item( $items, $args ) {
+    if ( $args->theme_location == 'primary' ) {
+        $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page bt_student_menu_item">';
+        $items .= '<a href="' . home_url( '/espaco-aluno/' ) . '">ESPAÇO DO ALUNO</a>';
+        $items .= '</li>';
+    }
+    return $items;
+}
+
+// 2. Garantir que a página existe e usa o template correto
+add_action( 'init', 'bt_create_student_space_page' );
+function bt_create_student_space_page() {
+    $page_title = 'Espaço do Aluno';
+    $page_content = '';
+    $page_check = get_page_by_title( $page_title );
+    $new_page_id = null;
+
+    if ( ! isset( $page_check->ID ) ) {
+        $new_page_id = wp_insert_post( array(
+            'post_type'    => 'page',
+            'post_title'   => $page_title,
+            'post_content' => $page_content,
+            'post_status'  => 'publish',
+            'post_author'  => 1,
+            'post_name'    => 'espaco-aluno'
+        ));
+    } else {
+        $new_page_id = $page_check->ID;
+    }
+
+    if ( $new_page_id ) {
+        update_post_meta( $new_page_id, '_wp_page_template', 'page-espaco-aluno.php' );
+    }
+}
