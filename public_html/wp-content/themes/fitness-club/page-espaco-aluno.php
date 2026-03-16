@@ -91,16 +91,16 @@ get_header(); ?>
 .btIconsContainer {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     flex-wrap: nowrap;
-    max-width: 1100px;
+    max-width: 900px; /* Reduced to make them narrower as requested */
     margin: 0 auto;
     width: 100%;
 }
 
 .btAlunoIconItem {
-    flex: 1; /* Each takes 50% of the space */
-    padding: 60px 40px;
+    flex: 0 0 calc(50% - 15px); /* Exactly half minus half the gap */
+    padding: 60px 30px;
     background: rgba(255, 255, 255, 0.95);
     border-radius: 20px;
     text-decoration: none !important;
@@ -112,6 +112,7 @@ get_header(); ?>
     box-shadow: 0 15px 35px rgba(0,0,0,0.2);
     backdrop-filter: blur(10px);
     text-align: center;
+    box-sizing: border-box;
 }
 
 .btAlunoIconItem:hover:not(.btNoLink) {
