@@ -5,11 +5,15 @@
 
 get_header(); ?>
 
-<div class="btContentWrap btClear">
+<div class="btContentWrap btClear btStudentSpaceParent">
+    <div class="btStudentSpaceBg" style="background-image: url('<?php echo content_url( '/uploads/espaco-aluno/academia-bg.png' ); ?>');"></div>
     <div class="port">
         <div class="btContent">
             <div class="btEspacoAluno">
-                <h1 class="btPageTitle"><?php echo esc_html__( 'Espaço do Aluno', 'fitness-club' ); ?></h1>
+                <div class="btPageTitleArea">
+                    <h1 class="btPageTitle"><?php echo esc_html__( 'Espaço do Aluno', 'fitness-club' ); ?></h1>
+                    <div class="btTitleSeparator"></div>
+                </div>
                 
                 <div class="btIconsContainer">
                     <a href="https://agendaplanetacorpo.lovable.app/login" target="_blank" class="btAlunoIconItem">
@@ -17,6 +21,7 @@ get_header(); ?>
                             <i class="fa fa-calendar-check-o"></i>
                         </div>
                         <h3><?php echo esc_html__( 'Agendamento da Avaliação Física', 'fitness-club' ); ?></h3>
+                        <p><?php echo esc_html__( 'Marque seu horário com nossos profissionais.', 'fitness-club' ); ?></p>
                     </a>
 
                     <a href="#" class="btAlunoIconItem btNoLink">
@@ -24,6 +29,7 @@ get_header(); ?>
                             <i class="fa fa-history"></i>
                         </div>
                         <h3><?php echo esc_html__( 'Meu Histórico Treino Monitorado', 'fitness-club' ); ?></h3>
+                        <p><?php echo esc_html__( 'Acompanhe sua evolução e treinos passados.', 'fitness-club' ); ?></p>
                         <span class="btSoon"><?php echo esc_html__( '(Em breve)', 'fitness-club' ); ?></span>
                     </a>
                 </div>
@@ -33,70 +39,135 @@ get_header(); ?>
 </div>
 
 <style>
+.btStudentSpaceParent {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.btStudentSpaceBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.4) blur(3px);
+    z-index: 0;
+    transform: scale(1.1);
+}
+
 .btEspacoAluno {
-    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+    padding: 80px 0;
     text-align: center;
 }
-.btPageTitle {
-    margin-bottom: 50px;
-    font-size: 36px;
-    color: #e65100; /* Laranja do tema */
+
+.btPageTitleArea {
+    margin-bottom: 60px;
 }
+
+.btPageTitle {
+    font-size: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.btTitleSeparator {
+    width: 80px;
+    height: 4px;
+    background: #FF6F00; /* Laranja vibrante */
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
 .btIconsContainer {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     flex-wrap: wrap;
 }
+
 .btAlunoIconItem {
     flex: 1;
-    max-width: 300px;
-    padding: 40px 20px;
-    background: #fdf2e9;
-    border: 2px solid #e65100;
-    border-radius: 15px;
+    max-width: 380px;
+    min-width: 300px;
+    padding: 60px 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
     text-decoration: none !important;
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #333 !important;
+    color: #222 !important;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
 }
-.btAlunoIconItem:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(230, 81, 0, 0.2);
+
+.btAlunoIconItem:hover:not(.btNoLink) {
+    transform: translateY(-15px);
     background: #ffffff;
+    box-shadow: 0 25px 50px rgba(255, 111, 0, 0.3);
 }
+
 .btIconWrap {
-    font-size: 60px;
-    color: #e65100;
-    margin-bottom: 20px;
+    font-size: 80px;
+    color: #FF6F00;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
 }
+
+.btAlunoIconItem:hover .btIconWrap {
+    transform: scale(1.1);
+}
+
 .btAlunoIconItem h3 {
-    font-size: 20px;
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.btAlunoIconItem p {
+    font-size: 16px;
+    color: #666;
     margin: 0;
-    font-weight: 600;
 }
+
 .btNoLink {
-    opacity: 0.8;
+    opacity: 0.7;
     cursor: default;
-    border-style: dashed;
+    background: rgba(255, 255, 255, 0.8);
+    filter: grayscale(1);
 }
-.btNoLink:hover {
-    transform: none;
-    box-shadow: none;
-    background: #fdf2e9;
-}
+
 .btSoon {
-    display: block;
-    font-size: 14px;
-    color: #888;
-    margin-top: 10px;
+    display: inline-block;
+    font-size: 13px;
+    color: #FF6F00;
+    margin-top: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: rgba(255, 111, 0, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
 }
+
 @media (max-width: 768px) {
     .btIconsContainer {
         flex-direction: column;
         align-items: center;
+    }
+    .btPageTitle {
+        font-size: 32px;
     }
 }
 </style>
