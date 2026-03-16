@@ -63,12 +63,16 @@ get_header(); ?>
 .btEspacoAluno {
     position: relative;
     z-index: 1;
-    padding: 80px 0;
+    padding: 80px 20px;
     text-align: center;
+    width: 100%;
 }
 
 .btPageTitleArea {
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .btPageTitle {
@@ -78,27 +82,28 @@ get_header(); ?>
     letter-spacing: 2px;
     margin-bottom: 15px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    display: block;
 }
 
 .btTitleSeparator {
     width: 80px;
     height: 4px;
     background: #FF6F00; /* Laranja vibrante */
-    margin: 0 auto;
     border-radius: 2px;
 }
 
 .btIconsContainer {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Precisely 50/50 */
-    gap: 30px;
-    max-width: 800px; /* Narrower container as requested */
+    gap: 40px;
+    max-width: 700px; /* Reduced further to make cards narrower */
     margin: 40px auto 0;
     width: 100%;
+    justify-content: center;
 }
 
 .btAlunoIconItem {
-    padding: 50px 20px;
+    padding: 50px 30px;
     background: rgba(255, 255, 255, 0.95);
     border-radius: 20px;
     text-decoration: none !important;
@@ -111,6 +116,7 @@ get_header(); ?>
     backdrop-filter: blur(10px);
     text-align: center;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .btAlunoIconItem:hover:not(.btNoLink) {
