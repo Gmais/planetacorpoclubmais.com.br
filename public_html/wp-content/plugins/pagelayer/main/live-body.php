@@ -33,8 +33,10 @@ global $post, $pagelayer;
 	$icons_list = array();
 	
 	// Load all icons
-	foreach($icons as $icon){
-		$icons_list[] = $icon.'.min.css';
+	if ( is_array( $icons ) ) {
+		foreach($icons as $icon){
+			$icons_list[] = $icon.'.min.css';
+		}
 	}
 	
 	$css_url = admin_url('admin-ajax.php?action=pagelayer_givecss&pagelayer_nonce=1&');

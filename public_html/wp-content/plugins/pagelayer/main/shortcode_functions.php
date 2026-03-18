@@ -35,10 +35,9 @@ function pagelayer_render_blocks($pre_render, $parsed_block){
 	
 	$block_name = $parsed_block['blockName'];
 	$tag = '';
-	$content = $parsed_block['innerHTML'];
 	$inner_blocks = array(
-		'blocks' => $parsed_block['innerBlocks'],
-		'content' => $parsed_block['innerContent']
+		'blocks' => isset($parsed_block['innerBlocks']) ? $parsed_block['innerBlocks'] : array(),
+		'content' => isset($parsed_block['innerContent']) ? $parsed_block['innerContent'] : array()
 	);
 	$atts = $parsed_block['attrs'];
 	$atts['is_not_sc'] = 1;

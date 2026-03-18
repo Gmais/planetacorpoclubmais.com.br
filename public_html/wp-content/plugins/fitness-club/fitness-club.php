@@ -143,7 +143,7 @@ class bt_image  {
 				'show_titles' => $show_titles,
 				'el_style' => $el_style,
 				'el_class' => $el_class,
-				'alt' => get_post_meta($post_image->ID, '_wp_attachment_image_alt', true)
+				'alt' => ( $post_image ? get_post_meta($post_image->ID, '_wp_attachment_image_alt', true) : '' )
 			)
 		);
 	}
@@ -601,9 +601,9 @@ class bt_section {
 		
 		$page_anim = boldthemes_rwmb_meta( BoldThemesFramework::$pfx . '_animations' );
 		
-		$http_user_agent = $_SERVER['HTTP_USER_AGENT'];
+		$http_user_agent = isset( $_SERVER['HTTP_USER_AGENT'] ) ? $_SERVER['HTTP_USER_AGENT'] : '';
 		$is_ie = false;
-		if ( strpos( $http_user_agent, 'MSIE' ) || strpos( $http_user_agent, 'Trident/' ) || strpos( $http_user_agent, 'Edge/' ) ) {
+		if ( $http_user_agent != '' && ( strpos( $http_user_agent, 'MSIE' ) || strpos( $http_user_agent, 'Trident/' ) || strpos( $http_user_agent, 'Edge/' ) ) ) {
 			$is_ie = true;
 		}
 		
