@@ -24,14 +24,29 @@ get_header(); ?>
                         <p><?php echo esc_html__( 'Marque seu horário com nossos profissionais.', 'fitness-club' ); ?></p>
                     </a>
 
-                    <a href="#" class="btAlunoIconItem btNoLink">
+                    <a href="https://cardio-cadence-core.lovable.app/" target="_blank" class="btAlunoIconItem">
                         <div class="btIconWrap">
                             <i class="fa fa-history"></i>
                         </div>
                         <h3><?php echo esc_html__( 'Meu Histórico Treino Monitorado', 'fitness-club' ); ?></h3>
                         <p><?php echo esc_html__( 'Acompanhe sua evolução e treinos passados.', 'fitness-club' ); ?></p>
-                        <span class="btSoon"><?php echo esc_html__( '(Em breve)', 'fitness-club' ); ?></span>
                     </a>
+
+                    <div class="btAlunoIconItem btAppIconItem">
+                        <div class="btIconWrap">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <h3><?php echo esc_html__( 'Aplicativo de Treino', 'fitness-club' ); ?></h3>
+                        <p><?php echo esc_html__( 'Baixe agora em seu celular:', 'fitness-club' ); ?></p>
+                        <div class="btAppLinks">
+                            <a href="https://play.google.com/store/apps/details?id=com.pacto&hl=pt_BR" target="_blank" class="btAppLink btAndroid">
+                                <i class="fa fa-android"></i> Android
+                            </a>
+                            <a href="https://apps.apple.com/br/app/treino/id862662527" target="_blank" class="btAppLink btIos">
+                                <i class="fa fa-apple"></i> iOS
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -100,9 +115,9 @@ get_header(); ?>
 
 .btIconsContainer {
     display: grid !important;
-    grid-template-columns: 1fr 1fr !important; /* Precisely 50/50 */
-    gap: 40px !important;
-    max-width: 750px !important; /* Slightly adjusted */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 30px !important;
+    max-width: 1100px !important;
     margin: 40px auto 0 !important;
     width: 100% !important;
     justify-content: center !important;
@@ -176,12 +191,59 @@ get_header(); ?>
 
 @media (max-width: 768px) {
     .btIconsContainer {
-        flex-direction: column;
+        grid-template-columns: 1fr !important;
         align-items: center;
     }
     .btPageTitle {
         font-size: 32px;
     }
+}
+
+/* App Download Buttons */
+.btAppLinks {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    width: 100%;
+    justify-content: center;
+}
+
+.btAppLink {
+    padding: 12px 20px !important;
+    border-radius: 12px !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    min-width: 130px;
+    justify-content: center;
+}
+
+.btAndroid {
+    background: #FF6F00 !important;
+    color: #fff !important;
+}
+
+.btIos {
+    background: #333 !important;
+    color: #fff !important;
+}
+
+.btAppLink:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+.btAndroid:hover {
+    background: #e66400 !important;
+}
+
+.btIos:hover {
+    background: #000 !important;
 }
 </style>
 
