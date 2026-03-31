@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Movimento - Planeta Corpo Club+</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1a1a1a 0%, #000 100%);
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,102,0,0.1) 0%, transparent 70%);
+            animation: pulse 8s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            max-width: 250px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #FF6600 0%, #FF8C00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: #aaa;
+            font-weight: 300;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Section */
+        .section {
+            padding: 80px 20px;
+            background: #000;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 50px;
+            color: #FF6600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Info Box */
+        .info-box {
+            background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
+            border-radius: 20px;
+            padding: 50px;
+            margin-bottom: 40px;
+            border: 2px solid #FF6600;
+            box-shadow: 0 10px 40px rgba(255,102,0,0.2);
+        }
+
+        .info-box h2 {
+            color: #FF6600;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .info-box p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        /* Como Funciona */
+        .how-it-works {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .step-card {
+            background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
+            border-radius: 15px;
+            padding: 35px;
+            text-align: center;
+            border: 1px solid #333;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .step-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #FF6600 0%, #FF8C00 100%);
+        }
+
+        .step-card:hover {
+            transform: translateY(-10px);
+            border-color: #FF6600;
+            box-shadow: 0 15px 40px rgba(255,102,0,0.3);
+        }
+
+        .step-number {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #FF6600 0%, #FF8C00 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 900;
+            color: #000;
+            margin: 0 auto 20px;
+        }
+
+        .step-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: #FF6600;
+        }
+
+        .step-card p {
+            color: #aaa;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Pontuação Table */
+        .points-table {
+            background: #1a1a1a;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 40px 0;
+            border: 2px solid #FF6600;
+        }
+
+        .points-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .points-table thead {
+            background: linear-gradient(135deg, #FF6600 0%, #FF8C00 100%);
+        }
+
+        .points-table th {
+            padding: 20px;
+            text-align: left;
+            font-weight: 700;
+            color: #000;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+
+        .points-table td {
+            padding: 20px;
+            border-bottom: 1px solid #333;
+            color: #ccc;
+            font-size: 1rem;
+        }
+
+        .points-table tr:hover {
+            background: #222;
+        }
+
+        .points-value {
+            color: #FF6600;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        /* Prêmios */
+        .prizes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .prize-card {
+            background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            border: 3px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .prize-card.gold {
+            border-color: #FFD700;
+            box-shadow: 0 10px 40px rgba(255,215,0,0.3);
+        }
+
+        .prize-card.silver {
+            border-color: #C0C0C0;
+            box-shadow: 0 10px 40px rgba(192,192,192,0.3);
+        }
+
+        .prize-card.bronze {
+            border-color: #CD7F32;
+            box-shadow: 0 10px 40px rgba(205,127,50,0.3);
+        }
+
+        .prize-card:hover {
+            transform: scale(1.05);
+        }
+
+        .medal {
+            font-size: 5rem;
+            margin-bottom: 20px;
+        }
+
+        .prize-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #FF6600;
+            text-transform: uppercase;
+        }
+
+        .prize-main {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #FF6600;
+            margin: 20px 0;
+        }
+
+        .prize-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        .prize-list li {
+            padding: 10px 0;
+            color: #aaa;
+            font-size: 1rem;
+            border-bottom: 1px solid #333;
+        }
+
+        .prize-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #FF6600 0%, #FF8C00 100%);
+            padding: 80px 20px;
+            text-align: center;
+            margin: 80px 0;
+        }
+
+        .cta-section h2 {
+            font-size: 3rem;
+            color: #000;
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+        .cta-section p {
+            font-size: 1.3rem;
+            color: #000;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #000;
+            color: #FF6600;
+            padding: 20px 60px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 3px solid #000;
+        }
+
+        .cta-button:hover {
+            background: transparent;
+            color: #000;
+            transform: scale(1.1);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        /* Cronograma */
+        .timeline {
+            position: relative;
+            padding: 40px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, #FF6600 0%, #FF8C00 100%);
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) {
+            flex-direction: row;
+        }
+
+        .timeline-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .timeline-content {
+            width: 45%;
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 15px;
+            border: 2px solid #FF6600;
+        }
+
+        .timeline-date {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #FF6600;
+            margin-bottom: 15px;
+        }
+
+        .timeline-content h4 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .timeline-content p {
+            color: #aaa;
+            font-size: 1rem;
+        }
+
+        .timeline-marker {
+            width: 30px;
+            height: 30px;
+            background: #FF6600;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 5px solid #000;
+            z-index: 1;
+        }
+
+        /* Footer */
+        .footer {
+            background: #000;
+            padding: 50px 20px;
+            text-align: center;
+            border-top: 3px solid #FF6600;
+        }
+
+        .footer-logo {
+            max-width: 200px;
+            margin-bottom: 30px;
+        }
+
+        .footer p {
+            color: #aaa;
+            font-size: 1rem;
+        }
+
+        .footer-contact {
+            margin: 30px 0;
+        }
+
+        .footer-contact a {
+            color: #FF6600;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 15px;
+            transition: all 0.3s ease;
+        }
+
+        .footer-contact a:hover {
+            color: #FF8C00;
+        }
+
+        /* Ranking Semanal */
+        .ranking-section {
+            background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
+            border-radius: 20px;
+            padding: 50px;
+            margin: 40px 0;
+            border: 3px solid #FF6600;
+            box-shadow: 0 15px 50px rgba(255,102,0,0.3);
+        }
+
+        .ranking-section h3 {
+            font-size: 2rem;
+            color: #FF6600;
+            text-align: center;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .ranking-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .ranking-table thead {
+            background: #FF6600;
+        }
+
+        .ranking-table th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 700;
+            color: #000;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+
+        .ranking-table td {
+            padding: 15px;
+            border-bottom: 1px solid #333;
+            color: #ccc;
+            font-size: 1rem;
+        }
+
+        .ranking-table tr:hover {
+            background: #222;
+        }
+
+        .ranking-position {
+            font-weight: 900;
+            font-size: 1.5rem;
+            color: #FF6600;
+        }
+
+        .ranking-name {
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .ranking-points {
+            font-weight: 700;
+            color: #FF6600;
+            font-size: 1.2rem;
+        }
+
+        .ranking-empty {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 1.1rem;
+            font-style: italic;
+        }
+
+        /* Responsivo */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .info-box {
+                padding: 30px;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item {
+                flex-direction: column !important;
+                padding-left: 50px;
+            }
+
+            .timeline-content {
+                width: 100%;
+            }
+
+            .timeline-marker {
+                left: 20px;
+            }
+
+            .cta-section h2 {
+                font-size: 2rem;
+            }
+
+            .points-table {
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <img src="https://planetacorpoclubmais.com.br/wp-content/uploads/2025/12/Copia-de-high_resolucao_sem_fundo-scaled.png" alt="Planeta Corpo Club+" class="logo">
+            <h1>🏆 Desafio do Movimento</h1>
+            <p class="subtitle">Abril 2026 - Prove Sua Consistência</p>
+        </div>
+    </header>
+
+    <!-- O Que É -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">O QUE É O DESAFIO?</h2>
+            <div class="info-box">
+                <h2>💪 30 Dias de Transformação</h2>
+                <p>O <strong>Desafio do Movimento</strong> é uma competição exclusiva para nossos alunos durante todo o mês de abril de 2026. Você acumula pontos através dos seus treinos e indicações, competindo de forma saudável e motivadora com outros alunos.</p>
+                <p>Aproveitamos o <strong>ranking aeróbico que você já conhece</strong> (diário, semanal e mensal) e adicionamos <strong>pontos extras por indicações</strong> de novos alunos!</p>
+                <p><strong>Quanto mais você treina e indica, mais pontos acumula e maiores são suas chances de conquistar prêmios incríveis!</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section class="section" style="background: #0a0a0a;">
+        <div class="container">
+            <h2 class="section-title">COMO FUNCIONA</h2>
+            <div class="how-it-works">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Continue Treinando</h3>
+                    <p>Seus pontos no ranking aeróbico continuam sendo contabilizados normalmente - cada treino conta!</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Indique Amigos</h3>
+                    <p>Traga amigos e familiares para a academia e ganhe pontos EXTRAS quando eles fecharem a matrícula!</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Acompanhe o Ranking</h3>
+                    <p>Veja sua posição diariamente no quadro da recepção e nos posts semanais do Instagram!</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Ganhe Prêmios</h3>
+                    <p>Campeões semanais ganham brindes e o campeão do mês leva 3 MESES GRÁTIS!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pontuação -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">SISTEMA DE PONTUAÇÃO</h2>
+            
+            <div class="info-box">
+                <h2>📊 Pontos do Ranking Aeróbico</h2>
+                <p>Você já conhece! Continue acumulando pontos nos seus treinos aeróbicos normalmente. O ranking diário, semanal e mensal continua funcionando.</p>
+            </div>
+
+            <div class="info-box">
+                <h2>🎁 NOVIDADE: Pontos por Indicação</h2>
+                <p>Agora você ganha pontos EXTRAS quando indicar amigos que fecharem matrícula na academia! <strong>Quanto maior o plano, mais pontos para AMBOS!</strong></p>
+            </div>
+
+            <div class="points-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Plano Indicado</th>
+                            <th>Duração</th>
+                            <th>Pontos para VOCÊ</th>
+                            <th>Pontos para o NOVO ALUNO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Plano Mensal</strong></td>
+                            <td>1 mês</td>
+                            <td class="points-value">+10 pontos</td>
+                            <td class="points-value">+10 pontos</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Plano Trimestral</strong></td>
+                            <td>3 meses</td>
+                            <td class="points-value">+30 pontos</td>
+                            <td class="points-value">+30 pontos</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Plano Semestral</strong></td>
+                            <td>6 meses</td>
+                            <td class="points-value">+60 pontos</td>
+                            <td class="points-value">+60 pontos</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Plano Anual</strong></td>
+                            <td>12 meses</td>
+                            <td class="points-value">+120 pontos</td>
+                            <td class="points-value">+120 pontos</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="info-box" style="background: linear-gradient(135deg, #FF6600 0%, #FF8C00 100%); border: none;">
+                <h2 style="color: #000;">💡 Exemplo Real</h2>
+                <p style="color: #000; font-size: 1.2rem;"><strong>João tem 450 pontos no ranking aeróbico.</strong><br>
+                Ele indica Maria, que fecha um <strong>plano trimestral</strong>.<br>
+                João ganha <strong>+30 pontos</strong> → Novo total: <strong>480 pontos!</strong><br>
+                Maria começa com <strong>30 pontos</strong> + seus treinos normais.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prêmios -->
+    <section class="section" style="background: #0a0a0a;">
+        <div class="container">
+            <h2 class="section-title">PRÊMIOS E RECOMPENSAS</h2>
+            
+            <div class="info-box">
+                <h2>🏅 Premiação Semanal</h2>
+                <p><strong>TODA SEGUNDA-FEIRA</strong> anunciamos o campeão da semana anterior que leva:</p>
+                <p style="font-size: 1.3rem; color: #FF6600; font-weight: 700;">🎁 Brinde Exclusivo</p>
+            </div>
+
+            <h3 style="text-align: center; color: #FF6600; font-size: 2rem; margin: 60px 0 40px;">🏆 PREMIAÇÃO FINAL DO MÊS</h3>
+
+            <div class="prizes">
+                <div class="prize-card gold">
+                    <div class="medal">🥇</div>
+                    <h3>1º Lugar</h3>
+                    <div class="prize-main">3 MESES GRÁTIS</div>
+                    <ul class="prize-list">
+                        <li>🏆 Troféu "Campeão do Movimento"</li>
+                        <li>📱 Matéria especial no Instagram</li>
+                        <li>🎽 Camiseta exclusiva</li>
+                    </ul>
+                </div>
+
+                <div class="prize-card silver">
+                    <div class="medal">🥈</div>
+                    <h3>2º Lugar</h3>
+                    <div class="prize-main">1 MÊS GRÁTIS</div>
+                    <ul class="prize-list">
+                        <li>🥈 Medalha de prata</li>
+                        <li>📱 Destaque no Instagram</li>
+                    </ul>
+                </div>
+
+                <div class="prize-card bronze">
+                    <div class="medal">🥉</div>
+                    <h3>3º Lugar</h3>
+                    <div class="prize-main">50% OFF Julho</div>
+                    <ul class="prize-list">
+                        <li>🥉 Medalha de bronze</li>
+                        <li>📱 Menção honrosa Instagram</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info-box" style="margin-top: 40px;">
+                <h2>🎁 4º ao 10º Lugar</h2>
+                <p>Os classificados do 4º ao 10º lugar também ganham brinde surpresa e menção honrosa nos stories do Instagram!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ranking da Semana -->
+    <section class="section" style="background: #000;">
+        <div class="container">
+            <h2 class="section-title">📊 ACOMPANHE O RANKING DA SEMANA</h2>
+            
+            <div class="ranking-section">
+                <h3>🏆 TOP 10 ATUAL</h3>
+                <p style="text-align: center; color: #aaa; margin-bottom: 30px;">Atualizado diariamente | Consulte também no quadro da recepção</p>
+                
+                <table class="ranking-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 80px;">Posição</th>
+                            <th>Nome</th>
+                            <th style="width: 150px; text-align: right;">Pontos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="ranking-position">🥇 1º</td>
+                            <td class="ranking-name">Em breve...</td>
+                            <td class="ranking-points" style="text-align: right;">-</td>
+                        </tr>
+                        <tr>
+                            <td class="ranking-position">🥈 2º</td>
+                            <td class="ranking-name">Em breve...</td>
+                            <td class="ranking-points" style="text-align: right;">-</td>
+                        </tr>
+                        <tr>
+                            <td class="ranking-position">🥉 3º</td>
+                            <td class="ranking-name">Em breve...</td>
+                            <td class="ranking-points" style="text-align: right;">-</td>
+                        </tr>
+                        <tr>
+                            <td class="ranking-position">4º</td>
+                            <td class="ranking-name">Em breve...</td>
+                            <td class="ranking-points" style="text-align: right;">-</td>
+                        </tr>
+                        <tr>
+                            <td class="ranking-position">5º</td>
+                            <td class="ranking-name">Em breve...</td>
+                            <td class="ranking-points" style="text-align: right;">-</td>
+                        </tr>
+                        <tr>
+                            <td class="ranking-position">6º</td>
+                            <td class="ranking-name">Em breve...</td>
+                            <td class="ranking-points" style="text-align: right;">-</td>
+                        </tr>
+                        <tr>
+                            <td class="ranking-position">7º</td>
+                            <td class="ranking-name">Em breve...</td>
+                            <td class="ranking-points" style="text-align: right;">-</td>
+                        </tr>
+                        <tr>
+                            <td class="ranking-position">8º</td>
+                            <td class="ranking-name">Em breve...</td>
+                            <td class="ranking-points" style="text-align: right;">-</td>
+                        </tr>
+                        <tr>
+                            <td class="ranking-position">9º</td>
+                            <td class="ranking-name">Em breve...</td>
+                            <td class="ranking-points" style="text-align: right;">-</td>
+                        </tr>
+                        <tr>
+                            <td class="ranking-position">10º</td>
+                            <td class="ranking-name">Em breve...</td>
+                            <td class="ranking-points" style="text-align: right;">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="ranking-empty">
+                    🚀 O ranking será atualizado assim que o desafio começar em 1º de abril!<br>
+                    Prepare-se para a competição!
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h2>📱 Como Acompanhar</h2>
+                <p>✅ <strong>Na academia:</strong> Quadro atualizado diariamente na recepção<br>
+                ✅ <strong>Instagram:</strong> Post toda segunda-feira com o ranking completo<br>
+                ✅ <strong>Stories:</strong> Destaques e atualizações ao longo da semana<br>
+                ✅ <strong>Esta página:</strong> Ranking será atualizado semanalmente</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cronograma -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">CRONOGRAMA DE ABRIL</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">1º de Abril (Seg)</div>
+                        <h4>🚀 Início do Desafio</h4>
+                        <p>O desafio começa oficialmente! Pontos de treino e indicações começam a contar.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">7 de Abril (Seg)</div>
+                        <h4>🏅 1º Campeão Semanal</h4>
+                        <p>Anúncio do campeão da Semana 1 + entrega do brinde + post do ranking geral.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">14 de Abril (Seg)</div>
+                        <h4>🏅 2º Campeão Semanal</h4>
+                        <p>Anúncio do campeão da Semana 2 + ranking atualizado. A disputa esquenta!</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">21 de Abril (Seg)</div>
+                        <h4>🏅 3º Campeão Semanal</h4>
+                        <p>Feriado de Tiradentes! Anúncio do campeão da Semana 3 + ranking geral.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">28 de Abril (Seg)</div>
+                        <h4>🏅 4º Campeão Semanal</h4>
+                        <p>Último campeão semanal + prévia do ranking final. Reta final do desafio!</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">30 de Abril (Qua)</div>
+                        <h4>🏁 Encerramento</h4>
+                        <p>Último dia do desafio! Contabilização final dos pontos.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">3 de Maio (Sáb)</div>
+                        <h4>🎉 Divulgação dos Resultados</h4>
+                        <p>17h - Anúncio oficial dos vencedores + entrega de troféus e prêmios!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Participar -->
+    <section class="section" style="background: #0a0a0a;">
+        <div class="container">
+            <h2 class="section-title">COMO PARTICIPAR</h2>
+            
+            <div class="info-box">
+                <h2>✅ Alunos Atuais</h2>
+                <p><strong>Você JÁ está participando automaticamente!</strong></p>
+                <p>• Continue treinando e acumulando pontos no ranking aeróbico<br>
+                • Indique amigos e ganhe pontos extras quando eles fecharem matrícula<br>
+                • Acompanhe sua posição no quadro da recepção diariamente</p>
+            </div>
+
+            <div class="info-box">
+                <h2>🆕 Novos Alunos</h2>
+                <p><strong>Entre automaticamente no desafio ao se matricular em abril!</strong></p>
+                <p>• Ganhe pontos extras conforme o plano escolhido<br>
+                • Comece a pontuar nos treinos aeróbicos imediatamente<br>
+                • Concorra aos prêmios desde o primeiro dia</p>
+            </div>
+
+            <div class="info-box" style="background: linear-gradient(135deg, #FF6600 0%, #FF8C00 100%); border: none;">
+                <h2 style="color: #000;">📝 Como Fazer Indicações</h2>
+                <p style="color: #000; font-size: 1.1rem;">
+                    <strong>1.</strong> Convide seu amigo ou familiar para conhecer a academia<br>
+                    <strong>2.</strong> Peça para ele mencionar SEU NOME na hora da matrícula<br>
+                    <strong>3.</strong> Quando ele FECHAR o plano, ambos ganham os pontos<br>
+                    <strong>4.</strong> Os pontos aparecem no ranking no dia seguinte
+                </p>
+                <p style="color: #000; margin-top: 20px;"><strong>⚠️ Não há limite de indicações!</strong> Indique quantos quiser e acumule pontos!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>PRONTO PARA O DESAFIO?</h2>
+            <p>Entre em contato agora e garanta sua participação no maior desafio de abril!</p>
+            <a href="https://wa.me/5542999222857?text=Quero%20participar%20do%20Desafio%20do%20Movimento!" class="cta-button">FALE CONOSCO</a>
+        </div>
+    </section>
+
+    <!-- Regras -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">REGRAS OFICIAIS</h2>
+            
+            <div class="info-box">
+                <h2>📋 Regulamento</h2>
+                <p>✅ <strong>Participação automática</strong> para todos os alunos com matrícula ativa em abril de 2026</p>
+                <p>✅ <strong>Pontuação aeróbica</strong> continua sendo contabilizada normalmente pelo sistema da academia</p>
+                <p>✅ <strong>Pontos de indicação</strong> são creditados apenas quando o novo aluno FECHAR a matrícula (não conta apenas experimentação)</p>
+                <p>✅ <strong>Indicação válida:</strong> o novo aluno precisa mencionar o nome do indicador na hora da matrícula</p>
+                <p>✅ <strong>Ranking atualizado diariamente</strong> no quadro da recepção e semanalmente no Instagram</p>
+                <p>✅ <strong>Não há limite</strong> de indicações por pessoa</p>
+                <p>✅ <strong>Comportamento antidesportivo</strong> pode resultar em desclassificação</p>
+                <p>✅ <strong>Decisões da academia</strong> sobre pontuação e premiação são finais</p>
+                <p>✅ <strong>Prêmios não são cumulativos</strong> - o campeão semanal pode ganhar o prêmio mensal, mas não ambos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <img src="https://planetacorpoclubmais.com.br/wp-content/uploads/2025/12/Copia-de-high_resolucao_sem_fundo-scaled.png" alt="Planeta Corpo Club+" class="footer-logo">
+            <p><strong>Muito mais que uma academia...</strong></p>
+            <div class="footer-contact">
+                <a href="tel:+5542999222857">📞 42 99922-2857</a>
+                <a href="mailto:apcturvo@gmail.com">✉️ apcturvo@gmail.com</a>
+            </div>
+            <p>Avenida Maria Bettega – 360 | Centro | Turvo – PR</p>
+            <p style="margin-top: 30px; color: #666;">Copyright © 2026 APCTURVO. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
