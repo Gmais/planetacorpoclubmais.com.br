@@ -7,8 +7,9 @@ cd /home/planeta4/repositories/planetacorpoclubmais.com.br/
 echo "--- Baixando novos arquivos do GitHub ---"
 git pull origin main
 
-echo "--- Sincronizando arquivos com o site live (/home/planeta4/public_html/) ---"
-# O git pull atualizou o repo. Agora copiamos para o web root.
-cp -rv public_html/* /home/planeta4/public_html/
+echo "--- Sincronizando apenas a pasta DESAFIO (Muito mais rápido) ---"
+# Sincroniza apenas o que mudou de fato
+cp -rv public_html/desafio/ /home/planeta4/public_html/
+cp -v public_html/deploy.php /home/planeta4/public_html/
 
-echo "--- TUDO PRONTO! Verifique o site. ---"
+echo "--- TUDO PRONTO! ---"
